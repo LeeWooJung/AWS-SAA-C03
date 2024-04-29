@@ -26,10 +26,10 @@ EC2는 다양한 컴퓨팅 요구사항에 맞춰 유연하게 확장하거나 �
 -------------------------
 * 유형 구분:  
 {인스턴스패밀리}{인스턴스 세대}**.**{인스턴스 크기}
-    * 예시:  
-    t2.micro: {t}{2}.{micro}  
-    t2.xlarge: {t}{2}.{xlarge}  
-    r5.16xlarge : {r}{5}.{16xlarge}
+* 예시:  
+t2.micro: {t}{2}.{micro}  
+t2.xlarge: {t}{2}.{xlarge}  
+r5.16xlarge : {r}{5}.{16xlarge}
 
 ## EC2 Cost Optimization
 
