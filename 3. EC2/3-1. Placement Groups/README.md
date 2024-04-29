@@ -23,7 +23,7 @@ AWS에서 Placement group은 워크로드 요구 사항을 충족하기 위해 �
 * **사용**  
 고성능 컴퓨팅(HPC) 워크로드와 같이 낮은 지연 시간과 높은 처리량이 필요한 애플리케이션에 주로 사용.
 
-* **architecture**  
+### architecture
 ![Cluster](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/8099f2b8-93bb-4530-bda4-392542a47552)
 
 ## Partition
@@ -43,7 +43,7 @@ AWS에서 Placement group은 워크로드 요구 사항을 충족하기 위해 �
 * **사용**  
 Hadoop, Cassandra, Kafka 등의 **대규모 분산 및 복제 워크로드에 적합**함
 
-* **architecture**
+### architecture
 ![Partition](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/11cda50b-7c21-4a81-bbff-dc4f0e65eaa6)
 
 
@@ -64,7 +64,7 @@ Hadoop, Cassandra, Kafka 등의 **대규모 분산 및 복제 워크로드에 �
 * **사용**  
 장애 허용성이 필요한 애플리케이션에 유용하며, 각 인스턴스가 서로 **독립적**으로 작동해야 하는 경우에 사용됨
 
-* **architecture**
+### architecture
 ![Spread](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/2148ec74-a551-4e8e-943c-7fc97700f73c)
 
 
