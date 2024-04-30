@@ -35,7 +35,7 @@ AWS의 **Elastic Network Interface**(ENI)는 보안 그룹을 필요로 함.
 따라서, **보안 그룹**을 **Amazon EC2 인스턴스**나 **ENI**에 연결하는 것은 AWS 클라우드 인프라를 보호하고 EC2 워크로드가 잠재적 보안 위협으로부터 보호되도록 하는 데 필수적임.
 
 ### Architecture Example
-* ENI
+* ENI  
 ![ENI](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/1777503e-8297-40d7-ac8a-b22861cf958c)
-* Fail Over
+* Fail Over  
 ![failover](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/f3d9cd7c-cfc6-40dc-a576-a47129200354)
