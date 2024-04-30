@@ -9,6 +9,8 @@ AWS Solutions Architect Associate Study
 4. Security Group
 5. Network  
 5-1. Elastic Network Interface(ENI)
+6. Storage  
+6-1.Elastic Block Storage(EBS)
 
 ## Site
 
@@ -26,4 +28,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.04.29
+2024.04.30
