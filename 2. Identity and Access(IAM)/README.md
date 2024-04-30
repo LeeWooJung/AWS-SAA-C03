@@ -10,6 +10,7 @@
 * **IAM 정책**: IAM 정책은 JSON 형식으로 작성되며, AWS 리소스에 대한 세분화된 액세스 제어를 가능하게 함.  
 정책은 서비스 제어 정책을 사용하여 IAM 사용자 및 역할에 대한 권한 가드레일을 설정하고, AWS Organizations의 계정에 대한 데이터 경계를 구현하는 데 사용.  
 IAM 정책은 **최소 권한**만을 부여하여 보안을 강화하는 것이 중요.
+* IAM은 Global Service(Not Regional Service)
 
 ## IAM 사용자 및 그룹
 
@@ -23,7 +24,7 @@ IAM 정책은 **최소 권한**만을 부여하여 보안을 강화하는 것이
 
 * **IAM Role**: AWS IAM 역할은 권한 세트를 정의하는 기능임.  
 역할을 사용하면 신뢰할 수 있는 IAM 사용자나 애플리케이션, 또는 **AWS 서비스가 일시적으로 권한**을 가질 수 있게 됨.  
-역할은 IAM 사용자나 그룹에 연결되지 않고, 대신 역할을 맡을 수 있는 신뢰할 수 있는 엔티티에게만 권한을 부여함.
+역할은 **IAM 사용자나 그룹에 연결되지 않고**, 대신 역할을 맡을 수 있는 신뢰할 수 있는 엔티티에게만 권한을 부여함.
 
 * **예시**: IAM 사용자가 S3 버킷에 접근하려면, S3 Read 권한이 연결된 역할을 맡아야 함.  
 역할을 맡으면 그 IAM 사용자는 임시 보안 자격 증명을 받아서 S3 버킷에 접근할 수 있게 됨.  
@@ -32,6 +33,21 @@ IAM 정책은 **최소 권한**만을 부여하여 보안을 강화하는 것이
 * **정책**: 역할을 만들 때는 누가 역할을 맡을 수 있는지 지정하는 신뢰 정책(Trust Policy)을 설정해야 함.  
 신뢰 정책에는 역할을 맡을 수 있는 IAM 사용자나 AWS 리소스를 담당자(**Principal**)로 지정함.  
 이렇게 역할을 통해 권한을 임시로 부여받는 방식으로 AWS 리소스에 접근하거나 작업을 수행할 수 있게 됨
+
+## IAM 정책 구조
+
+* **Version**: policy language version("2012-10-17"을 항상 포함해야 함)
+* **ID**: Identifier of policy (Optional)
+* **Statement**: 한 개 이상의 개별 statements (Required)
+
+### Statement 구조
+
+* **Sid**: Identifier of statement (Optional)
+* **Effect**: Allow or Deny ; allow or deny access
+* **Principal**: IAM 정책이 적용될 account, user, role 등에 대한 정의
+* **Action**: IAM Effect가 적용될 Actions
+* **Resource**: Action이 적용될 자원
+* **Condition** (Optional): conditions for when this policy is in effect
 
 ## IAM 정책 예시
 * **개발자그룹(Sid: DevGroupPolicy)**  
