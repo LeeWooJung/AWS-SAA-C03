@@ -24,7 +24,7 @@ EC2는 다양한 컴퓨팅 요구사항에 맞춰 유연하게 확장하거나 �
 * **스토리지 최적화(Storage Optimized)**: I/O 집약적인 작업에 적합.
 * **가속화된 컴퓨팅(Accelerated Computing)**: GPU를 사용하는 애플리케이션에 적합.
 -------------------------
-* 유형 구분:  
+* [유형 구분](https://aws.amazon.com/ko/ec2/instance-types/):  
 {인스턴스패밀리}{인스턴스 세대}**.**{인스턴스 크기}
 * 예시:  
 t2.micro: {t}{2}.{micro}  
