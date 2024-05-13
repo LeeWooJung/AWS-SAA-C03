@@ -26,11 +26,13 @@ EBS 최적화 인스턴스를 사용하면 EC2 인스턴스에서 EBS 볼륨에 
 ## EBS 볼륨 유형
 * **General Purpose SSD (gp2, gp3)**  
 가격과 성능을 균형 잡히게 제공하며, 트랜잭션 워크로드에 적합함.  
-예를 들어, 가상 데스크톱, 테스트 및 개발 환경, 대화형 게임 애플리케이션 등에 사용될 수 있음.
+예를 들어, 가상 데스크톱, 테스트 및 개발 환경, 대화형 게임 애플리케이션 등에 사용될 수 있음.  
+**Boot Volumes**으로 사용 가능.
 
 * **Provisioned IOPS SSD (io1, io2)**  
 I/O 집약적인 애플리케이션에 필요한 고성능을 제공함.  
-예를 들어, Oracle, SAP HANA, Microsoft SQL Server, IBM DB2 등의 미션 크리티컬한 애플리케이션에 사용될 수 있음.
+예를 들어, Oracle, SAP HANA, Microsoft SQL Server, IBM DB2 등의 미션 크리티컬한 애플리케이션에 사용될 수 있음.  
+**Boot Volumes**으로 사용 가능.
 
 * **Throughput Optimized HDD (st1)**  
 자주 접근되는 처리량 집약적 워크로드에 적합함.  
@@ -87,7 +89,35 @@ EBS는 같은 가용 영역(AZ)에 존재하는 EC2 인스턴스에 Attach 가�
 
 **EBS : EC2 인스턴스 = N : 1**로 연결 가능
 
-### EBS Architecture
+### EBS Architecture (General)
 
 ![EBS architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/dbbcbcbf-c418-4a1e-84a8-9043302b2794)
+
+## EBS Multi Attach
+
+Amazon EBS Multi-Attach 기능을 사용하면, **단일 Provisioned IOPS SSD (io1 또는 io2) 볼륨**을 동일한 가용 영역(Availability Zone) 내의 여러 EC2 인스턴스에 연결할 수 있음.  
+이 기능은 특히 동시 쓰기 작업을 관리하는 애플리케이션의 가용성을 높이는 데 도움이 됨.
+
+### 주요 사항
+
+* **지원 인스턴스**  
+Multi-Attach는 Nitro System을 기반으로 하는 최대 16개의 인스턴스에 연결할 수 있으며, 이 인스턴스들은 모두 **동일한 가용 영역**에 있어야 함.  
+* **운영 체제 지원**  
+Linux 인스턴스는 Multi-Attach가 가능한 io1 및 io2 볼륨을 지원하고, Windows 인스턴스는 io2 볼륨만 지원.  
+* **I/O 펜싱**  
+Multi-Attach가 가능한 io2 볼륨은 I/O 펜싱을 지원.  
+I/O 펜싱 프로토콜은 공유 스토리지 환경에서 데이터 일관성을 유지하기 위해 쓰기 액세스를 제어.  
+
+* **부팅 볼륨**  
+Multi-Attach가 가능한 볼륨은 **부팅 볼륨으로 사용할 수 없음**.  
+
+* **볼륨 연결**  
+Multi-Attach가 가능한 볼륨은 인스턴스당 하나의 블록 디바이스 매핑에만 연결할 수 있음.  
+최대 16개의 인스턴스에만 연결할 수 있음.
+
+이 기능을 사용하기 위해서는 클러스터링된 파일 시스템을 사용하여 데이터 복원력과 안정성을 보장해야 함. 표준 파일 시스템(XFS, EXT4 등)은 여러 서버에서 동시에 액세스하는 것에 적합하지 않기 때문.
+
+### EBS Architecture (Multi Attatch - Only io1/io2 Family)
+
+![Multi Attach](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/1fe9b603-5bfb-48a3-a599-1244333f9aaf)
 
