@@ -6,12 +6,17 @@ AWS Solutions Architect Associate Study
 3. EC2 Instance  
 3-1. Placement Groups  
 3-2. Hibernate  
-3-3. Amazon Machine Images(AMI)
+3-3. Amazon Machine Images(AMI)  
+3-4. EC2 Instacne Store  
 4. Security Group
 5. Network  
 5-1. Elastic Network Interface(ENI)
 6. Storage  
-6-1.Elastic Block Storage(EBS)
+6-1. Elastic Block Storage(EBS)  
+6-1-1. General Purpose SSD  
+6-1-2. Provisioned IOPS SSD  
+6-1-3. Hard Disk Drives  
+6-1-4. Encryption
 
 ## Site
 
@@ -29,4 +34,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.05.01
+2024.05.13
