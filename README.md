@@ -12,19 +12,21 @@ AWS Solutions Architect Associate Study
 5. Network  
 5-1. [Elastic Network Interface(ENI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-1.%20ENI)  
 5-2. [Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer)  
-5-2-1. [Classic Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-1.%20Classic%20Load%20Balancer(deprecated))  
-5-2-2. [Application Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-2.%20Application%20Load%20Balancer)  
-5-2-3. Network Load Balancer  
-5-2-4. Gateway Load Balancer  
+    - 5-2-1. [Classic Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-1.%20Classic%20Load%20Balancer(deprecated))  
+    - 5-2-2. [Application Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-2.%20Application%20Load%20Balancer)  
+    - 5-2-3. Network Load Balancer  
+    - 5-2-4. Gateway Load Balancer  
 6. [Storage](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage)  
 6-1. [Elastic Block Storage(EBS)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS)  
-6-1-1. [General Purpose SSD](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-1.%20General%20Purpose%20SSD)  
-6-1-2. [Provisioned IOPS SSD](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-2.%20Provisioned%20IOPS%20SSD)  
-6-1-3. [Hard Disk Drives](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-3.%20Hard%20Disk%20Drives)  
-6-1-4. [Encryption](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-4.%20Encryption)  
-6-2. [EFS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS)  
-6-2-1. [EFS Performance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-1.%20EFS%20Performance)  
-6-2-2. [EFS Storage Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-2.%20EFS%20Storage%20Class)  
+    - 6-1-1. [General Purpose SSD](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-1.%20General%20Purpose%20SSD)  
+    - 6-1-2. [Provisioned IOPS SSD](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-2.%20Provisioned%20IOPS%20SSD)  
+    - 6-1-3. [Hard Disk Drives](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-3.%20Hard%20Disk%20Drives)  
+    - 6-1-4. [Encryption](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-4.%20Encryption)  
+
+    6-2. [EFS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS)  
+    - 6-2-1. [EFS Performance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-1.%20EFS%20Performance)  
+    - 6-2-2. [EFS Storage Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-2.%20EFS%20Storage%20Class)  
+
 99. [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
 99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)  
