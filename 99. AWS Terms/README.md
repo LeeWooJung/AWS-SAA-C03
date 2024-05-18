@@ -1,4 +1,3 @@
 # AWS Terms
 
-## 1. Scalability
-## 2. Availability
+AWS Terms에 대한 설명
