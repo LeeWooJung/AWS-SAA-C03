@@ -41,6 +41,11 @@ GWLB는 어플라이언스와 어플리케이션 계정을 분리할 수 있음.
 - GWLB와 등록된 가상 어플라이언스 인스턴스는 **포트 6081의 GENEVE 프로토콜**을 사용하여 애플리케이션 트래픽을 교환.  
 - 이 프로토콜은 서로 다른 VPC 간에 트래픽을 안전하게 전달하는 데 사용됨.
 
+### Cross-Zone Load Balancing
+
+* Disabled by Default
+* 활성화 시, AZ 간 Load Balancing은 **유료**
+
 ## Architecture
 
 ![GWLB Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/295d388e-f1ac-4738-8932-7c4d32c78137)
