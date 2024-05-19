@@ -1,6 +1,6 @@
 # [Application Load Balancer](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/introduction.html)
 
-## Application Load Balancer    
+## <img src = "https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/936f8879-9a21-4527-984b-2509d3b6b673" width = "30" height = "30"> Application Load Balancer    
 
 ALB(Application Load Balancer)는 애플리케이션 계층의 여러 대상에 수신 트래픽을 분산시키는 Amazon Web Services(AWS)에서 제공하는 서비스임.
 
@@ -18,6 +18,12 @@ ALB에 하나 이상의 리스너를 구성할 수 있음. 리스너는 **구성
 * **라우팅 알고리즘**: ALB는 다양한 라우팅 알고리즘을 지원함. 기본적으로 **라운드 로빈 라우팅**을 사용하지만 **최소 미해결 요청**을 알고리즘으로 지정할 수도 있음. 이를 통해 ALB는 각 대상 그룹에 대해 독립적으로 요청을 라우팅할 수 있음.
 
 * **고급 기능**: ALB는 상호 TLS, HTTP/2, gRPC, TLS 오프로딩, 고정 세션 등과 같은 기능을 지원함. OSI 모델의 애플리케이션 계층(**7계층**)에서 작동.
+
+## Cross-Zone Load Balancing
+
+* Enabled by Default
+* Target Group 레벨에 따라 disabled 되는 경우도 있음.
+* AZ 간의 Load Balancing은 **무료**.
 
 ## Routing
 
