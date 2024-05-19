@@ -57,6 +57,11 @@ NLB는 Target Group을 통해 연결된 대상을 관리함. 이를 통해 트�
 ### Health Check
 NLB는 대상 그룹에 등록된 대상의 상태를 모니터링하면서 상태가 양호한 대상으로만 트래픽을 라우팅함.
 
+### Cross-Zone Load Balancing
+
+* Disabled by Default
+* 활성화 시, AZ 간 Load Balancing은 **유료**
+
 ## Architecture
 
 ![NLB Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/10c2567c-704c-4365-820a-53149ba28dc4)
