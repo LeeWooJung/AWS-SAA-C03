@@ -15,6 +15,11 @@
 아키텍처: Classic Load Balancer는 여러 Availability Zone에서 여러 EC2 인스턴스에 들어오는 애플리케이션 트래픽을 분산시킵니다. 이로써 애플리케이션의 내결함성을 높입니다1.
 Classic Load Balancer는 기본적인 로드 밸런싱을 제공하며, EC2 인스턴스를 추가하거나 제거하여 애플리케이션의 요청 흐름을 방해하지 않고 필요에 따라 확장할 수 있습니다
 
+### Cross-Zone Load Balancing
+
+* Disabled by Default
+* 활성화 되었을 때 AZ 간의 Load balancing은 **무료**
+
 ### 장단점
 
 #### 장점
