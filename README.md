@@ -14,8 +14,8 @@ AWS Solutions Architect Associate Study
 5-2. [Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer)  
     - 5-2-1. [Classic Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-1.%20Classic%20Load%20Balancer(deprecated))  
     - 5-2-2. [Application Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-2.%20Application%20Load%20Balancer)  
-    - 5-2-3. Network Load Balancer  
-    - 5-2-4. Gateway Load Balancer  
+    - 5-2-3. [Network Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-3.%20Network%20Load%20Balancer)  
+    - 5-2-4. [Gateway Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-4.%20Gateway%20Load%20Balancer)  
 6. [Storage](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage)  
 6-1. [Elastic Block Storage(EBS)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS)  
     - 6-1-1. [General Purpose SSD](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-1.%20General%20Purpose%20SSD)  
