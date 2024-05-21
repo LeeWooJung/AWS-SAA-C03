@@ -1,6 +1,8 @@
 # AWS-SAA-C03
 AWS Solutions Architect Associate Study
 
+## **공부 중이기 때문에 잘못된 부분이 있을 수 있습니다!**
+
 1. [Global Infra Structure](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/1.%20Global%20Infra%20Structure)
 2. [Identity and Access(IAM)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM))
 3. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2)  
@@ -17,6 +19,7 @@ AWS Solutions Architect Associate Study
     - 5-2-3. [Network Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-3.%20Network%20Load%20Balancer)  
     - 5-2-4. [Gateway Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-4.%20Gateway%20Load%20Balancer)
 
+    5-96. [Connection Draining](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-96.%20Connection%20Draining)  
     5-97. [SNI](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-97.%20SNI)  
     5-98. [SSL,TLS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-98.%20SSL%2CTLS)  
     5-99. [Sticky Session](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-99.%20Sticky%20Session)  
