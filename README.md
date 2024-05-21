@@ -4,16 +4,26 @@ AWS Solutions Architect Associate Study
 ## **공부 중이기 때문에 잘못된 부분이 있을 수 있습니다!**
 
 1. [Global Infra Structure](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/1.%20Global%20Infra%20Structure)
+
 2. [Identity and Access(IAM)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM))
-3. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2)  
-3-1. [Placement Groups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-1.%20Placement%20Groups)  
-3-2. [Hibernate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-2.%20Hibernate)  
-3-3. [Amazon Machine Images(AMI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-3.%20AMI)  
-3-4. [EC2 Instacne Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-4.%20EC2%20Instacne%20Store)  
+
+3. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2) 
+
+    3-1. [Placement Groups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-1.%20Placement%20Groups)  
+
+    3-2. [Hibernate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-2.%20Hibernate)  
+
+    3-3. [Amazon Machine Images(AMI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-3.%20AMI)  
+
+    3-4. [EC2 Instacne Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-4.%20EC2%20Instacne%20Store)  
+
 4. [Security Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/4.%20Security%20Group)
+
 5. Network  
-5-1. [Elastic Network Interface(ENI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-1.%20ENI)  
-5-2. [Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer)  
+
+    5-1. [Elastic Network Interface(ENI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-1.%20ENI)  
+
+    5-2. [Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer)  
     - 5-2-1. [Classic Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-1.%20Classic%20Load%20Balancer(deprecated))  
     - 5-2-2. [Application Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-2.%20Application%20Load%20Balancer)  
     - 5-2-3. [Network Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-3.%20Network%20Load%20Balancer)  
@@ -25,7 +35,8 @@ AWS Solutions Architect Associate Study
     5-99. [Sticky Session](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-99.%20Sticky%20Session)  
 
 6. [Storage](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage)  
-6-1. [Elastic Block Storage(EBS)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS)  
+
+    6-1. [Elastic Block Storage(EBS)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS)  
     - 6-1-1. [General Purpose SSD](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-1.%20General%20Purpose%20SSD)  
     - 6-1-2. [Provisioned IOPS SSD](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-2.%20Provisioned%20IOPS%20SSD)  
     - 6-1-3. [Hard Disk Drives](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-3.%20Hard%20Disk%20Drives)  
@@ -35,9 +46,9 @@ AWS Solutions Architect Associate Study
     - 6-2-1. [EFS Performance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-1.%20EFS%20Performance)  
     - 6-2-2. [EFS Storage Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-2.%20EFS%20Storage%20Class)  
 
-99. [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
-99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
-99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)  
+ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
+- 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
+- 99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)  
 
 ## Site
 
