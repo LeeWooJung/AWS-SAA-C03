@@ -93,11 +93,11 @@ AMI는 인스턴스 스토어에 의해 지원됨.
     위에서 생성한 Launch Template을 사용하여 Auto Scaling Group을 생성하거나 기존 Auto Scaling Group을 업데이트.
 
         * Auto Scaling Group 생성
-            ```json
+            ```bash
             aws autoscaling create-auto-scaling-group --auto-scaling-group-name my-asg --launch-configuration-name my-launch-config --min-size 1 --max-size 5 --desired-capacity 2 --vpc-zone-identifier subnet-0123456789abcdef0
             ```
         * Auto Scaling Group 업데이트
-            ```json
+            ```bash
             aws autoscaling update-auto-scaling-group --auto-scaling-group-name my-asg --launch-configuration-name my-launch-config
             ```
 
