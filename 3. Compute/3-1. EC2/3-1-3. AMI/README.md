@@ -80,7 +80,7 @@ AMI는 인스턴스 스토어에 의해 지원됨.
     * **Launch Template 생성**  
     생성한 AMI를 사용하여 Launch Template을 생성.
 
-        ```json
+        ```bash
         aws ec2 create-launch-template --launch-template-name my-launch-template --version-description "v1" --launch-template-data '{
             "ImageId": "ami-0abcdef1234567890",
             "InstanceType": "t2.micro",
