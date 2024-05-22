@@ -7,15 +7,21 @@ AWS Solutions Architect Associate Study
 
 2. [Identity and Access(IAM)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM))
 
-3. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2) 
+3. Compute
 
-    3-1. [Placement Groups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-1.%20Placement%20Groups)  
+    3-1. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2)
 
-    3-2. [Hibernate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-2.%20Hibernate)  
+    - 3-1-1. [Placement Groups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-1.%20Placement%20Groups)  
 
-    3-3. [Amazon Machine Images(AMI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-3.%20AMI)  
+    - 3-1-2. [Hibernate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-2.%20Hibernate)  
 
-    3-4. [EC2 Instacne Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-4.%20EC2%20Instacne%20Store)  
+    - 3-1-3. [Amazon Machine Images(AMI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-3.%20AMI)  
+
+    - 3-1-4. [EC2 Instacne Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-4.%20EC2%20Instacne%20Store)  
+
+    3-2. [Auto Scaling Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-2.%20Auto%20Scaling%20Group)
+
+    - 3-2-1. [Scale Metric](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-2.%20Auto%20Scaling%20Group/3-2-1.%20Scale%20Metric)
 
 4. [Security Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/4.%20Security%20Group)
 
@@ -66,4 +72,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.05.21
+2024.05.22
