@@ -52,6 +52,13 @@ AWS Solutions Architect Associate Study
     - 6-2-1. [EFS Performance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-1.%20EFS%20Performance)  
     - 6-2-2. [EFS Storage Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-2.%20EFS%20Storage%20Class)  
 
+7. [Database](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database)  
+
+    7-1. [Amazon RDS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS)  
+    - 7-1-1. [RDS Read Replicas](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-1.%20RDS%20Read%20Replicas)  
+    - 7-1-2. [RDS Multi AZ](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-2.%20RDS%20Multi%20AZ)  
+    - 7-1-3. [RDS Storage Auto Scaling](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-3.%20RDS%20Storage%20Auto%20Scaling)
+
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
 - 99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)  
@@ -72,4 +79,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.05.22
+2024.05.24
