@@ -58,6 +58,7 @@ AWS Solutions Architect Associate Study
     - 7-1-1. [RDS Read Replicas](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-1.%20RDS%20Read%20Replicas)  
     - 7-1-2. [RDS Multi AZ](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-2.%20RDS%20Multi%20AZ)  
     - 7-1-3. [RDS Storage Auto Scaling](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-3.%20RDS%20Storage%20Auto%20Scaling)
+    - 7-1-4. [RDS Custom](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-4.%20RDS%20Custom)
 
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
