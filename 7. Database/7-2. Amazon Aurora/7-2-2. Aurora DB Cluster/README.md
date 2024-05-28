@@ -11,7 +11,7 @@
 1. **Aurora DB Cluster**  
 
     * 하나의 Aurora 클러스터는 여러 데이터베이스 인스턴스로 구성됨.  
-    * 클러스터는 **[공유 스토리지 계층](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-1.%20High%20Availability%20for%20Amazon%20Aurora)**을 사용하여 모든 데이터베이스 인스턴스가 동일한 데이터를 공유.  
+    * 클러스터는 **[공유 스토리지 계층](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-1.%20Shared%20Storage%20Volume)**을 사용하여 모든 데이터베이스 인스턴스가 동일한 데이터를 공유.  
     * 클러스터 내의 데이터베이스 인스턴스는 **Primary Instance**(쓰기 및 읽기 인스턴스)와 **최대 15개의 읽기 전용 복제본**(Read Replica)으로 구성.
 
 2. **Cluster Volume**
