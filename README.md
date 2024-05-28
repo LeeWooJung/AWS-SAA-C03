@@ -63,6 +63,8 @@ AWS Solutions Architect Associate Study
     7-2. [Amazon Aurora](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora)
     - 7-2-1. [Shared Storage Volume](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-1.%20Shared%20Storage%20Volume)
     - 7-2-2. [Aurora DB Cluster](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-2.%20Aurora%20DB%20Cluster)
+    - 7-2-3. [Aurora Replica Auto Scaling](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-3.%20Replica%20Auto%20Scaling)
+    - 7-2-4. [Aurora Custom Endpoint](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-4.%20Custom%20Endpoint)
 
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
@@ -84,4 +86,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.05.28
+2024.05.29
