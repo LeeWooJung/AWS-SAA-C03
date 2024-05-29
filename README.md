@@ -59,12 +59,18 @@ AWS Solutions Architect Associate Study
     - 7-1-2. [RDS Multi AZ](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-2.%20RDS%20Multi%20AZ)  
     - 7-1-3. [RDS Storage Auto Scaling](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-3.%20RDS%20Storage%20Auto%20Scaling)
     - 7-1-4. [RDS Custom](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-4.%20RDS%20Custom)
+    - 7-1-5. [RDS Backup](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-5.%20RDS%20Backup)  
+    - 7-1-6. [RDS Proxy](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS/7-1-6.%20RDS%20Proxy)
 
     7-2. [Amazon Aurora](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora)
     - 7-2-1. [Shared Storage Volume](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-1.%20Shared%20Storage%20Volume)
     - 7-2-2. [Aurora DB Cluster](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-2.%20Aurora%20DB%20Cluster)
     - 7-2-3. [Aurora Replica Auto Scaling](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-3.%20Replica%20Auto%20Scaling)
-    - 7-2-4. [Aurora Custom Endpoint](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-4.%20Custom%20Endpoint)
+    - 7-2-4. [Aurora Custom Endpoint](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-4.%20Custom%20Endpoint)  
+    - 7-2-5. [Aurora Machine Learning](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-5.%20Aurora%20Machine%20Learning)  
+    - 7-2-6. [Aurora Backup](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-6.%20Aurora%20Backup)
+    - 7-2-7. [RDS vs Aurora Restore](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-7.%20RDS%20vs%20Aurora%20Restore)  
+    - 7-2-8. [Aurora Database Cloning](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-8.%20Aurora%20Database%20Cloning)
 
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
@@ -86,4 +92,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.05.29
+2024.05.30
