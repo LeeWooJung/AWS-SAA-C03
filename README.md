@@ -72,6 +72,11 @@ AWS Solutions Architect Associate Study
     - 7-2-7. [RDS vs Aurora Restore](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-7.%20RDS%20vs%20Aurora%20Restore)  
     - 7-2-8. [Aurora Database Cloning](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora/7-2-8.%20Aurora%20Database%20Cloning)
 
+    7-3. [Amazon ElastiCache](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache)  
+    - 7-3-1. [ElastiCache Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-1.%20ElastiCache%20Architecture)  
+    - 7-3-2. [Redis vs Memcached](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-2.%20Redis%20vs%20Memcached)  
+    - 7-3-3. [Cache Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-3.%20Cache%20Security)
+
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
 - 99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)  
