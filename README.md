@@ -79,7 +79,11 @@ AWS Solutions Architect Associate Study
 
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
-- 99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)  
+- 99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)
+
+100. Note
+- 100-1. [Design Secure Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-1.%20Design%20Secure%20Architecture)
+- 100-2. [Design High-Performing Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-2.%20Design%20High-Performing%20Architecture)
 
 ## Site
 
@@ -97,4 +101,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.05.30
+2024.06.01
