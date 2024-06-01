@@ -5,3 +5,7 @@
 ### 100-1. Domain Secure Architecture
 
 ### 100-2. Design High-Performing Architecture
+
+### 100-3. Design Cost-Optimized Architecture
+
+### 100-4. Design Resilient Architecture
