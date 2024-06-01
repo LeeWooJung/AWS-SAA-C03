@@ -84,6 +84,8 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 100. Note
 - 100-1. [Design Secure Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-1.%20Design%20Secure%20Architecture)
 - 100-2. [Design High-Performing Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-2.%20Design%20High-Performing%20Architecture)
+- 100-3. [Design Cost-Optimized Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-3.%20Design%20Cost-Optimized%20Architecture)
+- 100-4. [Design Resilient Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-4.%20Design%20Resilient%20Architecture)
 
 ## Site
 
@@ -101,4 +103,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.06.01
+2024.06.02
