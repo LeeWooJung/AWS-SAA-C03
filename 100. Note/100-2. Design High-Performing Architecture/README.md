@@ -22,3 +22,9 @@
 
 * 퍼블릭 서브넷에 여러 인스턴스를 프로비저닝하고 이러한 인스턴스 ID를 [NLB](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html) 대상으로 지정하여 올바르게 라우팅하는 방법.
     > * 인스턴스 ID를 사용하여 대상을 지정하는 경우 트래픽은 인스턴스의 기본 네트워크 인터페이스에 지정된 Primary Private IP 주소를 사용하여 인스턴스로 라우팅 됨.
+
+## EC2
+
+* EC2 User Data의 특징.
+    * > User data는 EC2 인스턴스를 처음 실행했을 때만 실행 됨.
+    * > User data는 root user 권한으로만 실행됨.
