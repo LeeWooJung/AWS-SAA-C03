@@ -35,6 +35,11 @@ AWS Solutions Architect Associate Study
     - 5-2-3. [Network Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-3.%20Network%20Load%20Balancer)  
     - 5-2-4. [Gateway Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-4.%20Gateway%20Load%20Balancer)
 
+    5-3. [Amazon Route53](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-3.%20Amazon%20Route53)
+    - 5-3-1. [Hosted Zones](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-3.%20Amazon%20Route53/5-3-1.%20Hosted%20Zones)
+    - 5-3-2. [TTL](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-3.%20Amazon%20Route53/5-3-2.%20TTL)
+    - 5-3-3. [Alias Records](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-3.%20Amazon%20Route53/5-3-3.%20Alias%20Records)
+
     5-96. [Connection Draining](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-96.%20Connection%20Draining)  
     5-97. [SNI](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-97.%20SNI)  
     5-98. [SSL,TLS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-98.%20SSL%2CTLS)  
@@ -103,4 +108,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.06.02
+2024.06.03
