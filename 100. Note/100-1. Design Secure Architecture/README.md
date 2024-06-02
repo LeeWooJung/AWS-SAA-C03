@@ -5,6 +5,10 @@
 * Amazon DynamoDB에서 Production 환경에서 몇 개의 테이블을 실수로 지웠을 때 해결하는 방법.  
     > [IAM Permission Boundary](https://aws.amazon.com/ko/blogs/security/delegate-permission-management-to-developers-using-iam-permissions-boundaries/) 설정.
 
+* 다른 계정의 Amazon S3에 액세스 하는 Lambda 함수를 구현하는 방법.
+    > * IAM 역할을 생성하여 Lambda 함수에 Amazon S3 버킷에 대한 액세스 권한을 부여.
+    > * Amazon S3 버킷 또한, Lambda 함수의 액세스를 허용하는지 확인해야 함.
+
 ## VPC
 
 * 온프레미스 데이터를 AWS 클라우드로 이동시킬 때 Amazon IPSec VPN Connection을 설정하기 위해 올바른 방법.  
@@ -13,6 +17,10 @@
   
 * 여러 VPC간의 연결을 위해 리소스 효율적이고, 확장 가능한 솔루션.
     > * [AWS transit gateway](https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html): VPC와 on-premise network를 연결해주는 hub역할.
+
+* Public Subnet을 통해 Amazon SQS에 액세스 하도록 VPC 바인딩을 구성하는 방법.
+    > * VPC endpoint를 사용하여 Amazon SQS에 접근할 수 있음.
+    > * [Amazon SQS용 VPC endpoint](https://aws.amazon.com/ko/about-aws/whats-new/2018/12/amazon-sqs-vpc-endpoints-aws-privatelink/)를 사용하면 AWS 서비스에 비공개로 연결 할 수 있고, 이는 가용성과 확장성이 뛰어난 [AWS PrivateLink](https://aws.amazon.com/ko/privatelink/)를 기반으로 함.
 
 * AWS Direct Connect 연결을 사용하는 곳과 AWS Site-to-Site VPN이 여러 개 있는 곳 간의 보안 통신을 제공할 수 있는 방법.
     > * [AWS VPN CloudHub](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPN_CloudHub.html) 는 VPC 유무에 관계 없이 사용할 수 있는 간단한 hub-and-spoke model에서 작동.
