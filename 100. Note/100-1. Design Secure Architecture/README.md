@@ -9,6 +9,10 @@
     > * IAM 역할을 생성하여 Lambda 함수에 Amazon S3 버킷에 대한 액세스 권한을 부여.
     > * Amazon S3 버킷 또한, Lambda 함수의 액세스를 허용하는지 확인해야 함.
 
+* AWS 계정에서 관리되는 production 환경의 일부 리소스에 액세스할 수 있도록 개발 환경의 사용자 집합에게 액세스 권한을 위임하는 방법.
+    > * 새로운 [IAM 역할](https://aws.amazon.com/ko/iam/features/manage-roles/)을 생성하여 production 환경의 리소스에 액세스할 수 있는 권한 부여.
+    > * IAM 역할을 사용하면 일반적으로 조직의 AWS 리소스에 액세스 할 수 없는 사용자 또는 서비스에 액세스 권한을 위임할 수 있음.
+
 ## VPC
 
 * 온프레미스 데이터를 AWS 클라우드로 이동시킬 때 Amazon IPSec VPN Connection을 설정하기 위해 올바른 방법.  
@@ -37,3 +41,8 @@
     > * [AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/how-does-config-work.html)를 사용하여 SSL/TLS certificates가 만료되기 30일 이내인지 확인.
     > * 그 후, SNS notification을 통해 알림.
 
+## AWS S3
+
+* Amazon S3에 교차 계정 액세스 요청이 증가할 때, Amazon S3 버킷에 저장된 데이터에 대해 사용자 수준 및 계정 수준 액세스 권한을 제공하는 방법.
+    > * Amazon S3 Bucket Policies를 사용하여 단일 버킷 내의 객체 중 일부 또는 전체에 대한 권한을 추가하거나 거부할 수 있음.
+    > * 해당 정책을 사용자, 그룹 또는 Amazon S3 버킷에 연결하여 권한을 중앙 집중식으로 관리할 수 있음.
