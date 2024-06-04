@@ -32,3 +32,7 @@
 * 네트워크 사용량 중 대부분이 애플리케이션의 정적 콘텐츠 배포로 인한 것임을 알 때, 네트워크 사용량을 개선하고 비용을 절감하기 위한 방법.
     > * Amazon S3를 사용하여 정적 웹 사이트를 호스팅 할 수 있음.
     > * Amazon S3를 통해 정적 콘텐츠를 배포하면 대부분의 네트워크 사용량을 Amazon S3에서 오프로드할 수 있음.
+
+* 새로운 지역에서 Amazon S3 버킷에 대용량 파일을 업로드하는데 지연이 발생할 때, 해결할 수 있는 방법.
+    > * [Amazon S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/userguide/transfer-acceleration.html)(Amazon S3TA)를 사용하여 S3 버킷에 더 빠르게 파일을 업로드 할 수 있음. 이 때, Amazon S3TA는 Amazon CloudFront의 엣지 로케이션을 활용 함.
+    > * [Multipart Upload](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)를 사용하여 Amazon S3 버킷에 더 빠르게 파일을 업로드 할 수 있음. 객체 크기가 100MB 정도가 되면 멀티 파트를 이용하는 것을 고려해야 함.
