@@ -6,6 +6,9 @@
     > * [EC2 dedicated hosts](https://aws.amazon.com/ec2/dedicated-hosts/)는 인스턴스가 물리적 서버에 배치되는 방식에 대한 가시성 및 제어 기능을 제공.
     > * 따라서 기존 서버 바인딩 소프트웨어 라이선스를 사용할 수 있음.
 
+* 온디맨드 인스턴스와 스팟 인스턴스를 혼합하여 관리하려 Auto Scaling 그룹을 생성할 때, 인스턴스 프로비저닝 옵션.
+    > * [시작 템플릿](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-templates.html)을 사용하여 온디맨드 인스턴스와 스팟 인스턴스를 모두 사용하는 등의 프로비저닝을 할 수 있음.
+
 ## Amazon DynamoDB
 
 * Amazon DynamoDB에는 사용자 데이터, Amazon S3에는 정적 컨텐츠를 저장하는데 90% 정도의 데이터에 read requests가 발생할 때 Application의 성능을 효율적으로 증가시키는 방법.
