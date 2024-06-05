@@ -76,3 +76,17 @@
     > * 데이터베이스 서버 호스트 및 운영 체제에 액세스하고 사용자 정의할 수 있음.
     > * 고가용성을 위해 다중 AZ 구성을 사용할 수 있음.
     > * Amazon RDS는 클라우드에서 관계형 데이터베이스를 쉽게 설정, 운영 및 확장할 수 있는 관리형 서비스이지만 데이터베이스의 호스트 OS에 대한 액세스는 허용하지 않음. 따라서 RDS Custom for Oracle을 사용해야 함.
+
+## EC2
+
+* Amazon [Elastic Beanstalk](https://aws.amazon.com/ko/elasticbeanstalk/) 배포에서 새 인스턴스를 생성하는데 걸리는 시간을 2분 미만으로 만들 수 있는 방법.
+    > * Amazon EC2 User Data를 사용하여 Dynamic installation 이 부팅시 작용하도록 지정.
+    > * Standard AMI에 포함되지 않은 소프트웨어를 설치해야 하는 경우 사용자 지정 AMI가 프로비저닝 시간을 향상 시킬 수 있음.
+    > * [Golden AMI](https://aws.amazon.com/ko/blogs/awsmarketplace/announcing-the-golden-ami-pipeline/)를 사용하여 정적인 설치 구성 요소를 설치하도록 설정.
+
+## AWS Global Accelerator
+
+* 48시간 내에 블루-그린 배포를 테스트하려고 하는데 사용자는 DNS 캐싱이 발생하기 쉬운 휴대폰을 사용함. 이 때, 많은 사용자를 대상으로 배포 테스트를 하기 위해 사용할 수 있는 옵션.
+    > * [AWS Global Accelerator](https://aws.amazon.com/ko/blogs/networking-and-content-delivery/using-aws-global-accelerator-to-achieve-blue-green-deployments/)를 사용하여 트래픽의 일부를 특정 배포에 분산 시킬 수 있음.
+    > * AWS Global Accelerator는 엔드포인트 가중치를 사용하여 엔드포인트 그룹의 엔드포인트로 전달되는 트래픽의 비율을 결정.
+    > * AWS Global Accelerator를 사용하면 클라이언트 장치 등의 DNS 캐싱에 영향을 받지 않고 블루 환경과 그린 환경 사이에서 트래픽을 점진적으로 또는 한꺼번에 이동할 수 있음.
