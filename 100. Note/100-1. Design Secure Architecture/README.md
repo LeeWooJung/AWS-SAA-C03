@@ -13,6 +13,10 @@
     > * 새로운 [IAM 역할](https://aws.amazon.com/ko/iam/features/manage-roles/)을 생성하여 production 환경의 리소스에 액세스할 수 있는 권한 부여.
     > * IAM 역할을 사용하면 일반적으로 조직의 AWS 리소스에 액세스 할 수 없는 사용자 또는 서비스에 액세스 권한을 위임할 수 있음.
 
+* Amazon EC2 인스턴스가 Amazon S3, Amazon DynamoDB에 액세스해야 할 때 가장 안전한 옵션인 솔루션
+    > * [적절한 IAM 역할을 연결](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2.html).
+    > * IAM 역할을 사용하여 Amazon EC2 인스턴스에서 실행되는 애플리케이션에 대한 임시 자격 증명을 관리.
+
 ## VPC
 
 * 온프레미스 데이터를 AWS 클라우드로 이동시킬 때 Amazon IPSec VPN Connection을 설정하기 위해 올바른 방법.  
@@ -46,3 +50,33 @@
 * Amazon S3에 교차 계정 액세스 요청이 증가할 때, Amazon S3 버킷에 저장된 데이터에 대해 사용자 수준 및 계정 수준 액세스 권한을 제공하는 방법.
     > * Amazon S3 Bucket Policies를 사용하여 단일 버킷 내의 객체 중 일부 또는 전체에 대한 권한을 추가하거나 거부할 수 있음.
     > * 해당 정책을 사용자, 그룹 또는 Amazon S3 버킷에 연결하여 권한을 중앙 집중식으로 관리할 수 있음.
+
+## AWS ElastiCache
+
+* SQL 쿼리 결과에 대해 캐싱을 지원하는 고가용성 **HIPAA** 규격 인메모리 데이터 베이스에서 참조 데이터를 처리할 때 사용할 수 있는 것.
+    > * **Redis**는 밀리초 미만의 지연 시간을 제공하는 매우 빠른 인 메모리 데이터 스토어.
+    > * **Redis**는 캐싱, 채팅/메시지, 게임 순위표, 지리 공간, 기계학습, 미디어 스트리밍, 대기열, 실시간 분석, 세션 스토어 등 실시간 트랜잭션 및 분석 처리 사용 사례에 탁월한 선택.
+    > * **Redis**는 즉시 복제, 고가용성 및 클러스터 샤딩을 지원.
+
+    > * **Memcached**는 캐시 또는 데이터 저장소로 사용할 수 있는 Memcached 호환 인 메모리 키-값 저장소 서비스.
+    > **Memcached**는 액세스 지연 시간을 줄이고, 처리량을 늘리며, 관계형 또는 NoSQL 데이터베이스의 로드를 완화하기 위해 인 메모리 캐시를 구현하는데 탁월.
+
+## Amazon GuardDuty
+
+* [Amazon GuardDuty](https://aws.amazon.com/ko/guardduty/)에서 지원하는 데이터 소스로 식별할 수 있는 것.
+    > * Amazon GuardDuty: AWS 계정, 워크로드, Amazon S3에 저장된 데이터를 보호하는 위협 탐지 서비스.
+    > * 지속적인 위협 탐지를 위한 지능적이고 비용 효율적인 옵션을 제공.
+    > AWS CloudTrail 이벤트, Amazon VPC 흐름 로그, DNS 로그와 같은 여러 AWS 데이터 소스에서 이벤트를 분석.
+
+## Elastic Load Balancer
+
+* Elastic Load Balancer가 target group의 Amazon EC2 인스턴스를 비정상적으로 표시했는데, 해당 인스턴스에 정상 접속 가능할 때 추측할 수 있는 이유.
+    > * [Security Group이 Load Balancer에서 오는 트래픽을 허용](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-update-security-groups.html)하지 않는 경우.
+    > * [Health Check 경로](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html)가 잘못 구성된 경우.
+
+## Amazon Cognito
+
+* Amazon API Gateway 내에서 API 호출을 승인하기 위해 인증/권한 메커니즘을 사용하기에 적합한 솔루션.
+    > * Amazon Cognito User Pool: Amazon Cognito의 사용자 디렉터리.
+    > * 사용자 관리 기능이 있으며 외부 자격 증명 공급자와 통합 가능.
+    > * 제공 서비스: 가입 및 로그인, 사용자 로그인을 위한 내장형 맞춤형 웹 UI, 외부 자격증명 공급자와의 통합, 사용자 디렉터리 관리 및 사용자 프로필, MFA 등.
