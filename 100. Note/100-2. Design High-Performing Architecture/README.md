@@ -65,3 +65,14 @@
     > * 수 많은 관계를 저장하고, 밀리초의 지연시간으로 그래프를 쿼리하는 데 최적화된 특수 목적의 고성능 그래프 데이터베이스 엔진.
     > * 읽기 전용 복제본, 특정 시점으로 복구, Amazon S3에 대한 지속적인 백업, 가용 영역 간 복제 기능을 갖춘 고가용성을 제공.
     > * 처리량이 높은 대화형 그래프 쿼리를 지원하여 소셜 네트워킹 애플리케이션을 구축할 수 있음.
+
+## Amazon Aurora
+
+* Amazon RDS for MySQL을 사용하고, 읽기 복제본을 생성 했는데도 성능에 문제가 발생. 전 세계에서 글로벌 규모로 작동하게끔 하기 위한 비용 효율적인 솔루션.
+    > * [Amazon Aurora 글로벌 데이터베이스](https://aws.amazon.com/ko/rds/aurora/global-database/)를 사용하여 각 지역에서 짧은 지연 시간으로 빠른 로컬 읽기를 지원.
+
+## Amazon EBS
+
+* Amazon EC2 인스턴스를 종료하면 연결된 Amazon EBS 볼륨도 손실되는 것에 대한 설명.
+    > * Amazon EBS 볼륨은 Amazon EC2 인스턴스의 [루트 볼륨](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html)으로 구성 됨.
+    > * 인스턴스 종료 시 연결된 루트 볼륨도 종료하는 것이 기본. 하지만 종료되지 않고 유지되도록 변경할 수 있음.
