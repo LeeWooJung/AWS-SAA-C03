@@ -39,6 +39,14 @@
     > * VPC Sharing(Resource Access Manager의 일부): Amazon EC2 인스턴스, Amazon RDS 데이터베이스, Amazon Redshift 클러스터, AWS Lambda 함수와 같은 리소스를 여러 AWS 계정에서 공유되고 중앙에서 관리되는 VPC로 생성할 수 있음.
     > * AWS Organization과 동일한 조직에 속한 다른 계정과 하나 이상의 서브넷을 공유해야 함.
 
+* Amazon EC2 인스턴스를 private subnet에 배포 후, 일부 AWS 서비스에 안전하게 액세스할 수 있도록 VPC 엔드포인트를 사용할 때, **게이트웨이 엔드포인트**를 지원하는 AWS 서비스.
+    > * **[Amazon S3, Amazon DynamoDB](https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html)**
+    > * (나머지 서비스는 인터페이스 엔드포인트 사용)
+    > * [VPC Endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.html)를 사용하면 인터넷 게이트웨이, NAT 디바이스, VPN 연결 또는 AWS Direct Connect 연결 없이 VPC를 지원하는 AWS 서비스 및 AWS PrivateLink에서 제공하는 VPC 엔드포인트 서비스에 비공개로 연결 가능.
+    > * VPC 엔드포인트는 가상장치로, 수평적으로 확장되고 중복되며 가용성이 높은 VPC의 구성 요소.
+    > * VPC 엔드포인트는 **인터페이스 엔드포인트**, **게이트웨이 엔드포인트** 두 가지 유형으로 구성.
+
+
 ## AWS Configuration
 
 * EC2 인스턴스에 애플리케이션 배포 후, ACM이 만료되기 전에 보안 팀에게 알리는 솔루션을 구축하기 위한 방법.
@@ -68,6 +76,11 @@
     > * 지속적인 위협 탐지를 위한 지능적이고 비용 효율적인 옵션을 제공.
     > AWS CloudTrail 이벤트, Amazon VPC 흐름 로그, DNS 로그와 같은 여러 AWS 데이터 소스에서 이벤트를 분석.
 
+* Amazon S3 버킷에 저장된 민감한 데이터를 식별하고, 악의적인 활동으로부터 Amazon S3에 저장된 모든 데이터를 모니터링하고 보호하는 방법.
+    > * [Amazon GuardDuty](https://aws.amazon.com/ko/guardduty/)를 사용하여 S3에 저장된 데이터에 대한 악의적인 활동을 모니터링 할 수 있음.
+    > * [Amazon Machie](https://aws.amazon.com/ko/macie/)를 사용하여 Amazon S3에 저장된 민감한 데이터를 식별할 수 있음.
+    > * Amazon Machie는 S3에서 중요한 데이터를 검색하고 보호하는 완전 관리형 데이터 보안 및 데이터 개인 정보 보호 서비스.
+
 ## Elastic Load Balancer
 
 * Elastic Load Balancer가 target group의 Amazon EC2 인스턴스를 비정상적으로 표시했는데, 해당 인스턴스에 정상 접속 가능할 때 추측할 수 있는 이유.
@@ -80,3 +93,17 @@
     > * Amazon Cognito User Pool: Amazon Cognito의 사용자 디렉터리.
     > * 사용자 관리 기능이 있으며 외부 자격 증명 공급자와 통합 가능.
     > * 제공 서비스: 가입 및 로그인, 사용자 로그인을 위한 내장형 맞춤형 웹 UI, 외부 자격증명 공급자와의 통합, 사용자 디렉터리 관리 및 사용자 프로필, MFA 등.
+
+## Amazon EBS
+
+* [**암호화된** Amazon EBS 볼륨](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-encryption.html)의 올바른 기능.
+    > * 볼륨 내부에 저장된 데이터는 암호화 됨.
+    > * 볼륨에서 생성된 모든 스냅샷은 암호화 됨. 또한 해당 스냅샷에서 생성된 볼륨이 모두 암호화 됨.
+    > * 볼륨과 인스턴스 사이를 이동하는 데이터는 암호화 됨.
+    > * 암호화된 볼륨과 스냅샷을 생성할 때 AWS Key Management Service(AWS KMS) 고객 마스터 키(CMK)를 사용.
+
+## Amazon RDS
+
+* Amazon EC2 기반 웹 서버에 애플리케이션을 배포하고, Amazon RDS PostgreSQL 데이터베이스를 저장소로 활용함. 이 때, PostgreSQL DB는 EC2 인스턴스의 인바운드 트래픽을 허용하는 프라이빗 서브넷에 설정되며 데이터 암호화를 위해 AWS KMS를 사용. 이 때, 데이터베이스에 대한 보안 액세스를 촉진하기 위한 방법.
+    > * [Amazon RDS에서 전송 중인 데이터에 SSL을 사용하도록 구성](https://aws.amazon.com/ko/rds/features/security/).
+    > * SSL/TLS 연결을 사용하여 전송 중인 데이터를 암호화할 수 있음.
