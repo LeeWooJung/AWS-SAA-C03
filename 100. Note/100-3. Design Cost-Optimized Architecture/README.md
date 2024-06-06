@@ -39,3 +39,32 @@
 * 새로운 지역에서 Amazon S3 버킷에 대용량 파일을 업로드하는데 지연이 발생할 때, 해결할 수 있는 방법.
     > * [Amazon S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/userguide/transfer-acceleration.html)(Amazon S3TA)를 사용하여 S3 버킷에 더 빠르게 파일을 업로드 할 수 있음. 이 때, Amazon S3TA는 Amazon CloudFront의 엣지 로케이션을 활용 함.
     > * [Multipart Upload](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)를 사용하여 Amazon S3 버킷에 더 빠르게 파일을 업로드 할 수 있음. 객체 크기가 100MB 정도가 되면 멀티 파트를 이용하는 것을 고려해야 함.
+
+## [AWS Snowball](https://aws.amazon.com/ko/snowball/)
+
+* 온프레미스 데이터 센터에 있는 약 5페타바이트의 데이터를 내구성 있는 장기 스토리지에 보관하는 가장 비용 효율적인 방법.
+    > * 온프레미스 데이터를 여러 개의 AWS Snowball Edge Storage Opimized Device로 전송.
+    > * 전송된 데이터를 Amazon S3에 복사 후, life cycle 정책을 수립하여 Amazon S3 Glacier로 이동.
+    > * AWS Snowball Edge Storage Optimized는 수십 테라바이트에서 페타바이트 규모의 데이터를 AWS로 안전하고 신속하게 전송.
+    > * AWS Snowball Edge Device에서 AWS S3 Glacier로 바로 데이터를 전송할 수 없음.
+
+## AWS Shield
+
+* AWS 계정에서 [AWS Shield](https://aws.amazon.com/ko/shield/faqs/) Advanced를 활성화 했는데, 비용이 매우 높게 나옴. 근본적인 이유.
+    > * AWS Shield Advanced에서 통합결제가 활성화되지 않았을 수 있음.
+    > * 모든 AWS 계정은 월별 요금이 한 번만 청구되는 단일 통합 결제에 속해야 함.
+    > * 그렇지 않은 경우, 모든 AWS 계정에서 사용하는 리소스에 대한 청구가 각각 이루어져 비용이 높게 나올 수 있음.
+
+## AWS ElastiCache
+
+* RDS에 대한 읽기 트래픽이 과도하게 발생하여, 대량의 읽기 트래픽을 처리하고 지연시간을 줄이며 인스턴스 크기를 줄여 비용을 절감하는 방법.
+    > * Amazon ElastiCache는 Amazon RDS와 같은 데이터 스토어와 같이 요청률이 매우 높거나 지연시간 요구 사항이 짧은 애플리케이션에 적합함.
+    > * 이와 같이 규모와 속토 측면에서 [캐싱](https://aws.amazon.com/ko/caching/database-caching/)은 애플리케이션 성능을 크게 향상 시킴.
+
+## AWS Compute Optimizer
+
+* Amazon EC2 instance, Amazon RDS instance, Amazon S3를 사용하는데 비즈니스 요구 사항에 비해 높은 비용을 지출할 때, 유요한 비용 최적화 솔루션.
+    > * AWS Cost Explorer 리소스 최적화를 사용하여 유휴 상태이거나 사용률이 낮은 Amazon EC2 인스턴스에 대한 보고서를 얻음.
+    > * 또한, AWS Compute Optimizer를 사용하여 인스턴스 유형 권장 사항을 확인.
+    > * **AWS Cost Explorer**: 동일한 인스턴스 패밀리내에서 활용도가 낮은 EC2 인스턴스를 식별.
+    > * **[AWS Compute Optimizer](https://aws.amazon.com/ko/compute-optimizer/)**: 기계학습을 사용하여 비용을 절감시키고 성능을 향상시키기 위해 워크로드에 최적의 AWS 컴퓨팅 리소스를 권장.
