@@ -76,3 +76,21 @@
 * Amazon EC2 인스턴스를 종료하면 연결된 Amazon EBS 볼륨도 손실되는 것에 대한 설명.
     > * Amazon EBS 볼륨은 Amazon EC2 인스턴스의 [루트 볼륨](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html)으로 구성 됨.
     > * 인스턴스 종료 시 연결된 루트 볼륨도 종료하는 것이 기본. 하지만 종료되지 않고 유지되도록 변경할 수 있음.
+
+## Amazon Database Migration Service(DMS)
+
+* Amazon S3 버킷에 존재하는 데이터와 로그 파일을 Amazon Kinesis Data Streams로, 새로 S3에 저장되는 데이터를 지속적으로 업데이트 스트리밍 할 때, 가장 빠른 방법.
+
+    > * AWS DMS를 Amazon S3와 Amazon Kinesis Data Streams 간의 브릿지로 활용.
+    > * AWS DMS를 사용하면 데이터를 관계형 데이터 베이스, 데이터 웨어하우스, 스트리밍 플랫폼 및 AWS 클라우드의 기타 데이터 스토어로 원활하게 마이그레이션 할 수 있음.
+    > * [AWS DMS를 사용하면 새로 코드를 작성하지 않고도 실시간 분석을 위해 Amazon S3에서 Amazon Kinesis Data Streams로 데이터를 스트리밍하도록 기존 애플리케이션을 확장할 수 있음](https://aws.amazon.com/ko/blogs/big-data/streaming-data-from-amazon-s3-to-amazon-kinesis-data-streams-using-aws-dms/).
+
+## NAT(Network Address Translation)
+
+* VPC내의 Private Subnet에 존재하는 인스턴스가 NAT 인스턴스 또는 NAT 게이트웨이를 사용하여 인터넷으로의 outbound IPv4 트래픽을 시작하도록 하는데 옳은 것을 고르기.
+
+    > * [NAT 인스턴스](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html) 또는 [NAT 게이트웨이](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html)는 VPC의 Public Subnet에서 사용하면 Private Subnet의 인스턴스가 인터넷으로의 아웃바운드 IPv4 트래픽을 시작할 수 있음.
+    > * NAT 인스턴스는 bastion server로 사용될 수 있음.
+    > * NAT 인스턴스는 port forwarding을 지원함.
+    > * 보안 그룹은 NAT 인스턴스와 연결될 수 있음.
+    > * [NAT Gateway vs NAT Instances](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html)
