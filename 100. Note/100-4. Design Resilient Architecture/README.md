@@ -84,6 +84,11 @@
     > * Standard AMI에 포함되지 않은 소프트웨어를 설치해야 하는 경우 사용자 지정 AMI가 프로비저닝 시간을 향상 시킬 수 있음.
     > * [Golden AMI](https://aws.amazon.com/ko/blogs/awsmarketplace/announcing-the-golden-ami-pipeline/)를 사용하여 정적인 설치 구성 요소를 설치하도록 설정.
 
+* Auto Scaling 그룹에서 선택된 [launch configuration](https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html)이 애플리케이션 워크 플로우를 처리하는 데 최적화 되지 않은 잘못된 인스턴스 유형을 사용할 때 해결 방법.
+    > * 새로운 시작 구성(Launch Configuration)을 생성하고 Auto Scaling 그룹에서 해당 구성을 사용하도록 수정.
+    > * 이전 시작 구성은 삭제.
+    > * 시작 구성이 생성되면 더 이상 수정할 수 없음. 따라서 기존 구성을 삭제하고 새로운 구성을 생성해야 함.
+
 ## AWS Global Accelerator
 
 * 48시간 내에 블루-그린 배포를 테스트하려고 하는데 사용자는 DNS 캐싱이 발생하기 쉬운 휴대폰을 사용함. 이 때, 많은 사용자를 대상으로 배포 테스트를 하기 위해 사용할 수 있는 옵션.
