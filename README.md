@@ -23,6 +23,8 @@ AWS Solutions Architect Associate Study
 
     - 3-2-1. [Scale Metric](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-2.%20Auto%20Scaling%20Group/3-2-1.%20Scale%20Metric)
 
+    3-3. [Elastic Beanstalk](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-3.%20Elastic%20Beanstalk)
+
 4. [Security Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/4.%20Security%20Group)
 
 5. Network  
@@ -57,7 +59,13 @@ AWS Solutions Architect Associate Study
 
     6-2. [EFS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS)  
     - 6-2-1. [EFS Performance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-1.%20EFS%20Performance)  
-    - 6-2-2. [EFS Storage Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-2.%20EFS%20Storage%20Class)  
+    - 6-2-2. [EFS Storage Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS/6-2-2.%20EFS%20Storage%20Class)
+
+    6-3. [S3](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3)
+    - 6-3-1. [Bucket](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-1.%20Bucket)
+    - 6-3-2. [Object](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-2.%20Object)
+    - 6-3-3. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-3.%20Security)
+    - 6-3-4. [Storage Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-4.%20Storage%20Class)
 
 7. [Database](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database)  
 
@@ -110,4 +118,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.06.06
+2024.06.08
