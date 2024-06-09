@@ -66,6 +66,11 @@ AWS Solutions Architect Associate Study
     - 6-3-2. [Object](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-2.%20Object)
     - 6-3-3. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-3.%20Security)
     - 6-3-4. [Storage Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-4.%20Storage%20Class)
+    - 6-3-5. [Event Notifications](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-5.%20Event%20Notifications)
+    - 6-3-6. [Performance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-6.%20Performance)
+    - 6-3-7. [S3 Filtering](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-7.%20S3%20Filtering)
+    - 6-3-8. [Batch Operations](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-8.%20Batch%20Operations)
+    - 6-3-9. [Storage Lens](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-9.%20Storage%20Lens)
 
 7. [Database](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database)  
 
@@ -118,4 +123,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.06.08
+2024.06.09
