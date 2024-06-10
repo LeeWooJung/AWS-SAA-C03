@@ -89,9 +89,24 @@
     > * 이전 시작 구성은 삭제.
     > * 시작 구성이 생성되면 더 이상 수정할 수 없음. 따라서 기존 구성을 삭제하고 새로운 구성을 생성해야 함.
 
+* single Spread [placement group](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)(단일)을 사용하여 애플리케이션을 실행중인데 최적의 성능을 발휘하기 위해 15개의 EC2 인스턴스가 필요. 15개의 인스턴스를 배포하는데 필요한 가용 영역(AZ)의 개수.
+    > * **3개**
+    > * Spread placement group은 각각 별도의 랙에 배치된 인스턴스 그룹으로, 각 랙에는 자체 네트워크와 전원이 있음.
+    > * 별도로 유지해야 하는 중요한 인스턴스의 수가 적은 애플리케이션에는 분산 배치 그룹을 사용하는 것이 좋음.
+    > * Spread placement group은 동일한 지역의 여러 가용 영역에 걸쳐있을 수 있는데, 그룹별 가용 영역당 **최대 7개**의 인스턴스를 실행할 수 있음.
+
 ## AWS Global Accelerator
 
 * 48시간 내에 블루-그린 배포를 테스트하려고 하는데 사용자는 DNS 캐싱이 발생하기 쉬운 휴대폰을 사용함. 이 때, 많은 사용자를 대상으로 배포 테스트를 하기 위해 사용할 수 있는 옵션.
     > * [AWS Global Accelerator](https://aws.amazon.com/ko/blogs/networking-and-content-delivery/using-aws-global-accelerator-to-achieve-blue-green-deployments/)를 사용하여 트래픽의 일부를 특정 배포에 분산 시킬 수 있음.
     > * AWS Global Accelerator는 엔드포인트 가중치를 사용하여 엔드포인트 그룹의 엔드포인트로 전달되는 트래픽의 비율을 결정.
     > * AWS Global Accelerator를 사용하면 클라이언트 장치 등의 DNS 캐싱에 영향을 받지 않고 블루 환경과 그린 환경 사이에서 트래픽을 점진적으로 또는 한꺼번에 이동할 수 있음.
+
+## AWS DMS(Database Migration Service)
+
+* 사용중이거나 추가 될 데이터를 지속적으로 복제하고 데이터를 Amazon RedShift로 스트리밍하고자 할 때, 기본 인프라를 관리할 필요 없이 개발 시간이 가장 적게 필요하고, 리소스 효율성이 가장 높은 솔루션.
+    > * [AWS DataMigration Service](https://aws.amazon.com/ko/dms/)(DMS)를 사용하여 데이터베이스의 데이터를 Amazon Redshift로 복제.
+    > * **AWS DMS**  
+    > * 데이터베이스를 AWS로 빠르고 안전하게 마이그레이션하는데 도움이 됨.  
+    > * 소스 데이터베이스는 마이그레이션 중에도 완벽하게 작동하므로 데이터베이스에 의존하는 애플리케이션의 가동 중지 시간이 최소화 됨.
+    > * Amazon RedShift, Amazon S3로 스트리밍하여 고가용성으로 데이터를 지속적으로 복제할 수 있음.
