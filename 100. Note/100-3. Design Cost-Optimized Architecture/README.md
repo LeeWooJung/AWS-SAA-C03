@@ -40,6 +40,12 @@
     > * [Amazon S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/userguide/transfer-acceleration.html)(Amazon S3TA)를 사용하여 S3 버킷에 더 빠르게 파일을 업로드 할 수 있음. 이 때, Amazon S3TA는 Amazon CloudFront의 엣지 로케이션을 활용 함.
     > * [Multipart Upload](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)를 사용하여 Amazon S3 버킷에 더 빠르게 파일을 업로드 할 수 있음. 객체 크기가 100MB 정도가 되면 멀티 파트를 이용하는 것을 고려해야 함.
 
+* Amazon S3에 저장된 자산을 며칠 동안은 많은 수의 사용자가 액세스 하고, 일주일이 지나면 액세스 빈도가 급격하게 떨어짐. 첫 주 이후 자산에 가끔 액세스할 수 있지만, 필요한 경우 계속해서 즉시 액세스할 수 있어야 함. 이 때, 비용을 절감하는 방법.
+    > * 30일 후에 Amazon S3 One Zone-IA로 전환하도록 [수명주기 정책](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html)을 구성.
+    > * Amazon S3 One Zone-IA는 자주 액세스하지 않지만 필요할 때 빠른 액세스가 필요한 데이터를 위한 것.
+    > * 단일 가용영역에 데이터를 저장하여 S3 Standard-IA보다 비용이 20% 저렴.
+    > * Amazon S3 Standard에서 Amazon S3 One Zone-IA로 객체를 전환하기 전까지 최소 저장 기간은 **30일**.
+
 ## [AWS Snowball](https://aws.amazon.com/ko/snowball/)
 
 * 온프레미스 데이터 센터에 있는 약 5페타바이트의 데이터를 내구성 있는 장기 스토리지에 보관하는 가장 비용 효율적인 방법.
@@ -68,3 +74,19 @@
     > * 또한, AWS Compute Optimizer를 사용하여 인스턴스 유형 권장 사항을 확인.
     > * **AWS Cost Explorer**: 동일한 인스턴스 패밀리내에서 활용도가 낮은 EC2 인스턴스를 식별.
     > * **[AWS Compute Optimizer](https://aws.amazon.com/ko/compute-optimizer/)**: 기계학습을 사용하여 비용을 절감시키고 성능을 향상시키기 위해 워크로드에 최적의 AWS 컴퓨팅 리소스를 권장.
+
+## AWS CloudWatch
+
+* EC2에 배포한 애플리케이션에서 알 수 없는 버그가 발생해 EC2 인스턴스가 정기적으로 정지됨. 이 사항을 해결하기 전까지, 인스턴스 정지 시 자동으로 인스턴스를 실행시키는 비용 효율적이고, 리소스 효율적인 방법.
+    > * 인스턴스 상태를 모니터링 하기 위해 CloudWatch를 설정. 
+    > * [CloudWatch에서 EC2 Health Check 실패 시 EC2 재부팅 알람을 사용하여 인스턴스를 재부팅](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/UsingAlarmActions.html).
+    > * CloudWatch 경보 작업을 사용하면 EC2 인스턴스를 자동으로 중지, 종료, 재부팅 또는 복구하는 **경보**를 생성할 수 있음.
+
+## AWS DMS(Database Migration Service)
+
+* 온프레미스의 데이터 센터에 라이선스 기반 레거시 데이터베이스 솔루션을 배포했음. 이를 AWS 클라우드로 마이그레이션 하길 원하는데, 비용 효율적이고 오픈 소스인 것으로 마이그레이션 하길 원함. 또한, 보조 인덱스, 외래 키, 저장 프로시저와 같은 구성도 처리를 원함. 이 때 해결 방안.
+    > * [AWS DMS](https://aws.amazon.com/ko/dms/)는 데이터베이스를 AWS로 빠르고 안전하게 마이그레이션하는 데 도움을 줌.
+    > * 기존 온프레미스에 있는 데이터베이스는 마이그레이션 중에도 완벽하게 작동하여 애플리케이션의 가동 중지 시간이 최소화 됨.
+    > * AWS DMS는 동종 마이그레이션 뿐만 아니라, 이기종 마이그레이션도 지원.
+    > * 이기종 마이그레이션의 경우, [AWS Schema Conversion Tool](https://aws.amazon.com/ko/dms/schema-conversion-tool/)을 사용하여 소스 스키마와 코드를 대상 데이터베이스와 일치하도록 변환해야 함.
+    > * 그 후, AWS DMS를 사용하여 데이터를 마이그레이션.
