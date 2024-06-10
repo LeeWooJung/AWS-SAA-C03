@@ -71,6 +71,7 @@ AWS Solutions Architect Associate Study
     - 6-3-7. [S3 Filtering](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-7.%20S3%20Filtering)
     - 6-3-8. [Batch Operations](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-8.%20Batch%20Operations)
     - 6-3-9. [Storage Lens](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-9.%20Storage%20Lens)
+    - 6-3-10. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-10.%20Security)
 
 7. [Database](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database)  
 
@@ -100,6 +101,7 @@ AWS Solutions Architect Associate Study
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
 - 99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)
+- 99-3. [CORS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-3.%20CORS)
 
 100. Note
 - 100-1. [Design Secure Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-1.%20Design%20Secure%20Architecture)
@@ -123,4 +125,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.06.09
+2024.06.10
