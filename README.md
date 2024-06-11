@@ -74,6 +74,11 @@ AWS Solutions Architect Associate Study
     - 6-3-10. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-10.%20Security)
     - 6-3-11. [S3 CORS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-11.%20S3%20CORS)
     - 6-3-12. [S3 MFA Delete](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-12.%20S3%20MFA%20Delete)
+    - 6-3-13. [S3 Access Log](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-13.%20S3%20Access%20Log)
+    - 6-3-14. [S3 Pre-Signed URLs](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-14.%20Pre-Signed%20URLs)
+    - 6-3-15. [S3 Lock](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-15.%20Lock)
+    - 6-3-16. [S3 Access Point](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-16.%20Access%20Point)
+    - 6-3-17. [S3 Object Lambda](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-17.%20S3%20Object%20Lambda)
 
 7. [Database](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database)  
 
