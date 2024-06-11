@@ -67,3 +67,11 @@ Access Point를 통해 세분화된 정책을 설정하여 더욱 세밀한 접�
 기업 내부 애플리케이션이 S3 버킷의 데이터를 사용할 때 VPC 내에서만 접근 가능하도록 설정하여 **데이터 유출을 방지**.
 * **데이터 분석**  
 VPC 내에서 데이터 분석 작업을 수행하는 경우, 분석 애플리케이션이 S3 데이터에 안전하게 접근 가능하도록 설정.
+
+## Architecture Example
+
+![Access Point Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/fcbe4341-341b-4cfb-a359-2b409f0c1f26)
+
+## Architecture Example(VPC Origin)
+
+![Access Point VPC Origin Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/47a02b32-5a7e-4947-8dcc-c0648342f548)
