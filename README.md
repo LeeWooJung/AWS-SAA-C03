@@ -44,6 +44,12 @@ AWS Solutions Architect Associate Study
     - 5-3-4. [Health Checks](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-3.%20Amazon%20Route53/5-3-4.%20Health%20Checks)
     - 5-3-5. [Routing Policies](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-3.%20Amazon%20Route53/5-3-5.%20Routing%20Policies)
 
+    5-4. [CloudFront](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront)
+    - 5-4-1. [Origins](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-1.%20Origins)
+    - 5-4-2. [Geo Restriction](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-2.%20Geo%20Restriction)
+    - 5-4-3. [Price Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-3.%20Price%20Class)
+    - 5-4-4. [Cache Invalidation](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-4.%20Cache%20Invalidation)
+
     5-96. [Connection Draining](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-96.%20Connection%20Draining)  
     5-97. [SNI](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-97.%20SNI)  
     5-98. [SSL,TLS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-98.%20SSL%2CTLS)  
@@ -132,4 +138,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.06.12
+2024.06.21
