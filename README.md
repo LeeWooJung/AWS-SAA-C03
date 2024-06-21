@@ -50,6 +50,12 @@ AWS Solutions Architect Associate Study
     - 5-4-3. [Price Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-3.%20Price%20Class)
     - 5-4-4. [Cache Invalidation](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-4.%20Cache%20Invalidation)
 
+    5-5. [Global Acclerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-5.%20Global%20Accelerator)
+
+    5-6. [CloudFront vs. Global Accelerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-6.%20CloudFront%20vs.%20Global%20Accelerator)
+
+    5-94.[Unicast IP vs. Anycast IP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-94.%20Unicast%20IP%20vs.%20Anycast%20IP)
+    5-95. [DNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-95.%20DNS)
     5-96. [Connection Draining](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-96.%20Connection%20Draining)  
     5-97. [SNI](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-97.%20SNI)  
     5-98. [SSL,TLS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-98.%20SSL%2CTLS)  
