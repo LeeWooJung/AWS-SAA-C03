@@ -92,6 +92,14 @@ AWS Solutions Architect Associate Study
     - 6-3-16. [S3 Access Point](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-16.%20Access%20Point)
     - 6-3-17. [S3 Object Lambda](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-17.%20S3%20Object%20Lambda)
 
+    6-4. [Snow Family](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-4.%20Snow%20Family)
+
+    6-5. [Amazon FSx](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-5.%20FSx)
+    - 6-5-1. [FSx for Windows](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-5.%20FSx/6-5-1.%20FSx%20for%20Windows)
+    - 6-5-2. [FSx for Lustre](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-5.%20FSx/6-5-2.%20FSx%20for%20Lustre)
+    - 6-5-3. [FSx for NetApp ONTAP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-5.%20FSx/6-5-3.%20FSx%20for%20NetApp%20ONTAP)
+    - 6-5-4. [FSx for OpenZFS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-5.%20FSx/6-5-4.%20FSx%20for%20OpenZFS)
+
 7. [Database](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database)  
 
     7-1. [Amazon RDS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS)  
@@ -144,4 +152,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.06.21
+2024.06.22
