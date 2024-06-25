@@ -100,6 +100,13 @@ AWS Solutions Architect Associate Study
     - 6-5-3. [FSx for NetApp ONTAP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-5.%20FSx/6-5-3.%20FSx%20for%20NetApp%20ONTAP)
     - 6-5-4. [FSx for OpenZFS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-5.%20FSx/6-5-4.%20FSx%20for%20OpenZFS)
 
+    6-6. [Storage Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-6.%20Storage%20Gateway)
+    - 6-6-1. [S3 File Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-6.%20Storage%20Gateway/6-6-1.%20S3%20File%20Gateway)
+    - 6-6-2. [FSx File Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-6.%20Storage%20Gateway/6-6-2.%20FSx%20File%20Gateway)
+    - 6-6-3. [Volume Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-6.%20Storage%20Gateway/6-6-3.%20Volume%20Gateway)
+    - 6-6-4. [Tape Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-6.%20Storage%20Gateway/6-6-4.%20Tape%20Gateway)
+    - 6-6-5. [Hardware appliance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-6.%20Storage%20Gateway/6-6-5.%20Hardware%20appliance)
+
 7. [Database](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database)  
 
     7-1. [Amazon RDS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS)  
@@ -152,4 +159,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.06.22
+2024.06.25
