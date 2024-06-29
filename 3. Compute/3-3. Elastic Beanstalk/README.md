@@ -55,7 +55,7 @@ Elastic Beanstalk에서 관리되는 코드, 설정, 인프라 구성 요소들�
 * **환경 구성**(Environment Configuration)  
 애플리케이션을 실행하기 위한 구성 설정으로 티어,  인스턴스 유형, 스케일링 정책, 로드 밸런서 설정 등을 포함.
 
-#### Tier
+### Tier
 
 Amazon Elastic Beanstalk의 환경(environments) 구성 요소 중에서 tiers는 애플리케이션이 실행될 환경의 유형을 정의하는 중요한 개념.
 
