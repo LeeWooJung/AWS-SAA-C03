@@ -12,11 +12,8 @@ AWS Solutions Architect Associate Study
     3-1. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2)
 
     - 3-1-1. [Placement Groups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-1.%20Placement%20Groups)  
-
     - 3-1-2. [Hibernate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-2.%20Hibernate)  
-
     - 3-1-3. [Amazon Machine Images(AMI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-3.%20AMI)  
-
     - 3-1-4. [EC2 Instacne Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-4.%20EC2%20Instacne%20Store)  
 
     3-2. [Auto Scaling Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-2.%20Auto%20Scaling%20Group)
@@ -56,8 +53,8 @@ AWS Solutions Architect Associate Study
 
     5-7. [AWS Transfer Family](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-7.%20AWS%20Transfer%20Family)
 
-    5-94.[Unicast IP vs. Anycast IP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-94.%20Unicast%20IP%20vs.%20Anycast%20IP)
-    5-95. [DNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-95.%20DNS)
+    5-94.[Unicast IP vs. Anycast IP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-94.%20Unicast%20IP%20vs.%20Anycast%20IP)  
+    5-95. [DNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-95.%20DNS)  
     5-96. [Connection Draining](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-96.%20Connection%20Draining)  
     5-97. [SNI](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-97.%20SNI)  
     5-98. [SSL,TLS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-98.%20SSL%2CTLS)  
