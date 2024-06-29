@@ -11,3 +11,21 @@ EBS는 **단일 인스턴스에만 연결 가능**하며, 빠른 입출력 성�
 AWS 클라우드 서비스와 온프레미스 리소스에서 사용할 수 있는 간단하고 **확장 가능하며 탄력적인 완전 관리형 탄력적 NFS 파일 시스템**임.  
 EFS는 수천 개의 EC2 인스턴스를 위한 스토리지이며 동시에 액세스 할 수 있음.  
 EFS는 웹 서비스 및 컨텐츠 관리, 엔터프라이즈 어플리케이션, 홈 디렉터리, 데이터베이스 백업, 개발자 도구, 컨테이너 스토리지, 빅데이터 분석 등에 적합하며, **여러 AZ에 중복 저장되므로 높은 가용성을 제공**함.
+
+# Storage Comparison
+
+|Name|Distinction|  
+|:---:|:---|  
+|S3|Object Storage|
+|S3 Glacier|Object Archival|
+|EBS Volumes|하나의 EC2 인스턴스를 위한 네트워크 스토리지, Block Storage|
+|Instance Storage|EC2 인스턴스를 위한 물리적 스토리지(High IOPS)|
+|EFS|Linux 인스턴스를 위한 네트워크 파일 시스템, POSIX 파일 시스템, File Storage|
+|FSx for Windows|Windows 서버를 위한 네트워크 파일 시스템|
+|FSx for Lustre|고성능 컴퓨팅 Linux 파일 시스템|
+|FSx for NetAPP ONTAP|높은 OS 호환성|
+|FSx for Open ZFS|관리형 ZFS 파일 시스템|
+|Storage Gateway|S3 & FSx File Gateway, Volume Gateway(cache & stored), Tape Gateway, 온프레미스와 동기화|
+|Transfer Family|Amazon S3, EFS 위에 FTP, FTPS, SFTP 인터페이스 / 온프레미스와 동기화|
+|DataSync|온프레미스에서 AWS로 또는 AWS에서 AWS로 데이터 동기화 일정 예약|
+|Snowcone/Snowball/Snowmobile|대량의 데이터를 클라우드로 물리적으로 이동하기 위해 사용|
