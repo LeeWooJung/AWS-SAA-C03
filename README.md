@@ -54,6 +54,8 @@ AWS Solutions Architect Associate Study
 
     5-6. [CloudFront vs. Global Accelerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-6.%20CloudFront%20vs.%20Global%20Accelerator)
 
+    5-7. [AWS Transfer Family](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-7.%20AWS%20Transfer%20Family)
+
     5-94.[Unicast IP vs. Anycast IP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-94.%20Unicast%20IP%20vs.%20Anycast%20IP)
     5-95. [DNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-95.%20DNS)
     5-96. [Connection Draining](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-96.%20Connection%20Draining)  
@@ -107,6 +109,8 @@ AWS Solutions Architect Associate Study
     - 6-6-4. [Tape Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-6.%20Storage%20Gateway/6-6-4.%20Tape%20Gateway)
     - 6-6-5. [Hardware appliance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-6.%20Storage%20Gateway/6-6-5.%20Hardware%20appliance)
 
+    6-7. [DataSync](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-7.%20DataSync)
+
 7. [Database](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database)  
 
     7-1. [Amazon RDS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS)  
@@ -131,6 +135,14 @@ AWS Solutions Architect Associate Study
     - 7-3-1. [ElastiCache Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-1.%20ElastiCache%20Architecture)  
     - 7-3-2. [Redis vs Memcached](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-2.%20Redis%20vs%20Memcached)  
     - 7-3-3. [Cache Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-3.%20Cache%20Security)
+
+8. [Integration & Messaging](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging)
+
+    8-1. [Amazon SQS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS)
+    - 8-1-1. [Queue](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS/8-1-1.%20Queue)
+    - 8-1-2. [Producing Message](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS/8-1-2.%20Producing%20Message)
+    - 8-1-3. [Consuming Message](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS/8-1-3.%20Cosuming%20Message)
+    - 8-1-4. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS/8-1-4.%20Security)
 
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
