@@ -64,3 +64,29 @@
 * Queue에 제공되는 메시지의 순서를 보장함.
 * 배치 처리가 되지 않을 때 초당 300개의 메시지로 처리량(Throughput)이 제한 됨.
 * 중복 메시지를 제거하기 때문에 Consumer에게 딱 한 번만 메시지가 전달 됨.
+
+## 특징
+
+### Exactly-once Processing  
+메시지가 정확히 한 번 전달되고, 중복되지 않음.
+
+### First-In-First-Out Delivery  
+메시지가 큐에 넣어진 순서대로 전달됨.
+
+### Message Group ID  
+메시지를 그룹화하여 같은 그룹의 메시지들이 순서대로 처리되도록 보장함.
+
+### Lower Throughput  
+Standard Queue보다 처리량이 낮지만, 순서와 중복되지 않음을 보장함.
+
+## 순서 보장 방법
+
+### Message Group ID  
+* 메시지에 **그룹 ID를 지정하여 같은 그룹에 속한 메시지들이 순서대로 처리**되도록 함.  
+* 예를 들어, 사용자 ID를 Message Group ID로 사용하면, 해당 사용자의 모든 메시지가 순서대로 처리됨.
+* Group ID를 사용하지 않으면, 하나의 Consumer에 의해 모든 메시지가 순서대로 처리됨.
+* Group ID는 Kinesis 의 Partition Key와 유사하게 작동함.
+
+### Deduplication ID  
+* 메시지 중복 방지를 위해 메시지의 중복 제거 ID를 사용함.  
+* 중복 제거 ID는 메시지를 중복없이 정확히 한 번만 처리되도록 함.
