@@ -76,6 +76,11 @@ Kinesis Data Streams는 **두 가지 용량 모드**를 제공.
 ### 샤드 리더  
 * 스트림의 특정 **샤드에서 데이터를 읽어오는 소비자 애플리케이션의 구성 요소**임.
 
+### Example
+
+![kinesis data streams architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/9d794bf5-5fae-4232-b2df-8815cc2d2914)
+
+
 ## Use Case
 
 ### 실시간 로그 분석  
