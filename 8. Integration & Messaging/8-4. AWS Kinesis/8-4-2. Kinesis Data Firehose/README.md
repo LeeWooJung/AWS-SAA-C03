@@ -39,6 +39,11 @@ Lambda 함수를 사용하여 **스트리밍 데이터를 실시간으로 변환
 ### 데이터 저장  
 * 변환된 데이터는 설정된 대상(S3, Redshift, Elasticsearch, Splunk 등)에 저장됨.
 
+### Example
+
+![kinesis data firehose architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/fd9ee22a-6cd7-4e6d-a498-5f4adf1b49d2)
+
+
 ## 구성 요소
 
 ### Delivery Stream  
