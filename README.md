@@ -141,9 +141,17 @@ AWS Solutions Architect Associate Study
     - 8-1-3. [Consuming Message](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS/8-1-3.%20Cosuming%20Message)
     - 8-1-4. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS/8-1-4.%20Security)
 
-    8-2. [AWS SNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-2.%20Amazon%20SNS)
-    8-3. [SNS + SQS Fanout](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-3.%20SNS%20%2B%20SQS%20Fanout)
-    8-4. [AWS Kinesis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis)
+    8-2. [AWS SNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-2.%20Amazon%20SNS)  
+    8-3. [SNS + SQS Fanout](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-3.%20SNS%20%2B%20SQS%20Fanout)  
+    8-4. [AWS Kinesis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis)  
+    - 8-4-1. [Kinesis Data Streams](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-1.%20Kinesis%20Data%20Streams)
+    - 8-4-2. [Kinesis Data Firehose](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-2.%20Kinesis%20Data%20Firehose)
+    - 8-4-3. [Streams vs. Firehose](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-3.%20Streams%20vs.%20Firehose)
+    - 8-4-4. [Data Stream Ordering](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-4.%20Data%20Stream%20Ordering)  
+
+    8-5. [SQS vs. SNS vs. Kinesis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-5.%20SQS%20vs.%20SNS%20vs.%20Kinesis)  
+    8-6. [Amazon MQ](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-6.%20Amazon%20MQ)
+
 
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
@@ -172,4 +180,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.02
+2024.07.06
