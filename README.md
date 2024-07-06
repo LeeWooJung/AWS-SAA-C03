@@ -152,6 +152,12 @@ AWS Solutions Architect Associate Study
     8-5. [SQS vs. SNS vs. Kinesis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-5.%20SQS%20vs.%20SNS%20vs.%20Kinesis)  
     8-6. [Amazon MQ](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-6.%20Amazon%20MQ)
 
+9. [Container](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/9.%20Container)
+
+    9-99. [Docker](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/9.%20Container/9-99.%20Docker)
+
+    - 9-99-1. [Image Build](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/9.%20Container/9-99.%20Docker/9-99-1.%20Image%20Build)
+
 
 ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
@@ -180,4 +186,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.06
+2024.07.07
