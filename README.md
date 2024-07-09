@@ -22,6 +22,12 @@ AWS Solutions Architect Associate Study
 
     3-3. [Elastic Beanstalk](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-3.%20Elastic%20Beanstalk)
 
+    3-4. [Serverless](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-4.%20Serverless)  
+
+    - 3-4-1. [AWS Lambda](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-4.%20Serverless/3-4-1.%20AWS%20Lambda)  
+        - 3-4-1-1. [VPC](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-4.%20Serverless/3-4-1.%20AWS%20Lambda/3-4-1-1.%20VPC)  
+        - 3-4-1-99. [Example](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-4.%20Serverless/3-4-1.%20AWS%20Lambda/3-4-1-99.%20Example)
+
 4. [Security Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/4.%20Security%20Group)
 
 5. Network  
@@ -45,7 +51,8 @@ AWS Solutions Architect Associate Study
     - 5-4-1. [Origins](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-1.%20Origins)
     - 5-4-2. [Geo Restriction](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-2.%20Geo%20Restriction)
     - 5-4-3. [Price Class](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-3.%20Price%20Class)
-    - 5-4-4. [Cache Invalidation](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-4.%20Cache%20Invalidation)
+    - 5-4-4. [Cache Invalidation](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-4.%20Cache%20Invalidation)  
+    - 5-4-5. [Customization at the Edge](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront/5-4-5.%20Customization%20at%20the%20Edge)
 
     5-5. [Global Acclerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-5.%20Global%20Accelerator)
 
