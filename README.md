@@ -140,6 +140,10 @@ AWS Solutions Architect Associate Study
     - 7-3-2. [Redis vs Memcached](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-2.%20Redis%20vs%20Memcached)  
     - 7-3-3. [Cache Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-3.%20Cache%20Security)
 
+    7-4. [Amazon DynamoDB](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB)
+    - 7-4-1. [ReadWrite Capacity Mode](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-1.%20ReadWrite%20Capacity%20Mode)
+    - 7-4-2. [DynamoDB Acclerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-2.%20DynamoDB%20Accelerator)
+
 8. [Integration & Messaging](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging)
 
     8-1. [Amazon SQS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS)
@@ -207,4 +211,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.09
+2024.07.12
