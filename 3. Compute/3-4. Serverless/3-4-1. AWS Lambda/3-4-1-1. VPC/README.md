@@ -50,3 +50,6 @@ Lambda 함수가 배치될 **서브넷은 인터넷 게이트웨이 또는 NAT �
 
 * **인터넷 접근 제한**: Lambda 함수가 VPC에 연결된 경우, 별도의 설정 없이는 퍼블릭 인터넷에 접근할 수 없음.
 
+## Architecture Example
+
+![Lambda in VPC architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/62d1e8bb-0a69-4a55-ad4f-428ec4df26d1)
