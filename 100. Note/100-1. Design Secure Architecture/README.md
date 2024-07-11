@@ -46,12 +46,28 @@
     > * VPC 엔드포인트는 가상장치로, 수평적으로 확장되고 중복되며 가용성이 높은 VPC의 구성 요소.
     > * VPC 엔드포인트는 **인터페이스 엔드포인트**, **게이트웨이 엔드포인트** 두 가지 유형으로 구성.
 
+* AWS로 마이그레이션 한 회사에서 VPC로 들어오고 나가는 트래픽을 보호하는 솔루션을 구현하기를 원함. 트래픽 흐름 검사 및 트래픽 필터링과 같은 특정 작업을 수행하기 위한 방법.
+    > * AWS Network Firewall
+    > * VPC를 위한 상태 저장 관리형 네트워크 방화벽 및 침입 탐지 및 방지 서비스.
+    > * 네트워크 트래픽을 검사하고 필터링할 수 있는 고급 보안 기능을 제공.
+    > * AWS 관리형 서비스로, 사용자 정의 규칙을 쉽게 설정하고 관리할 수 있어 운영 오버헤드를 줄임.
+    > * 트래픽 검토 및 필터링에 필요한 다양한 규칙을 설정하여 회사의 보안 요구사항을 충족할 수 있음.
+    > 인터넷 게이트웨이, NAT 게이트웨이 또는 VPN 또는 AWS Direct Connect를 통해 들어오고 나가는 트래픽 필터링 포함.
+
 
 ## AWS Configuration
 
 * EC2 인스턴스에 애플리케이션 배포 후, ACM이 만료되기 전에 보안 팀에게 알리는 솔루션을 구축하기 위한 방법.
     > * [AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/how-does-config-work.html)를 사용하여 SSL/TLS certificates가 만료되기 30일 이내인지 확인.
     > * 그 후, SNS notification을 통해 알림.
+
+* AWS 클라우드 배포를 검토하여 Amazon S3 버킷에 무단 구성 변경이 없는지 확인하기 위한 방법.
+    > * AWS Config
+    > * 적절한 규칙으로 AWS Config를 킴.
+    > * AWS Config를 키면 먼저 계정에 있는 지원되는 AWS 리소스를 찾고, 각 리소스에 대한 구성 항목을 생성함.
+    > * AWS Config는 리소스의 구성이 변경되면 구성 항목을 생성하고, 구성 레코더를 시작할 때부터 리소스의 구성 항목에 대한 기록 내역을 유지.
+    > * AWS Config는 S3 버킷의 구성 변경 사항을 지속적으로 모니터링할 수 있음. 특히, 버킷 정책, 액세스 제어 목록(ACL), 암호화 설정 등과 같은 중요한 구성 요소에 대한 변경을 감지할 수 있음.
+    > * 자동화된 방식으로 감사 및 준수 체크를 수행하여 운영 오버헤드를 최소화하면서 시스템 보안을 강화할 수 있음.
 
 ## AWS S3
 
@@ -87,6 +103,14 @@
     > * [Security Group이 Load Balancer에서 오는 트래픽을 허용](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-update-security-groups.html)하지 않는 경우.
     > * [Health Check 경로](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html)가 잘못 구성된 경우.
 
+* AWS에 배호된 3게층 웹 애플리케이션이 있는데 웹 서버는 VPC의 퍼블릭 서브넷, 애플리케이션 서버/데이터베이스는 VPC의 프라이빗 서브넷에 배포됨. AWS Marketplace의 타사 가상 방화벽 어플라이언스를 검사 VPC에 배포했을 때 트래픽이 웹 서버에 도달하기 전에 애플리케이션에 대한 모든 트래픽을 검사하기 위해 웹 애플리케이션을 어플라이언스와 통합하기 위해 최소한의 운영 오버헤드를 충족하는 방법.
+    > * [Gateway Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-4.%20Gateway%20Load%20Balancer)
+    > * 검사 VPC에 Gateway Load Balancer를 배포. 게이트웨이 로드 밸런서 엔드포인트를 생성하여 수신 패킷을 수신하고, 패킷을 어플라이언스로 전달.
+    > * IP 패킷을 수락: Layer 3을 뜻함.
+    > * 트래픽을 가상 방화벽 장치로 쉽게 라우팅할 수 있도록 도와줌. 복잡한 설정 없이도 트래픽 검사가 가능.
+    > * Gateway Load Balancer를 사용하면 방화벽, 침입 탐지 및 방지 시스템, 심층 패킷 검사 시스템과 같은 가상 어플라이언스를 배포, 확장 및 관리할 수 있음.
+    > * Gateway Load Balancer는 OSI 세 번째 계층인 네트워크 계층에서 작동.
+
 ## Amazon Cognito
 
 * Amazon API Gateway 내에서 API 호출을 승인하기 위해 인증/권한 메커니즘을 사용하기에 적합한 솔루션.
@@ -107,3 +131,42 @@
 * Amazon EC2 기반 웹 서버에 애플리케이션을 배포하고, Amazon RDS PostgreSQL 데이터베이스를 저장소로 활용함. 이 때, PostgreSQL DB는 EC2 인스턴스의 인바운드 트래픽을 허용하는 프라이빗 서브넷에 설정되며 데이터 암호화를 위해 AWS KMS를 사용. 이 때, 데이터베이스에 대한 보안 액세스를 촉진하기 위한 방법.
     > * [Amazon RDS에서 전송 중인 데이터에 SSL을 사용하도록 구성](https://aws.amazon.com/ko/rds/features/security/).
     > * SSL/TLS 연결을 사용하여 전송 중인 데이터를 암호화할 수 있음.
+
+## AWS Secret Manager
+
+* Amazon EC2 인스턴스에서 실행되고 있는 Amazon Aurora DB가 있는데, EC2 인스턴스는 파일에 로컬로 저장된 사용자 이름과 암호를 사용하여 DB에 연결함. 이 때 자격 증명 관리의 운영 오버헤드를 최소화 하기 위한 방법.
+    > * AWS Secret Manager
+    > * 자격 증명을 안전하게 저장하고 관리할 수 있으며, 수동으로 비밀번호를 관리할 필요성을 제거.
+    > * 애플리케이션, 서비스 및 IT 리소스에 대한 액세스를 보호하는 데 도움이 되는 보안 정보 관리 서비스. 수명 주기 동안 데이터베이스 자격 증명, API 키 및 기타 보안 정보를 손쉽게 교체, 관리 및 검색 가능.
+
+## Amazon QuickSight
+
+* AWS에서 데이터 레이크를 호스팅하는데, 데이터 시각화를 제공하고 데이터 레이크 내의 모든 데이터 소스를 포함하는 보고 솔루션이 필요. 회사의 관리 팀만 모든 시각화에 대한 전체 액세스 권한을 가져야 하고, 나머지는 제한된 액세스 권한만 가져야할 때 이를 충족하는 방법.
+    > * Amazon QuickSight
+    > * 다양한 데이터 소스를 연결하여 단일 대시보드에서 시각화할 수 있는 기능을 제공.
+    > * 사용자 및 그룹별로 대시보드 접근 권한을 설정할 수 있어 접근 수준을 효과적으로 제어 가능.
+    > * **IAM**을 사용하는 것보다 QuickSight의 접근 권한제어 기능을 사용하는 것이 효율적.
+    > 세션별 지불 결제 모델을 사용하여 사용량에 대해서만 요금을 지불하면 됨.
+
+## Amazon CloudWatch
+
+* CloudWatch 대시보드에 애플리케이션 지표를 표시하는데, 제품 관리자는 이 대시보드에 주기적으로 액세스하지만, AWS 계정이 없음. **최소 권한 원칙**에 따라 제품 관리자에게 액세스를 제공하기 위한 방법.
+    > * CloudWatch 콘솔에서 대시보드를 공유. 제품 관리자의 이메일 주소를 입력하고 공유 링크를 제품 관리자에게 제공.
+    > * CloudWatch 콘솔에서 대시보드를 공유할 때, 특장 사용자의 이메일 주소만 입력하면 해당 사용자에게만 접근 권한을 부여할 수 있음(최소한의 권한 원칙을 준수).
+    > * IAM 사용자나 그룹을 생성하지 않고도 콘솔에서 간편하게 대시보드를 공유하고 관리할 수 있어 운영 효율이 좋음.
+
+## AWS Single Sign-On(SSO)
+
+* 회사의 모든 게정에 SSO 솔루션이 필요하고, 사내 자체 관리 Microsoft Active Directory에서 사용자 및 그룹을 계속 관리하는데, 애플리케이션을 AWS로 마이그레이션 중일 때 위 조건을 충족시키는 방법.
+    > * AWS SSO 콘솔에서 **AWS SSO**를 활성화하고, **단방향 포레스트 트러스트** 또는 **단방향 도메인 트러스트**를 생성하여 Microsoft Active Directory용 AWS Directory Service를 사용하여 회사 자체 관리형 MAD를 AWS SSO와 연결.
+    > * AWS SSO를 사용하여 모든 회사 계정에 대한 단일 로그인(SSO) 솔루션을 구현하여 보안 강화 가능. 
+    > * AWS Single Sign-On = AWS IAM Identity Center
+    > * 온프레미스에서 관리되는 Microsoft Active Directory와 AWS SSO 간의 통합을 통해 기존의 사용자 및 그룹 관리 체계를 유지할 수 있음.
+
+## AWS Systems Manager
+
+* 1000개의 EC2 Linux 인스턴스에서 실행되는 워크로드가 있는데, 이는 타사 소프트웨어에 의해 구동됨. 회사는 중요한 보안 취약성을 수정하기 위해 가능한 한 빨리 모든 EC2 인스턴스에서 타사 소프트웨어 패치를 원할 때 방법.
+    > * **AWS Systems Manager Run Command**를 사용하여 모든 EC2 인스턴스에 패치를 적용하는 사용자 지정 명령을 실행.
+    > * 대규모 인프라에서 매우 빠르고 효율적으로 특정 스크립트나 명령을 실행할 수 있는 기능 제공.
+    > * 수천 대의 EC2 인스턴스에 대해 동시에 명령을 실행할 수 있어 패치를 빠르게 적용 가능.
+    > * 제 3자 소프트웨어 패치는 일반적으로 **AWS Systems Manager Pacth Manager**의 기본 기능에 포함되지 않음. Patch Manager는 주로 운영체제 패치를 위해 설계 되었음.
