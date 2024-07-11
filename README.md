@@ -9,12 +9,12 @@ AWS Solutions Architect Associate Study
 
 3. Compute
 
-    3-1. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2)
+    3-1. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2)
 
-    - 3-1-1. [Placement Groups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-1.%20Placement%20Groups)  
-    - 3-1-2. [Hibernate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-2.%20Hibernate)  
-    - 3-1-3. [Amazon Machine Images(AMI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-3.%20AMI)  
-    - 3-1-4. [EC2 Instacne Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20EC2/3-4.%20EC2%20Instacne%20Store)  
+    - 3-1-1. [Placement Groups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-1.%20Placement%20Groups)  
+    - 3-1-2. [Hibernate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-2.%20Hibernate)  
+    - 3-1-3. [Amazon Machine Images(AMI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-3.%20AMI)  
+    - 3-1-4. [EC2 Instacne Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-4.%20EC2%20Instacne%20Store)  
 
     3-2. [Auto Scaling Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-2.%20Auto%20Scaling%20Group)
 
