@@ -142,7 +142,12 @@ AWS Solutions Architect Associate Study
 
     7-4. [Amazon DynamoDB](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB)
     - 7-4-1. [ReadWrite Capacity Mode](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-1.%20ReadWrite%20Capacity%20Mode)
-    - 7-4-2. [DynamoDB Acclerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-2.%20DynamoDB%20Accelerator)
+    - 7-4-2. [DynamoDB Acclerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-2.%20DynamoDB%20Accelerator)  
+    - 7-4-3. [Streaming Process](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-3.%20Streaming%20Process)  
+    - 7-4-4. [Global Tables](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-4.%20Global%20Tables)  
+    - 7-4-5. [TTL](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-5.%20TTL)  
+    - 7-4-6. [Backups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-6.%20Backups)  
+    - 7-4-7. [Integration with S3](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-7.%20Integration%20with%20S3)  
 
 8. [Integration & Messaging](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging)
 
@@ -211,4 +216,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.12
+2024.07.14
