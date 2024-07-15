@@ -7,7 +7,7 @@ AWS Solutions Architect Associate Study
 
 2. [Identity and Access(IAM)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM))
 
-    2-1. [Amazon Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM)/2-1.%20Amazon%20Cognito)
+    2-1. [Amazon Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM)/2-1.%20Amazon%20Cognito)  
     2-2. [IAM vs. Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM)/2-2.%20IAM%20vs.%20Cognito)
 
 3. Compute
@@ -63,7 +63,7 @@ AWS Solutions Architect Associate Study
 
     5-7. [AWS Transfer Family](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-7.%20AWS%20Transfer%20Family)
 
-    5-94.[Unicast IP vs. Anycast IP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-94.%20Unicast%20IP%20vs.%20Anycast%20IP)  
+    5-94. [Unicast IP vs. Anycast IP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-94.%20Unicast%20IP%20vs.%20Anycast%20IP)  
     5-95. [DNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-95.%20DNS)  
     5-96. [Connection Draining](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-96.%20Connection%20Draining)  
     5-97. [SNI](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-97.%20SNI)  
@@ -161,7 +161,9 @@ AWS Solutions Architect Associate Study
     - 8-1-4. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS/8-1-4.%20Security)
 
     8-2. [AWS SNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-2.%20Amazon%20SNS)  
+
     8-3. [SNS + SQS Fanout](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-3.%20SNS%20%2B%20SQS%20Fanout)  
+    
     8-4. [AWS Kinesis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis)  
     - 8-4-1. [Kinesis Data Streams](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-1.%20Kinesis%20Data%20Streams)
     - 8-4-2. [Kinesis Data Firehose](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-2.%20Kinesis%20Data%20Firehose)
