@@ -7,6 +7,9 @@ AWS Solutions Architect Associate Study
 
 2. [Identity and Access(IAM)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM))
 
+    2-1. [Amazon Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM)/2-1.%20Amazon%20Cognito)
+    2-2. [IAM vs. Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM)/2-2.%20IAM%20vs.%20Cognito)
+
 3. Compute
 
     3-1. [EC2 Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2)
@@ -165,8 +168,15 @@ AWS Solutions Architect Associate Study
     - 8-4-3. [Streams vs. Firehose](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-3.%20Streams%20vs.%20Firehose)
     - 8-4-4. [Data Stream Ordering](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-4.%20Data%20Stream%20Ordering)  
 
-    8-5. [SQS vs. SNS vs. Kinesis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-5.%20SQS%20vs.%20SNS%20vs.%20Kinesis)  
-    8-6. [Amazon MQ](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-6.%20Amazon%20MQ)
+    8-5. [SQS vs. SNS vs. Kinesis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-5.%20SQS%20vs.%20SNS%20vs.%20Kinesis) 
+
+    8-6. [Amazon MQ](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-6.%20Amazon%20MQ)  
+
+    8-7. [AWS API Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-7.%20AWS%20API%20Gateway)  
+    - 8-7-1. [Endpoint Types](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-7.%20AWS%20API%20Gateway/8-7-1.%20Endpoint%20Types)  
+    - 8-7-2. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-7.%20AWS%20API%20Gateway/8-7-2.%20Security)  
+
+    8-8. [AWS Step Functions](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-8.%20AWS%20Step%20Functions)
 
 9. [Container](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/9.%20Container)
 
@@ -216,4 +226,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.14
+2024.07.15
