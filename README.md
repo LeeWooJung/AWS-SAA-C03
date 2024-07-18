@@ -200,13 +200,20 @@ AWS Solutions Architect Associate Study
 
     - 9-99-1. [Image Build](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/9.%20Container/9-99.%20Docker/9-99-1.%20Image%20Build)
 
+10. [Architecture Example](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example)
 
-ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
+    10-1. [Example 1](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-1.%20Example1)  
+    10-2. [Example 2](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-2.%20Example2)  
+
+[98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
+
+
+[99. AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms)  
 - 99-1. [Scalability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-1.%20Scalability)  
 - 99-2. [Availability](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-2.%20Availability)
 - 99-3. [CORS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20AWS%20Terms/99-3.%20CORS)
 
-100. Note
+[100. Note](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note)
 - 100-1. [Design Secure Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-1.%20Design%20Secure%20Architecture)
 - 100-2. [Design High-Performing Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-2.%20Design%20High-Performing%20Architecture)
 - 100-3. [Design Cost-Optimized Architecture](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/100.%20Note/100-3.%20Design%20Cost-Optimized%20Architecture)
@@ -228,4 +235,4 @@ ETC(99). [AWS Terms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/99.%20A
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.15
+2024.07.19
