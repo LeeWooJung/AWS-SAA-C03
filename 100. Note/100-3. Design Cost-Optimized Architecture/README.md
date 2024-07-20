@@ -117,6 +117,14 @@
     > * [CloudWatch에서 EC2 Health Check 실패 시 EC2 재부팅 알람을 사용하여 인스턴스를 재부팅](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/UsingAlarmActions.html).
     > * CloudWatch 경보 작업을 사용하면 EC2 인스턴스를 자동으로 중지, 종료, 재부팅 또는 복구하는 **경보**를 생성할 수 있음.
 
+* Amazon CloudWatch Logs 로그 그룹에 애플리케이션 로그를 저장 중임. 모든 애플리케이션 로그를 Amazon OpenSearch Service(Amazon Elasticsearch Service)에 거의 실시간으로 저장하고자 할 때, **최소한의 운영 오버헤드**로 해결하는 방법.
+    > * **Amazon OpenSearch Service**로 로그를 스트리밍하도록 CloudWatch Logs 구독을 구성. [링크](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_OpenSearch_Stream.html)
+    > * CloudWatch Logs와 OpenSearch Service 간의 스트리밍 설정은 단순하며, 실시간으로 스트리밍할 수 있음. 따라서 운영 오버헤드가 적음.
+    > * **Amazon OpenSearch Service**
+    > * AWS 클라우드에서 OpenSearch 클러스터를 손쉽게 배포, 운영 및 확장할 수 있도록 해주는 관리형 서비스.
+    > * OpenSearch는 로그 분석, 실시간 애플리케이션 모니터링, 클릭 스트림 분석 같은 사용 사례를 위한 완전한 오픈 소스 검색 및 분석 엔진임.
+    > * **Kinesis Data Firehose**를 사용하려면 Kinesis 스트림, Firehose 설정, Lambda 함수 등을 관리해야하여 운영 오버헤드가 높음.
+
 ## AWS DMS(Database Migration Service)
 
 * 온프레미스의 데이터 센터에 라이선스 기반 레거시 데이터베이스 솔루션을 배포했음. 이를 AWS 클라우드로 마이그레이션 하길 원하는데, 비용 효율적이고 오픈 소스인 것으로 마이그레이션 하길 원함. 또한, 보조 인덱스, 외래 키, 저장 프로시저와 같은 구성도 처리를 원함. 이 때 해결 방안.
@@ -164,3 +172,11 @@
     > * 데이터 백업, 복원, 보존을 자동화할 수 있는 서비스.
     > * 백업은 주기적으로 생성되며, 설정된 보존 기간 동안 유지됨.
     > * AWS의 여러 서비스(DynamoDB, RDS, EFS 등)에 대해 중앙에서 백업을 관리할 수 있는 기능을 제공.
+
+## Amazon Glue
+
+* 매일 같은 시간에 실행되는 AWS Glue의 ETL 작업이 있고, Amazon S3 버킷에 있는 데이터를 처리함. 매일 S3 버킷에 데이터가 추가되는데, AWS Glue가 실행 중에 모든 데이터를 처리하고 있음을 알았음. AWS Glue가 오래된 데이터를 재처리하지 못하도록 하는 방법.
+    > * **작업 북마크**(job bookmarks)를 사용하도록 작업을 편집함.
+    > * **AWS Glue의 작업 북마크**
+    > * 데이터 처리 작업의 상태를 추적하고, 이전에 처리된 데이터를 기록하여, 이후 작업에서 중복 처리를 방지하는 기능.
+    > * 북마크는 자동으로 관리되며, 필요 시 수동으로 초기화하거나 수정할 수 있음.
