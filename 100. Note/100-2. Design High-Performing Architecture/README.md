@@ -18,6 +18,14 @@
 * UDP 프로토콜을 사용하여 지연시간이 짧은 라이브 스포츠 결과를 배포하기 위한 방법.
     > * 전 세계 사용자에게 high-performance, availability를 유지하는 애플리케이션을 배포할 수 있는 방법으로 [AWS Global Accelerator](https://aws.amazon.com/ko/global-accelerator/)가 있음.
 
+* us-west-2 리전의 NLB 뒤에 있는 3개의 Amazon EC2 인스턴스에서 자체 관리형 DNS 솔루션을 구현함. 회사는 솔루션의 성능과 가용성을 개선하기를 원함. eu-west-1 리전에서 3개의 EC2 인스턴스를 시작 및 구성하고 EC2 인스턴스를 새 NLB의 대상으로 추가했을 떄, 트래픽을 모든 EC2 인스턴스로 라우팅하는 데 사용할 수 있는 방법.
+    > * **AWS Global Accelerator**에서 표준 엑셀러레이터를 생성.
+    > * us-west-2, eu-west-1에서 엔드포인트 그룹을 생성.
+    > * 엔트포인트 그룹에 대한 엔드포인트로 두 개의 NLB를 추가.
+    > **AWS Global Accelerator**는 AWS의 글로벌 네트워크를 통해 트래픽을 라우팅하여 성능을 최적화하고, 최적의 엔드포인트로 트래픽을 분산함.
+    > **AWS Global Accelerator**는 자동으로 장애 조치를 수행하여 고가용성을 유지함.
+    > **AWS Global Accelerator**의 표준 액셀러레이터의 엔드포인트는 하나의 AWS 리전 또는 여러 리전에 있는 NLB, ALB, Amazon EC2 인스턴스 또는 탄력적 IP 주소일 수 있음.
+
 ## Amazon CloudFront
 
 * ALB 뒤의 Amazon EC2 인스턴스에서 웹 애플리케이션을 호스팅 중. 또한, Amazon Route53에 등록된 자체 도메인 이름을 사용 중. 이 때, 정적 데이터와 동적 데이터가 존재하고, 정적 데이터는 Amazon S3에 저장. 정적 데이터 및 동적 데이터의 성능을 개선하고 대기시간을 줄이기 위한 방법.
@@ -130,6 +138,13 @@
     > * AWS DMS를 사용하면 데이터를 관계형 데이터 베이스, 데이터 웨어하우스, 스트리밍 플랫폼 및 AWS 클라우드의 기타 데이터 스토어로 원활하게 마이그레이션 할 수 있음.
     > * [AWS DMS를 사용하면 새로 코드를 작성하지 않고도 실시간 분석을 위해 Amazon S3에서 Amazon Kinesis Data Streams로 데이터를 스트리밍하도록 기존 애플리케이션을 확장할 수 있음](https://aws.amazon.com/ko/blogs/big-data/streaming-data-from-amazon-s3-to-amazon-kinesis-data-streams-using-aws-dms/).
 
+* 온프레미스 PostgreSQL 데이터베이스를 Amazon Aurora PostgreSQL로 마이그레이션 함. 온프레미스 데이터베이스는 온라인 상태를 유지하고 마이그레이션 중에 액세스 할 수 있어야 하며, Aurora 데이터베이스는 온프레미스 데이터베이스와 동기화된 상태를 유지해야 함. 이 때 방법.
+    > * **AWS Database Migration Service** 복제 서버를 생성.
+    > * **지속적인 복제 작업**(ongoing replication task)를 만듦.
+    > * AWS DMB 복제 서버는 원본 데이터베이스와 대상 데이터베이스 간의 데이터 복제를 수행 함. 이는 데이터베이스 간의 동기화를 유지함.
+    > * 온프레미스 데이터베이스와 Aurora 데이터베이스 사이의 지속적인 복제를 설정하면, 데이터가 실시간으로 동기화되어 온프레미스 데이터베이스가 온라인 상태를 유지하면서도 Aurora 데이터베이스가 최신 상태를 유지할 수 있음.
+
+
 ## NAT(Network Address Translation)
 
 * VPC내의 Private Subnet에 존재하는 인스턴스가 NAT 인스턴스 또는 NAT 게이트웨이를 사용하여 인터넷으로의 outbound IPv4 트래픽을 시작하도록 하는데 옳은 것을 고르기.
@@ -184,3 +199,32 @@
     > * **AWS Glue**
     > * 분석, 기계 학습 및 애플리케이션 개발을 위해 데이터를 쉽게 탐색, 준비, 그리고 조합할 수 있도록 지원하는 서버리스 데이터 통합 서비스.
     > * 데이터 카탈로그를 사용하여 데이터를 쉽게 찾고 액세스할 수 있음.
+
+* 피크 운영 시간 동안 자전거의 위치를 추적하는 아키텍처를 개발 중임. 회사는 기존 분석 플랫폼에서 해당 데이터 포인트를 사용하려고 함. 데이터 포인트는 REST API에서 액세스할 수 있어야 함. 자전거의 위치 데이터 저장 및 검색에 대한 요구 사항을 충족하는 방법.
+    > * **AWS Lambda**와 함께 **Amazon API Gateway**를 사용.
+    > * 자전거 데이터를 수집하여 Amazon API Gateway를 통해 AWS Lambda로 전달 후, 기존 분석 플랫폼에 전달.
+    > * **Amazon API Gateway**: REST API를 쉽게 설정하고 관리할 수 있고, 트래픽 관리, 인증 및 모니터링 기능을 제공.
+    > * **AWS Lambda**: 서버리스 컴퓨팅을 통해 코드 실행 비용을 최적화 하고, 자동 확장 기능을 제공하여 트래픽 증가에 대응할 수 있음.
+
+## Auto Scaling Group
+
+* 여러 가용 영역의 Amazon EC2 인스턴스에서 애플리케이션이 실행됨. 인스턴스는 ALB 뒤의 Amazon EC2 Auto Scaling Group에서 실행됨. EC2 인스턴스의 **CPU 사용률이 40% 또는 거의 40%**일 때 가장 잘 수행되면, 그룹의 모든 인스턴스에서 원하는 성능을 유지하기 위한 방법.
+    > * **대상 추적 정책**(target tracking policy)을 사용하여 Auto Scaling 그룹을 동적으로 확장.
+    > * **Target Tracking Policy**
+    > * 목표 기반: 이 정책은 사용자가 설정한 특정 메트릭의 목표 값에 도달하기 위해 인스턴스의 수를 자동 조정함.
+    > * 자동 조정: 메트릭 값이 설정된 목표에 **근접하도록** 자동으로 조정하며, 실시간으로 애플리케이션의 부하에 따라 유연하게 대응함.
+    > * 유연성: 메트릭이 목표에서 벗어나는 경우 자동으로 스케일 업 또는 스케일 다운을 수행하여 성능을 유지함.
+    > * **Simple Scaling Policy**
+    > * 상황 기반: 이 정책은 특정 조건이 충족되면 사전 정의된 조치를 취함.
+    > * 정적 조정: 스케일 업 또는 스케일 다운이 발생하는 조건을 수동으로 설정하며, 그 결과로 인스턴스 수를 정적으로 조정함.
+    > * 느린 반응: 이벤트에 따라 설정된 조치가 즉시 수행되지 않을 수 있으며, 반응 속도가 상대적으로 느릴 수 있음.
+
+## Amazon S3
+
+* 초기 S3 버킷의 파일을 수동으로 검토하고 Amazon QuickSight와 함께 사용하기 위해 매일 같은 시간에 분석 S3 버킷으로 복사함. 파일이 초기 S3 버킷에 들어갈 때 **자동으로 분석 S3 버킷으로 이동**시키고 싶음. AWS Lambda 함수를 사용하여 복사된 데이터에서 패턴일치 코드를 실행시키고, Amazon SageMaker Pipelines의 파이프라인으로 보낼 예정임. 이를 최소한의 운영 오버헤드로 해결하는 방법.
+    > * **S3 버킷 간에 S3 복제를 구성**.
+    > * Amazon EventBridge에 이벤트 알림을 보내도록 분석 S3 버킷을 구성. EventBridge에서 ObjectCreated 규칙을 구성.
+    > * 규칙의 대상으로 Lambda 및 SageMaker 파이프라인을 구성.
+    > * **S3 복제**(S3 Replication)을 설정하면 S3 버킷 간의 파일 복제가 **자동으로 이루어짐**. 이 덕분에 운영 오버헤드가 감소함.
+    > * **Amazon EventBridge**를 통해 분석 S3 버킷에 파일이 추가되는 **이벤트를 기반하여 자동**으로 Lambda 함수를 실행하고, SageMaker 파이프라인을 트리거할 수 있음.
+    > * S3 파일을 복제할 때 Lambda function을 사용하려면 **Lambda 함수를 작성하고, 유지관리**해야 하므로 오버헤드가 증가함.
