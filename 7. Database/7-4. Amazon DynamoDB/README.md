@@ -92,6 +92,26 @@ Standard & Infrequent Access(IA) Table Class가 존재.
 
 ## Summary 
 
-Amazon DynamoDB는 **완전 관리형 NoSQL 데이터베이스 서비스**로, 높은 확장성, 성능, 가용성을 제공함. 
+* Amazon DynamoDB는 **완전 관리형 NoSQL 데이터베이스 서비스**로, 높은 확장성, 성능, 가용성을 제공함. 
 
-다양한 AWS 서비스와 통합이 쉬우며, 비용 효율적인 운영이 가능함. 단, 복잡한 데이터 모델링과 비용 관리에 주의가 필요함.
+* 다양한 AWS 서비스와 통합이 쉬우며, 비용 효율적인 운영이 가능함. 단, 복잡한 데이터 모델링과 비용 관리에 주의가 필요함.
+
+* **관리형 서버리스 NoSQL Database**. millisecond 이내의 지연시간.
+
+* **Capacity Mode**: Optional Auto Scaling 혹은 On-demand Capacity를 적용하는 Provisioned Capacity.
+
+* Higly Available, Multi AZ(default), 읽기/쓰기 분리.
+
+* Read Cache를 위한 **DAX Cluster**, microsecond 지연시간.
+
+* **IAM**을 이용하여 Security, Authentication, Authorization 가능.
+
+* **Event 처리**: AWS Lambda 혹은 Kinesis Data Streams와 연결할 수 있는 **DynamoDB Streams**.
+
+* **Global Tables**: Active-Active Setup
+
+* Point in time Restore(PITR) to New Table(~35일), On-Demand Backup 가능.
+
+* PITR Window를 사용하여 S3로 Export 가능, S3로 부터 import 가능.
+
+* **빠르게 증가하는 스키마**에 적용하기 좋음.
