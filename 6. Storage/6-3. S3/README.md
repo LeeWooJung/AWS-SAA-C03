@@ -102,3 +102,23 @@ S3는 인터넷을 통해 액세스되므로, 네트워크 지연이 발생할 �
 
 * Amazon S3는 다양한 데이터 저장 요구를 충족시키기 위한 강력하고 유연한 스토리지 솔루션을 제공.  
 * 높은 내구성, 확장성, 보안을 통해 다양한 사용 사례에 적용할 수 있으며, 다양한 AWS 서비스와 통합하여 효율적인 데이터 관리와 분석을 지원함.
+
+* 객체를 위한 Key/Value 저장소
+
+* 큰 객체에 적합, 작은 객체에는 좋지 않음.
+
+* Serverless, Scales Infinitely, 객체의 최대 사이즈는 5TB, **Versioning** 가능.
+
+* **Tiers**: S3 Standard, S3 Infrequent Access, S3 Intelligent, S3 Glacier / Life cycle policy 적용하여 변환 가능.
+
+* **Features**: Versioning, Encryption, Replication, MFA-Delete, Acess Logs 등.
+
+* **Security**: IAM, Bucket Policies, ACL, Access Points, Object Lambda, CORS, Object/Value Lock.
+
+* **Encryption**: SS3-S3, SSE-KMS, SSE-C, client-side, TLS in transit, default encryption.
+
+* S3 Batch를 사용한 객체에 대한 **Batch Operations**, S3 Inventory를 사용하여 file listing 가능.
+
+* **Performance**: Multi-part upload, S3 Transfer Acceleration, S3 Select.
+
+* **Automation**: S3 Event Notification(SNS, SQS, Lambda, EventBridge)
