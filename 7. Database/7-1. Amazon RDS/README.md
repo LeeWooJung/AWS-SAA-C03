@@ -83,3 +83,21 @@
 ## RDS Simple Architecture
 
 ![RDS architecture](https://github.com/LeeWooJung/AWS-SAA-C03/assets/31682438/80114e7f-a88c-48c3-a68a-ff3b2f14be9a)
+
+## Summary
+
+* PostSQL, MySQL, Oracle, SQL Server, DB2, MariaDB, Custom
+
+* 프로비저닝 된 RDS 인스턴스 크기 & EBS Volume Type & Size
+
+* 스토리지 Auto Scaling 가능.
+
+* Multi AZ, Read Replicas 지원됨.
+
+* IAM, Security Groups, KMS, SSL in transit으로 보안.
+
+* 자동 백업. Point in time 복원(~35일)
+
+* Long-term recovery를 위한 Manual DB Snapshot 가능.
+
+* IAM Authentication, Secret Manager와 통합 가능.
