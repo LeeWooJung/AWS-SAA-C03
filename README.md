@@ -152,6 +152,18 @@ AWS Solutions Architect Associate Study
     - 7-4-6. [Backups](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-6.%20Backups)  
     - 7-4-7. [Integration with S3](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB/7-4-7.%20Integration%20with%20S3)  
 
+    7-5. [Amazon DocumentDB](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-5.%20Amazon%20DocumentDB)
+
+    7-6. [Amazon Neptune](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-6.%20Amazon%20Neptune)  
+    - 7-6-1. [Neptune Streams](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-6.%20Amazon%20Neptune/7-6-1.%20Neptune%20Streams)  
+
+    7-7. [Amazon Keyspaces](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-7.%20Amazon%20Keyspaces)  
+
+    7-8. [Amazon QLDB](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-8.%20Amazon%20QLDB)  
+
+    7-9. [Amazon Timestream](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-9.%20Amazon%20Timestream)  
+
+
 8. [Integration & Messaging](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging)
 
     8-1. [Amazon SQS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS)
@@ -235,4 +247,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.19
+2024.07.21
