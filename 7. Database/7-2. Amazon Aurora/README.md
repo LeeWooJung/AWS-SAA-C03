@@ -120,3 +120,21 @@ Amazon Aurora는 자동으로 데이터베이스 소프트웨어를 최신 버�
 * Amazon Aurora는 **고성능, 고가용성, 확장성이 필요한 관계형 데이터베이스 워크로드에 매우 적합한 솔루션**.  
 * 특히, MySQL 및 PostgreSQL과의 호환성을 제공하므로 기존 애플리케이션을 쉽게 마이그레이션할 수 있으며, **자동화된 관리 기능**을 통해 데이터베이스 운영을 단순화할 수 있음.  
 * Amazon Aurora를 사용함으로써 데이터베이스 성능을 극대화하고, 관리 부담을 줄이며, 비즈니스 로직에 집중할 수 있는 환경을 제공받을 수 있음.
+
+* PosgreSQL, MySQL 과 호환 가능. 스토리지와 Compute 분리 가능.
+
+* **Storage**: 6개의 replicas가 3개의 AZ에 걸쳐 데이터를 저장. Highly Available, Self-Healing, Auto-Scaling
+
+* **Compute**: Multiple AZ에 걸친 Cluster DB Instance, Read Replicas의 Auto Scaling.
+
+* **Cluster**: Writer, Reader DB Instance를 위한 Custom Endpoints.
+
+* RDS와 같은 Security, Monitoring, Maintenance 특징.
+
+* **Serverless**: unpredictable, intermittent 워크로드 혹은 capacity planning이 없는 것에 적합.
+
+* **Aurora Global**: 각 Region에 최대 16개의 DB Read Instances 가능, 1초 이내에 replication 가능.
+
+* **Aurora Machine Learning**: **SageMaker**, **Comprehend on Aurora**를 사용하여 Machine Learning 가능.
+
+* **Aurora Database Cloning**: Snapshot 복원보다 빠름. 존재하는 Cluster로부터 새로운 Cluster 복제.
