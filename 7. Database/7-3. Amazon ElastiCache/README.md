@@ -96,3 +96,15 @@
 
 * **Amazon ElastiCache**는 인메모리 데이터베이스 및 캐싱 솔루션으로, 애플리케이션 성능을 극대화하고 데이터 액세스 시간을 최소화하는 데 유용.  
 * 관리형 서비스로서, 자동화된 관리, 고가용성, 확장성, 보안을 제공하여 사용자가 인프라 관리에 신경 쓰지 않고 애플리케이션 개발에 집중할 수 있게 해줌.
+
+* 관리형 Redis, Memcached (RDS와 유사하지만, Cache를 위함)
+
+* In-memory 데이터 저장소, millisecond 이내의 지연.
+
+* Clustering(Redis) 와 Multi-AZ, Read Replicas(sharding) 지원.
+
+* IAM, Security Groups, KMS, Redis Auth를 통한 보안.
+
+* Backup, Snapshot, Point in time restore 가능.
+
+* **새로 적용하기 위해서는 코드를 변경시켜야 함**. 즉, 오버헤드 증가.
