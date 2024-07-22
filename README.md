@@ -163,6 +163,14 @@ AWS Solutions Architect Associate Study
 
     7-9. [Amazon Timestream](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-9.%20Amazon%20Timestream)  
 
+    7-10. [Amazon Athena](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-10.%20Amazon%20Athena)  
+    - 7-10-1. [Performance Improvement](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-10.%20Amazon%20Athena/7-10-1.%20Performance%20Improvement)  
+    - 7-10-2. [Federated Query](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-10.%20Amazon%20Athena/7-10-2.%20Federated%20Query)
+
+    7-11. [Amazon Redshift](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-11.%20Amazon%20Redshift)  
+    - 7-11-1. [Snapshot & DR](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-11.%20Amazon%20Redshift/7-11-1.%20Snapshot%20%26%20DR)  
+    - 7-11-2. [Spectrum](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-11.%20Amazon%20Redshift/7-11-2.%20Spectrum)  
+
 
 8. [Integration & Messaging](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging)
 
@@ -247,4 +255,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.21
+2024.07.22
