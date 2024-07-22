@@ -31,6 +31,8 @@ AWS Solutions Architect Associate Study
         - 3-4-1-1. [VPC](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-4.%20Serverless/3-4-1.%20AWS%20Lambda/3-4-1-1.%20VPC)  
         - 3-4-1-99. [Example](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-4.%20Serverless/3-4-1.%20AWS%20Lambda/3-4-1-99.%20Example)
 
+    3-5. [Amazon EMR](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-5.%20Amazon%20EMR)
+
 4. [Security Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/4.%20Security%20Group)
 
 5. Network  
@@ -171,6 +173,8 @@ AWS Solutions Architect Associate Study
     - 7-11-1. [Snapshot & DR](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-11.%20Amazon%20Redshift/7-11-1.%20Snapshot%20%26%20DR)  
     - 7-11-2. [Spectrum](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-11.%20Amazon%20Redshift/7-11-2.%20Spectrum)  
 
+    7-12. [Amazon OpenSearch](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-12.%20Amazon%20OpenSearch)
+
 
 8. [Integration & Messaging](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging)
 
@@ -225,6 +229,10 @@ AWS Solutions Architect Associate Study
     10-1. [Example 1](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-1.%20Example1)  
     10-2. [Example 2](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-2.%20Example2)  
 
+11. [Analytics] (https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/11.%20Analytics)
+
+    11-1. [Amazon QuickSight](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/11.%20Analytics/11-1.%20Amazon%20QuickSight)
+
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
 
@@ -255,4 +263,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.22
+2024.07.23
