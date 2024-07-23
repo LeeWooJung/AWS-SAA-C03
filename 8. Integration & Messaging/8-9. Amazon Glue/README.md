@@ -110,6 +110,23 @@ Glue Crawlers가 데이터를 탐색하여 Glue Data Catalog에 메타데이터�
 
     **여러 데이터 소스를 통합하여 일관된 데이터 뷰**를 제공함.
 
+## Architecture Example
+
+
+
+### AWS Glue
+
+![glue architecture1](https://github.com/user-attachments/assets/8a5f2bb4-ebcb-4435-8ed5-a851080e5f5a)
+
+### Convert data into Parquet format
+
+![glue architecture2](https://github.com/user-attachments/assets/9706f0f5-114c-439a-b057-f5a95640450f)
+
+### Glue Data Catalog
+
+![glue architecture3](https://github.com/user-attachments/assets/7bfd4b60-d810-4621-bcb7-d4c318bd615f)
+
+
 ## Summary
 
 Amazon Glue는 AWS의 **fully managed ETL 서비스로, 데이터 탐색, 스키마 생성, 데이터 변환 및 로딩을 자동화**하여 데이터 준비 과정을 효율화함. 
