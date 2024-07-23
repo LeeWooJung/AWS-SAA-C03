@@ -54,3 +54,5 @@
 * **데이터 웨어하우스**로 데이터를 로드 및 저장함.
 
 ## 아키텍처
+
+![bigdata ingestion pipeline architecture](https://github.com/user-attachments/assets/95f380bf-4444-471c-a245-da99be468ee9)
