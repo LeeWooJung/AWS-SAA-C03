@@ -106,6 +106,10 @@ Kinesis Data Analytics를 통해 **실시간으로 데이터를 처리하고 분
 
     IoT 장치에서 수집된 데이터를 실시간으로 분석하여 상태 모니터링 및 예측 유지보수를 수행함.
 
+## Architecture Example
+
+![kinesis data analytics architecture](https://github.com/user-attachments/assets/09d3887f-1b02-4887-bc53-9989637e157d)
+
 ## Kinesis Data Analytics for Apache Flink
 
 Kinesis Data Analytics for Apache Flink는 **Apache Flink를 사용하여 실시간 스트리밍 데이터를 처리하고 분석**할 수 있는 **완전 관리형 서비스**임. 
