@@ -246,6 +246,8 @@ AWS Solutions Architect Associate Study
 
     11-1. [Amazon QuickSight](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/11.%20Analytics/11-1.%20Amazon%20QuickSight)
 
+12. [Machine Learning](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning)
+
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
 
