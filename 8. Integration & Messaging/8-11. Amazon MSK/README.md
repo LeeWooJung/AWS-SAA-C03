@@ -126,6 +126,16 @@ Kafka는 **실시간 데이터 스트리밍을 위한 분산형 메시징 시스
 
     사용자 활동 데이터를 실시간으로 수집, 분석하여 맞춤형 추천 및 마케팅 전략 수립.
 
+## Architecture Example
+
+### MSK general architecture(Apache Kafka)
+
+![msk cluster architecture](https://github.com/user-attachments/assets/6255d731-f728-47b5-ad40-4bd962f809ab)
+
+### MSK Consumers
+
+![msk consumer architecture](https://github.com/user-attachments/assets/a13e710a-b94e-4564-af77-10e4527b6d7f)
+
 ## Sumamry
 
 Amazon MSK는 **Apache Kafka를 완전 관리형으로 제공하는 서비스**로, **데이터 스트리밍을 쉽게 실행하고 확장**할 수 있게 함.
