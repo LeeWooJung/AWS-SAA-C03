@@ -105,6 +105,11 @@ Athena, Redshift, EMR 등을 사용하여 데이터를 분석함.
 
     **중앙 집중화된 데이터 레이크를 구축하여 데이터 관리 및 분석을 통합적으로 수행**하고자 할 때 사용함.
 
+## Architecture Example
+
+![lake formation architecture1](https://github.com/user-attachments/assets/e2afadc0-322e-4200-b058-2fa9113f4711)
+
+
 ## Summary
 
 AWS Lake Formation은 **데이터 레이크를 쉽게 생성하고 관리**할 수 있는 서비스임. 
