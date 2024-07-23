@@ -193,6 +193,7 @@ AWS Solutions Architect Associate Study
     - 8-4-2. [Kinesis Data Firehose](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-2.%20Kinesis%20Data%20Firehose)
     - 8-4-3. [Streams vs. Firehose](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-3.%20Streams%20vs.%20Firehose)
     - 8-4-4. [Data Stream Ordering](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-4.%20Data%20Stream%20Ordering)  
+    - 8-4-5. [Kinesis Data Analytics](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-5.%20Kinesis%20Data%20Analytics)
 
     8-5. [SQS vs. SNS vs. Kinesis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-5.%20SQS%20vs.%20SNS%20vs.%20Kinesis) 
 
@@ -202,7 +203,16 @@ AWS Solutions Architect Associate Study
     - 8-7-1. [Endpoint Types](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-7.%20AWS%20API%20Gateway/8-7-1.%20Endpoint%20Types)  
     - 8-7-2. [Security](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-7.%20AWS%20API%20Gateway/8-7-2.%20Security)  
 
-    8-8. [AWS Step Functions](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-8.%20AWS%20Step%20Functions)
+    8-8. [AWS Step Functions](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-8.%20AWS%20Step%20Functions)  
+
+    8-9. [Amazon Glue](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-9.%20Amazon%20Glue)  
+    - 8-9-1. [things to know](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-9.%20Amazon%20Glue/8-9-1.%20things%20to%20know)  
+
+    8-10. [AWS Lake Formation](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-10.%20AWS%20Lake%20Formation)  
+
+    8-11. [Amazon MSK](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-11.%20Amazon%20MSK)  
+
+    8-12. [Kinesis Data Streams vs. Amazon MSK](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-12.%20Kinesis%20Data%20Streams%20vs.%20Amazon%20MSK)
 
 9. [Container](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/9.%20Container)
 
@@ -227,9 +237,12 @@ AWS Solutions Architect Associate Study
 10. [Architecture Example](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example)
 
     10-1. [Example 1](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-1.%20Example1)  
+
     10-2. [Example 2](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-2.%20Example2)  
 
-11. [Analytics] (https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/11.%20Analytics)
+    10-3. [Example 3](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-3.%20Example3)
+
+11. [Analytics](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/11.%20Analytics)
 
     11-1. [Amazon QuickSight](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/11.%20Analytics/11-1.%20Amazon%20QuickSight)
 
