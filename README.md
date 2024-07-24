@@ -249,19 +249,29 @@ AWS Solutions Architect Associate Study
 12. [Machine Learning](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning)  
 
     12-1. [Amazon Rekognition](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-1.%20Amazon%20Rekognition)  
+
     12-2. [Amazon Transcribe](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-2.%20Amazon%20Transcribe)  
+
     12-3. [Amazon Polly](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-3.%20Amazon%20Polly)  
+
     12-4. [Amazon Translate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-4.%20Amazon%20Translate)  
+
     12-5. [Amazon Lex](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-5.%20Amazon%20Lex)  
+
     12-6. [Amazon Connect](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-6.%20Amazon%20Connect)  
+
     12-7. [Amazon Comprehend](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-7.%20Amazon%20Comprehend)  
 
     - 12-7-1. [Comprehend Medical](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-7.%20Amazon%20Comprehend/12-7-1.%20Comprehend%20Medical)  
 
-    12-8. [Amazon SageMaker]()  
-    12-9. [Amazon Kendra]()  
+    12-8. [Amazon SageMaker](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-8.%20Amazon%20SageMaker)  
+
+    12-9. [Amazon Kendra](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-9.%20Amazon%20Kendra)  
+
     12-10. [Amazon Forecast](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-10.%20Amazon%20Forecast)  
+
     12-11. [Amazon Personalize](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-11.%20Amazon%20Personalize)  
+    
     12-12. [Amazon Textract](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-12.%20Amazon%20Textract)  
 
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
