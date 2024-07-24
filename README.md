@@ -272,7 +272,14 @@ AWS Solutions Architect Associate Study
 
     12-11. [Amazon Personalize](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-11.%20Amazon%20Personalize)  
     
-    12-12. [Amazon Textract](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-12.%20Amazon%20Textract)  
+    12-12. [Amazon Textract](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-12.%20Amazon%20Textract) 
+
+13. [Monitoring, Audit & Performance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance)  
+
+    13-1. [Amazon CloudWatch](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch)  
+
+    - 13-1-1. [CloudWatch Logs](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-1.%20CloudWatch%20Logs)  
+    - 13-1-2. [CloudWatch Logs Subscriptions](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-2.%20CloudWatch%20Logs%20Subscriptions)
 
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
@@ -304,4 +311,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.24
+2024.07.25
