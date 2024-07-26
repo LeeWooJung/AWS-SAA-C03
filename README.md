@@ -278,8 +278,17 @@ AWS Solutions Architect Associate Study
 
     13-1. [Amazon CloudWatch](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch)  
 
-    - 13-1-1. [CloudWatch Logs](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-1.%20CloudWatch%20Logs)  
-    - 13-1-2. [CloudWatch Logs Subscriptions](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-2.%20CloudWatch%20Logs%20Subscriptions)
+    - 13-1-1. [CloudWatch Logs](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-1.%20CloudWatch%20Logs) 
+    - 13-1-2. [CloudWatch Logs Subscriptions](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-2.%20CloudWatch%20Logs%20Subscriptions)  
+    - 13-1-3. [CloudWatch Log Agent](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-3.%20CloudWatch%20Log%20Agent) 
+    - 13-1-4. [CloudWatch Unified Agent](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-4.%20Unified%20Agent) 
+    - 13-1-5. [CloudWatch Alarms](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-5.%20CloudWatch%20Alarms) 
+    - 13-1-6. [CloudWatch Insights](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch/13-1-6.%20CloudWatch%20Insights)  
+
+    13-2. [Amazon EventBridge](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-2.%20Amazon%20EventBridge)
+
+    - 13-2-1. [Schema Registry](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-2.%20Amazon%20EventBridge/13-2-1.%20Schema%20Registry)  
+    - 13-2-2. [Resource-based Policy](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-2.%20Amazon%20EventBridge/13-2-2.%20Resource-based%20Policy)
 
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
@@ -311,4 +320,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.25
+2024.07.26
