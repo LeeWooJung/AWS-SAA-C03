@@ -79,6 +79,11 @@ CloudWatch Alarms는 하나의 메트릭(Single Metric)에 작동함.
 
 알람은 **CloudWatch Logs Metric Filters**에 의해 **기본적으로** 생성됨.
 
+### Architecture Example
+
+![Alarm Architecture](https://github.com/user-attachments/assets/5d7ba73e-b673-4557-8c06-bc98ce0d873f)
+
+
 ## 아키텍처
 
 ### 지표 수집
