@@ -290,6 +290,10 @@ AWS Solutions Architect Associate Study
     - 13-2-1. [Schema Registry](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-2.%20Amazon%20EventBridge/13-2-1.%20Schema%20Registry)  
     - 13-2-2. [Resource-based Policy](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-2.%20Amazon%20EventBridge/13-2-2.%20Resource-based%20Policy)
 
+    13-3. [AWS CloudTrail](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-3.%20AWS%20CloudTrail)  
+
+    - 13-3-1. [CloudTrail Events](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-3.%20AWS%20CloudTrail/13-3-1.%20Events)
+
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
 
@@ -320,4 +324,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.26
+2024.07.27
