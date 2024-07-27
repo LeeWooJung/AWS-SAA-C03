@@ -292,7 +292,11 @@ AWS Solutions Architect Associate Study
 
     13-3. [AWS CloudTrail](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-3.%20AWS%20CloudTrail)  
 
-    - 13-3-1. [CloudTrail Events](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-3.%20AWS%20CloudTrail/13-3-1.%20Events)
+    - 13-3-1. [CloudTrail Events](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-3.%20AWS%20CloudTrail/13-3-1.%20Events)  
+
+    13-4. [AWS Config](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-4.%20AWS%20Config)  
+
+    - 13-4-1. [Config Rules](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-4.%20AWS%20Config/13-4-1.%20Config%20Rules)
 
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
@@ -324,4 +328,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.27
+2024.07.28
