@@ -5,10 +5,29 @@ AWS Solutions Architect Associate Study
 
 1. [Global Infra Structure](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/1.%20Global%20Infra%20Structure)
 
-2. [Identity and Access(IAM)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM))
+2. [Identity](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity)
 
-    2-1. [Amazon Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM)/2-1.%20Amazon%20Cognito)  
-    2-2. [IAM vs. Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity%20and%20Access(IAM)/2-2.%20IAM%20vs.%20Cognito)
+    2-1. [Identity and Access Management(IAM)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-1.%20Identity%20and%20Access%20Management%20(IAM))  
+
+    - 2-1-1. [IAM Permission Boundaries](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-1.%20Identity%20and%20Access%20Management%20(IAM)/2-1-1.%20IAM%20Permission%20Boundaries)  
+
+    2-2. [Amazon Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-2.%20Amazon%20Cognito)
+
+    2-3. [IAM vs. Cognito](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-3.%20IAM%20vs.%20Cognito)  
+
+    2-4. [AWS Organizations](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-4.%20AWS%20Organizations)  
+
+    - 2-4-1. [SCP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-4.%20AWS%20Organizations/2-4-1.%20SCP)
+
+    2-5. [IAM Roles vs. Resource-based Policies](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-5.%20IAM%20Roles%20vs.%20Resource-based%20Polices)  
+
+    2-6. [IAM Identity Center](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-6.%20IAM%20Idendity%20Center)  
+
+    2-7. [AWS Directory Services](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-7.%20AWS%20Directory%20Services)  
+
+    2-8. [AWS Control Tower](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-8.%20AWS%20Control%20Tower)  
+
+    2-99. [Microsoft Active Directory](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-99.%20Microsoft%20Active%20Directory)  
 
 3. Compute
 
