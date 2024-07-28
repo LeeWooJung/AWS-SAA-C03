@@ -317,6 +317,21 @@ AWS Solutions Architect Associate Study
 
     - 13-4-1. [Config Rules](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-4.%20AWS%20Config/13-4-1.%20Config%20Rules)
 
+14. [AWS Security & Encryption](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption)  
+    
+    14-1. [KMS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-1.%20KMS)  
+
+    - 14-1-1. [Key Types](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-1.%20KMS/14-1-1.%20Key%20Types)  
+    - 14-1-2. [KMS Key Policies](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-1.%20KMS/14-1-2.%20KMS%20Key%20Policies)  
+    - 14-1-3. [Multi Region Keys](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-1.%20KMS/14-1-3.%20Multi%20Region%20Keys)  
+
+
+    14-2. [SSM Parameter Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-2.%20SSM%20Parameter%20Store)  
+
+    14-3. [AWS Secrets Manager](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-3.%20AWS%20Secrets%20Manager)  
+
+    - 14-3-1. [Multi Region Secrets](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-3.%20AWS%20Secrets%20Manager)
+
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
 
@@ -347,4 +362,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.28
+2024.07.29
