@@ -332,6 +332,26 @@ AWS Solutions Architect Associate Study
 
     - 14-3-1. [Multi Region Secrets](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-3.%20AWS%20Secrets%20Manager)
 
+    14-4. [AWS Certificate Manager](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager)  
+
+    - 14-4-1. [Request Public Certificates](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager/14-4-1.%20Request%20Public%20Certificates)  
+    - 14-4-2. [Import Public Certificate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager/14-4-2.%20Import%20Public%20Certificate)  
+    - 14-4-3. [Integration with API Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager/14-4-3.%20Integration%20with%20API%20Gateway)  
+
+    14-5. [AWS WAF](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-5.%20AWS%20WAF)  
+
+    14-6. [AWS Shield](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-6.%20AWS%20Shield)  
+
+    14-7. [AWS Firewall Manager](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-7.%20AWS%20Firewall%20Manager)  
+
+    14-8. [WAF vs. Firewall Manager vs. Shield](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-8.%20WAF%20vs.%20Firewall%20Manager%20vs.%20Shield)  
+
+    14-9. [Amazon GuardDuty](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-9.%20Amazon%20GuardDuty)  
+
+    14-10. [Amazon Inspector](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-10.%20Amazon%20Inspector)  
+
+    14-11. [Amazon Macie](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-11.%20Amazon%20Macie)  
+
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
 
