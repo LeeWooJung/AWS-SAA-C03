@@ -84,6 +84,17 @@ ACM 인증서는 **Elastic Load Balancer (ELB), Amazon CloudFront, API Gateway �
 
     도메인 소유권 검증이 필요한 경우 ACM을 통해 쉽게 검증할 때.
 
+## Architecture Example
+
+### Importing Public Certificates
+
+![importing public certificates](https://github.com/user-attachments/assets/f08d8936-efde-4552-b2c1-24397a491b94)
+
+### Integration with ALB
+
+![Integration with ALB](https://github.com/user-attachments/assets/a181302f-9cf8-4403-9aa2-bf1c66fd7e01)
+
+
 ## Summary 
 
 AWS Certificate Manager (ACM)은 SSL/TLS 인증서를 쉽게 관리하고 배포할 수 있도록 도와주는 서비스임. 
