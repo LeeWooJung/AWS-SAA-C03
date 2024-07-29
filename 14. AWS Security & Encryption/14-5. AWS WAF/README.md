@@ -86,6 +86,10 @@ WAF는 **Network Load Balancer**를 지원하지 않음. [Network Load Balancer]
 
 Fixed IP에 WAF를 적용하기 위해서는 [Global Accelerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-5.%20Global%20Accelerator)를 사용하고 WAF를 [ALB](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-2.%20Application%20Load%20Balancer)와 연결해야 함.
 
+### Architecture Example
+
+![fixed ip architecture](https://github.com/user-attachments/assets/6cc62c00-5bed-41d2-a4ba-12e2c27826f6)
+
 
 ## 장점
 
