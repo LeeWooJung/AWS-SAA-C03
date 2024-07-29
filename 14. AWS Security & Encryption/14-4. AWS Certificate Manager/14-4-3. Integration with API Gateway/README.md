@@ -67,3 +67,7 @@ Global Clients에게 서비스를 제공할 때 사용함.
 API Stage와 **같은 Region에 존재하는 API Gateway에서 TLS Certificate가 Import** 되어야 함.
 
 그 후, CNAME 혹은 A-Alias Record가 Route53에서 정의되어야 함.
+
+## Architecture Example
+
+![integration with api gateway](https://github.com/user-attachments/assets/5f5b66bb-1b7a-40f0-bab7-6e1a3ff5744c)
