@@ -261,7 +261,9 @@ AWS Solutions Architect Associate Study
 
     10-3. [Example 3](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-3.%20Example3)  
 
-    10-4. [Example 4](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-4.%20Example4)
+    10-4. [Example 4](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-4.%20Example4)  
+
+    10-5. [Example 5](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/10.%20Architecture%20Example/10-5.%20Example5)
 
 11. [Analytics](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/11.%20Analytics)
 
