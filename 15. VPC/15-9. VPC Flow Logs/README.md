@@ -88,6 +88,11 @@ VPC, 서브넷 또는 네트워크 인터페이스에서 발생하는 트래픽�
 
 **CloudWatch Alarms 등**을 통해 이상 징후에 대한 경고 및 알림을 설정할 수 있음.
 
+## Architecture Example
+
+![vpc flow logs architecture](https://github.com/user-attachments/assets/49d270c1-91e8-46db-a7bf-da73de6ed76c)
+
+
 ## Use case
 
 * **보안 모니터링**
