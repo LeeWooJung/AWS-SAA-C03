@@ -354,6 +354,28 @@ AWS Solutions Architect Associate Study
 
     14-11. [Amazon Macie](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-11.%20Amazon%20Macie)  
 
+15. [VPC](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC)  
+
+    15-1. [Subnet](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-1.%20Subnet)  
+
+    15-2. [Internet Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-2.%20Internet%20Gateway)  
+
+    15-3. [Bastion Hosts](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-3.%20Bastion%20Hosts)  
+
+    15-4. [NAT Instance](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-4.%20NAT%20Instance)  
+
+    15-5. [NAT Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-5.%20NAT%20Gateway)  
+
+    15-6. [NACL](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-6.%20NACL)  
+
+    15-7. [VPC Peering](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-7.%20VPC%20Peering)  
+
+    15-8. [VPC Endpoints](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-8.%20VPC%20Endpoints)  
+
+    15-9. [VPC Flow Logs](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-9.%20VPC%20Flow%20Logs)  
+
+    15-99. [CIDR](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-99.%20CIDR)  
+
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
 
@@ -384,4 +406,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.29
+2024.07.30
