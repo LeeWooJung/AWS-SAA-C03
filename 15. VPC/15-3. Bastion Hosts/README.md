@@ -68,6 +68,11 @@ Bastion Host와 프라이빗 리소스에 대해 엄격한 보안 그룹 규칙�
 
 Bastion Host를 통해 **프라이빗 서브넷 내의 리소스에 접속하여 관리 작업**을 수행함.
 
+## Architecture Example
+
+![Bastion host architecture](https://github.com/user-attachments/assets/0c541d5c-b868-49ed-ba90-0d92e5f66bad)
+
+
 
 ## Use case
 
