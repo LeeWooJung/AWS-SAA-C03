@@ -22,4 +22,4 @@ Private VPC Network를 이용하려면 **VPC Gateway Endpoint**를 생성해야�
 
 또한, VPC Gateway Endpoint와 Lambda(Private Subnet)의 **Route Table**을 수정해주어야함.
 
-해당 방법은 비용이 **무료**이며, 더 빠르게 Amazon DynamoDB에 접근하는 방법임.
+해당 방법은 비용이 **무료**이며, **더 빠르게 Amazon DynamoDB에 접근하는 방법**임.
