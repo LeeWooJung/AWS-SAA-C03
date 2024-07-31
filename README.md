@@ -394,6 +394,14 @@ AWS Solutions Architect Associate Study
 
     15-99. [CIDR](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-99.%20CIDR)  
 
+16. [Disaster Recovery & Migrations](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/16.%20Disaster%20Recovery%20%26%20Migrations)  
+
+    16-1. [Database Migration Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/16.%20Disaster%20Recovery%20%26%20Migrations/16-1.%20Database%20Migration%20Service)  
+
+    16-2. [AWS Backup](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/16.%20Disaster%20Recovery%20%26%20Migrations/16-2.%20AWS%20Backup)  
+
+    16-3. [AWS Application Discovery Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/16.%20Disaster%20Recovery%20%26%20Migrations/16-3.%20AWS%20Application%20Discovery%20Service)  
+
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
 
@@ -424,4 +432,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.31
+2024.08.01
