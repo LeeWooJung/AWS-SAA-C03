@@ -376,6 +376,22 @@ AWS Solutions Architect Associate Study
 
     15-9. [VPC Flow Logs](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-9.%20VPC%20Flow%20Logs)  
 
+    15-10. [VPC Traffic Mirroring](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-10.%20VPC%20Traffic%20Mirroring)  
+
+    15-11. [Site-to-Site VPN](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-11.%20Site-to-Site%20VPN)  
+
+    - 15-11-1. [VPN CloudHub](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-11.%20Site-to-Site%20VPN/15-10-1.%20VPN%20CloudHub)
+
+    15-12. [Transit Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-12.%20Transit%20Gateway)  
+
+    15-13. [Direct Connect](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-13.%20Direct%20Connect(DX))  
+
+    - 15-13-1. [Connection Types](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-13.%20Direct%20Connect(DX)/15-11-1.%20Connection%20Types)
+
+    15-14. [AWS Network Firewall](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-14.%20AWS%20Network%20Firewall)  
+
+    15-98. [IPv6](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-98.%20IPv6)  
+
     15-99. [CIDR](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-99.%20CIDR)  
 
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
@@ -408,4 +424,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.07.30
+2024.07.31
