@@ -58,6 +58,10 @@ Command 결과는 SNS로 전송될 수 있음(Notification).
 
 **EventBridge**에 의해 명령이 실행될 수 있음.
 
+* **Architecture Example**
+
+    ![run command](https://github.com/user-attachments/assets/1f7a6418-e869-43e4-9047-4ce4e26bc9ef)
+
 ### Automation
 
 EC2 Instances와 다른 AWS Resource에서 실행 및 유지보수에 대한 **작업을 간단히**하고 자동화해줌.
@@ -84,6 +88,10 @@ Instances에 실행해야할 것에 대한 **Schedule**을 정의함.
 
 Schedule, Duration, Set of registered instances, Set of resistered tasks 등을 포함함.
 
+* **Architecture Example**
+
+    ![maintenance windows](https://github.com/user-attachments/assets/200842cd-4619-478a-8758-b0653e4a0519)
+
 ### Patch Manager
 
 시스템의 패치(OS Updates, Application Updates, Security Updates) 및 보안 패치를 자동으로 관리함.
@@ -105,6 +113,10 @@ SSH Access, Bation Hosts, SSH Keys가 필요 없음.
 Linux, MacOS, Windows 모두 지원함.
 
 S3 또는 CloudWatch Logs에 Log Data를 전송할 수 있음.
+
+* **Architecture Example**
+
+    ![session manager](https://github.com/user-attachments/assets/5f2b6edd-3885-43fc-b58a-14a5a30dac20)
 
 ### Parameter Store
 
