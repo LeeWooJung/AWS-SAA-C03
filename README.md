@@ -402,6 +402,27 @@ AWS Solutions Architect Associate Study
 
     16-3. [AWS Application Discovery Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/16.%20Disaster%20Recovery%20%26%20Migrations/16-3.%20AWS%20Application%20Discovery%20Service)  
 
+    16-4. [AWS Application Migration Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/16.%20Disaster%20Recovery%20%26%20Migrations/16-4.%20AWS%20Application%20Migration%20Service)  
+
+    16-5. [VMWare Cloud on AWS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/16.%20Disaster%20Recovery%20%26%20Migrations/16-5.%20VMware%20Cloud%20on%20AWS)  
+
+17. [Other Services](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services)  
+
+    17-1. [CloudFormation](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-1.%20CloudFormation)  
+
+    - 17-1-1. [Service Role](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-1.%20CloudFormation/17-1-1.%20Service%20Role)  
+
+    17-2. [Amazon SES](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-2.%20Amazon%20SES)  
+
+    17-3. [Amazon Pinpoint](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-3.%20Amazon%20Pinpoint)  
+
+    17-4. [Systems Manager](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-4.%20Systems%20Manager)  
+
+    17-5. [Cost Explorer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-5.%20Cost%20Explorer)  
+
+    17-6. [AWS Batch](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-6.%20AWS%20Batch)  
+
+
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
 
