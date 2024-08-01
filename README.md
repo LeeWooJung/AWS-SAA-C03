@@ -422,6 +422,10 @@ AWS Solutions Architect Associate Study
 
     17-6. [AWS Batch](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-6.%20AWS%20Batch)  
 
+    17-7. [Amazon AppFlow](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-7.%20Amazon%20AppFlow)  
+
+    17-8. [AWS Amplify](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-8.%20AWS%20Amplify)  
+
 
 [98. Micro Service](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/98.%20Micro%20Service)
 
