@@ -451,6 +451,7 @@ AWS Solutions Architect Associate Study
 * [AWS SAA Dumps - 한국어(유료)](https://www.koreadumps.com/SAA-C03-KR_exam-braindumps.html#)
 * [AWS SAA Dumps 토론 - 외국어](https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/)
 * [AWS Architecture Center](https://aws.amazon.com/architecture/) : 아키텍처 예시 및 다이어 그램 확인 가능
+* [Well Architected](https://aws.amazon.com/architecture/well-architected) : Production Scale에서 Test 가능. Architectural Experimentation을 쉽게 자동화 할 수 있음.
 * [AWS FAQ](https://aws.amazon.com/vpc/faqs/) : SAA 문제에 자주 나오는 내용과 겹치는 부분이 많음
 
 ## 자료
