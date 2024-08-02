@@ -336,7 +336,7 @@ AWS Solutions Architect Associate Study
 
     - 14-3-1. [Multi Region Secrets](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-3.%20AWS%20Secrets%20Manager)
 
-    14-4. [AWS Certificate Manager](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager)  
+    14-4. [AWS Certificate Manager(ACM)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager)  
 
     - 14-4-1. [Request Public Certificates](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager/14-4-1.%20Request%20Public%20Certificates)  
     - 14-4-2. [Import Public Certificate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager/14-4-2.%20Import%20Public%20Certificate)  
