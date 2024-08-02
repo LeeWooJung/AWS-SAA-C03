@@ -3,10 +3,11 @@
 ## IAM
 
 * Amazon DynamoDB에서 Production 환경에서 몇 개의 테이블을 실수로 지웠을 때 해결하는 방법.  
-    > [IAM Permission Boundary](https://aws.amazon.com/ko/blogs/security/delegate-permission-management-to-developers-using-iam-permissions-boundaries/) 설정.
+    > [IAM Permission Boundary](https://aws.amazon.com/ko/blogs/security/delegate-permission-management-to-developers-using-iam-permissions-boundaries/) 설정.  
+    > [IAM Permission Boundaries 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-1.%20Identity%20and%20Access%20Management%20(IAM)/2-1-1.%20IAM%20Permission%20Boundaries)
 
 * 다른 계정의 Amazon S3에 액세스 하는 Lambda 함수를 구현하는 방법.
-    > * IAM 역할을 생성하여 Lambda 함수에 Amazon S3 버킷에 대한 액세스 권한을 부여.
+    > * [IAM 역할](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-1.%20Identity%20and%20Access%20Management%20(IAM)#-iam-role)을 생성하여 Lambda 함수에 Amazon S3 버킷에 대한 액세스 권한을 부여.
     > * Amazon S3 버킷 또한, Lambda 함수의 액세스를 허용하는지 확인해야 함.
 
 * AWS 계정에서 관리되는 production 환경의 일부 리소스에 액세스할 수 있도록 개발 환경의 사용자 집합에게 액세스 권한을 위임하는 방법.
@@ -21,7 +22,7 @@
 
 * **최소 권한 원칙**을 사용하여 AWS Lambda 함수를 실행하는 데 사용할 권한을 구성해야 함. Amazon EventBridge 규칙이 함수를 호출할 때의 방법.
     > * lambda:InvokeFunction을 action으로, Service: events.amazonaws.com을 principal로 사용하여 리소스 기반 정책을 함수에 추가함. [링크](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-use-resource-based.html#eb-lambda-permissions)
-    > * 최소 권한 원칙을 따르면, Lambda 함수는 해당 함수가 수행해야 하는 작업을 실행하는 데 필요한 **최소한의 권한**만을 가져야 함.
+    > * 최소 권한 원칙을 따르면, [Lambda](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-4.%20Serverless/3-4-1.%20AWS%20Lambda) 함수는 해당 함수가 수행해야 하는 작업을 실행하는 데 필요한 **최소한의 권한**만을 가져야 함.
     > * 따라서 Event Bridge와의 관계만 추가해주어야 함.
     > * **최소 권한 원칙**
     > * 시스템 보안의 중요한 개념 중 하나로, 사용자, 시스템, 프로세스 또는 애플리케이션에 특정 작업을 수행하기 위해 필요한 최소한의 권한만 부여하는 것을 의미.
@@ -32,18 +33,22 @@
 
 * 온프레미스 데이터를 AWS 클라우드로 이동시킬 때 Amazon IPSec VPN Connection을 설정하기 위해 올바른 방법.  
     > * AWS Side: Virtual Private Gateway(VGW)
-    > * On-premise Side: Customer Gateway
+    > * On-premise Side: Customer Gateway  
+    > * [Site-to-Site VPN](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-11.%20Site-to-Site%20VPN)
   
 * 여러 VPC간의 연결을 위해 리소스 효율적이고, 확장 가능한 솔루션.
-    > * [AWS transit gateway](https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html): VPC와 on-premise network를 연결해주는 hub역할.
+    > * [AWS transit gateway](https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html): VPC와 on-premise network를 연결해주는 hub역할.  
+    > * [AWS Transit Gateway 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-12.%20Transit%20Gateway)
+
 
 * Public Subnet을 통해 Amazon SQS에 액세스 하도록 VPC 바인딩을 구성하는 방법.
-    > * VPC endpoint를 사용하여 Amazon SQS에 접근할 수 있음.
+    > * [VPC endpoint](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-8.%20VPC%20Endpoints)를 사용하여 Amazon SQS에 접근할 수 있음.
     > * [Amazon SQS용 VPC endpoint](https://aws.amazon.com/ko/about-aws/whats-new/2018/12/amazon-sqs-vpc-endpoints-aws-privatelink/)를 사용하면 AWS 서비스에 비공개로 연결 할 수 있고, 이는 가용성과 확장성이 뛰어난 [AWS PrivateLink](https://aws.amazon.com/ko/privatelink/)를 기반으로 함.
 
 * AWS Direct Connect 연결을 사용하는 곳과 AWS Site-to-Site VPN이 여러 개 있는 곳 간의 보안 통신을 제공할 수 있는 방법.
     > * [AWS VPN CloudHub](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPN_CloudHub.html) 는 VPC 유무에 관계 없이 사용할 수 있는 간단한 hub-and-spoke model에서 작동.
-    > * Multiple branch 오피스와 원격 사무실간의 연결을 위한 저렴한 옵션을 구현함.
+    > * Multiple branch 오피스와 원격 사무실간의 연결을 위한 저렴한 옵션을 구현함.  
+    > [AWS VPN CloudHub 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-11.%20Site-to-Site%20VPN/15-10-1.%20VPN%20CloudHub)
 
 * 공유 및 중앙 관리형 VPC를 AWS Organization에 제공하기 위한 방법.
     > * VPC Sharing을 사용하여 AWS Organization의 동일한 상위 조직에 속한 다른 AWS 계정과 하나 이상의 서브넷을 공유.
@@ -55,10 +60,10 @@
     > * (나머지 서비스는 인터페이스 엔드포인트 사용)
     > * [VPC Endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.html)를 사용하면 인터넷 게이트웨이, NAT 디바이스, VPN 연결 또는 AWS Direct Connect 연결 없이 VPC를 지원하는 AWS 서비스 및 AWS PrivateLink에서 제공하는 VPC 엔드포인트 서비스에 비공개로 연결 가능.
     > * VPC 엔드포인트는 가상장치로, 수평적으로 확장되고 중복되며 가용성이 높은 VPC의 구성 요소.
-    > * VPC 엔드포인트는 **인터페이스 엔드포인트**, **게이트웨이 엔드포인트** 두 가지 유형으로 구성.
+    > * [VPC 엔드포인트](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-8.%20VPC%20Endpoints)는 **인터페이스 엔드포인트**, **게이트웨이 엔드포인트** 두 가지 유형으로 구성.
 
 * AWS로 마이그레이션 한 회사에서 VPC로 들어오고 나가는 트래픽을 보호하는 솔루션을 구현하기를 원함. 트래픽 흐름 검사 및 트래픽 필터링과 같은 특정 작업을 수행하기 위한 방법.
-    > * AWS Network Firewall
+    > * [AWS Network Firewall](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-14.%20AWS%20Network%20Firewall)
     > * VPC를 위한 상태 저장 관리형 네트워크 방화벽 및 침입 탐지 및 방지 서비스.
     > * 네트워크 트래픽을 검사하고 필터링할 수 있는 고급 보안 기능을 제공.
     > * AWS 관리형 서비스로, 사용자 정의 규칙을 쉽게 설정하고 관리할 수 있어 운영 오버헤드를 줄임.
@@ -83,9 +88,10 @@
 
 * EC2 인스턴스에 애플리케이션 배포 후, ACM이 만료되기 전에 보안 팀에게 알리는 솔루션을 구축하기 위한 방법.
     > * [AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/how-does-config-work.html)를 사용하여 SSL/TLS certificates가 만료되기 30일 이내인지 확인.
-    > * 그 후, SNS notification을 통해 알림.
+    > * 그 후, SNS notification을 통해 알림.  
+    > * [AWS Config 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-4.%20AWS%20Config)
 
-* AWS 클라우드 배포를 검토하여 Amazon S3 버킷에 무단 구성 변경이 없는지 확인하기 위한 방법.
+* AWS 클라우드 배포를 검토하여 Amazon S3 버킷에 무단 **구성 변경**이 없는지 확인하기 위한 방법.
     > * AWS Config
     > * 적절한 규칙으로 AWS Config를 킴.
     > * AWS Config를 키면 먼저 계정에 있는 지원되는 AWS 리소스를 찾고, 각 리소스에 대한 구성 항목을 생성함.
@@ -96,7 +102,7 @@
 * AWS ACM으로 가져온 인증서를 사용하도록 Elastic Load Balancer를 구성하고, 각 인증서가 만료되기 30일 전에 회사 보안팀에게 알리기 위한 방법.
     > * **AWS Config**를 사용하여 30일 이내에 만료된 인증서를 확인하도록 규칙을 생성.
     > * AWS Config의 비준수 리소스 보고를 **Amazon SNS**를 통해 사용자 지정 알림을 호출하도록 **Amazon EventBridge**를 구성.
-    > * ACM은 가져온 인증서에 대한 관리형 갱신을 제공하지 않음.
+    > * **[ACM](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager)은 가져온 인증서에 대한 관리형 갱신을 제공하지 않음**.
     > * **AWS Config**
     > * AWS 리소스의 구성을 지속적으로 모니터링하고 평가할 수 있는 서비스.
     > * 인증서가 만료되기 30일 전을 체크하는 규칙을 설정하여, 특정 조건을 만족하지 않는 리소스를 자동으로 탐지하고 알림을 보낼 수 있음.
@@ -105,16 +111,16 @@
 ## AWS S3
 
 * Amazon S3에 교차 계정 액세스 요청이 증가할 때, Amazon S3 버킷에 저장된 데이터에 대해 사용자 수준 및 계정 수준 액세스 권한을 제공하는 방법.
-    > * Amazon S3 Bucket Policies를 사용하여 단일 버킷 내의 객체 중 일부 또는 전체에 대한 권한을 추가하거나 거부할 수 있음.
+    > * [Amazon S3 Bucket Policies](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-3.%20Security#%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%95%A1%EC%84%B8%EC%8A%A4-%EC%A0%9C%EC%96%B4)를 사용하여 단일 버킷 내의 객체 중 일부 또는 전체에 대한 권한을 추가하거나 거부할 수 있음.
     > * 해당 정책을 사용자, 그룹 또는 Amazon S3 버킷에 연결하여 권한을 중앙 집중식으로 관리할 수 있음.
 
 * 애플리케이션을 **서버리스 솔루션**으로 이동하려 함. 데이터를 Amazon S3 버킷에 저장하는데, 데이터는 암호화가 필요며 다른 AWS 리전에 복제해야 함. 서버리스 솔루션은 SQL을 사용하여 기존 및 신규 데이터를 분석해야 함. **최소한의 운영 오버헤드**로 해결하는 방법.
     > * 기존 S3 버킷에 데이터를 로드함.
-    > * **S3 교차 리전 복제**(CRR)를 사용하여 암호화된 객체를 다른 리전의 S3 버킷에 복제함.
+    > * **S3 교차 리전 복제**([CRR](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-1.%20Bucket#%EB%B2%84%ED%82%B7%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EB%B0%8F-%EA%B8%B0%EB%8A%A5))를 사용하여 암호화된 객체를 다른 리전의 S3 버킷에 복제함.
     > * SSE-S3로 서버측 암호화를 사용함.
-    > * **Amazon Athena**를 사용하여 데이터를 쿼리함.
+    > * [Amazon Athena](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-10.%20Amazon%20Athena)를 사용하여 데이터를 쿼리함.
     > * 이미 존재하는 S3 버킷을 사용하는 것은 새로운 버킷을 생성하고 설정(정책, 권한, 복제 설정 등)하는 오버헤드를 감소시킴.
-    > * SS3-S3는 Amazon S3가 자동으로 관리하는 암호화 키를 사용하여 별도의 키 관리가 필요하지 않아 설정이 간단함.
+    > * [SS3-S3](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-3.%20Security#%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%95%94%ED%98%B8%ED%99%94)는 Amazon S3가 자동으로 관리하는 암호화 키를 사용하여 별도의 키 관리가 필요하지 않아 설정이 간단함.
 
 ## AWS ElastiCache
 
