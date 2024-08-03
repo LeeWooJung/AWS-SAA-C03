@@ -129,7 +129,7 @@ CloudWatch 메트릭은 **AWS 리소스의 성능 데이터를 나타내는 시�
 
 ## Metric Streams
 
-CloudWatch Metric Streams는 **메트릭 데이터를 스트리밍하여 실시간 분석과 모니터링을 가능하게 하는 기능**임(Near-real-tim delivery and Low Latency). 
+CloudWatch Metric Streams는 **메트릭 데이터를 스트리밍하여 실시간 분석과 모니터링을 가능하게 하는 기능**임(Near-real-time delivery and Low Latency). 
 
 이를 통해 메트릭 데이터를 **Kinesis Data Firehose, Kinesis Data Streams, S3, 3rd party service provider 등 다양한 대상으로 실시간 전송**할 수 있음.
 
