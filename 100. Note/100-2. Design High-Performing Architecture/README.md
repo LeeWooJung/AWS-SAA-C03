@@ -6,11 +6,12 @@
     > * AWS Lambda는 기본적으로 AWS-owned VPC에서 작동. 따라서 public internet이나 public AWS API에 접근 가능.  
     > * Lambda가 VPC-enabled가 되면 NAT Gateway를 통해 public subnet으로 route 되어야 함.
     > * 여러 Lambda function에서 code를 재사용하기 위해서는 AWS Lambda Layer를 고려할 필요가 있음.
+    > * [Lambda 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-4.%20Serverless/3-4-1.%20AWS%20Lambda)
 
 * 피크시간 동안 밀리초 지연 시간으로 시간당 수백만 개의 요청을 처리하기 위해 최소한의 운영 오버헤드로 충족할 수 있는 방법.
     > * S3 버킷을 사용하여 웹 사이트의 정적 콘첸츠를 호스팅, CloudFront 배포를 실행, 백엔드 API에 Amazon API Gateway 및 **AWS Lambda 함수**를 사용, Amazon DynamoDB에 데이터를 저장.
     > * CloudFront를 사용하여 빠르고 확장 가능한 콘텐츠 배포 가능. 캐시를 사용하여 밀리초 대기 시간 보장.
-    > * Amazon DynamoDB는 고성능의 NoSQL 데이터베이스로서, 초당 수백만 요청을 처리할 수 있으며, 지연 시간이 매우 낮음.
+    > * [Amazon DynamoDB](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-4.%20Amazon%20DynamoDB)는 고성능의 NoSQL 데이터베이스로서, 초당 수백만 요청을 처리할 수 있으며, 지연 시간이 매우 낮음.
     > * **서버리스**: AWS Lambda와 API Gateway를 사용하면 서버를 직접 관리할 필요가 없으므로 운영 오버헤드가 크게 줄음. 또한, Lambda는 수요에 따라 자동으로 확장됨.
 
 ## AWS Global Accelerator
@@ -21,17 +22,18 @@
 * us-west-2 리전의 NLB 뒤에 있는 3개의 Amazon EC2 인스턴스에서 자체 관리형 DNS 솔루션을 구현함. 회사는 솔루션의 성능과 가용성을 개선하기를 원함. eu-west-1 리전에서 3개의 EC2 인스턴스를 시작 및 구성하고 EC2 인스턴스를 새 NLB의 대상으로 추가했을 떄, 트래픽을 모든 EC2 인스턴스로 라우팅하는 데 사용할 수 있는 방법.
     > * **AWS Global Accelerator**에서 표준 엑셀러레이터를 생성.
     > * us-west-2, eu-west-1에서 엔드포인트 그룹을 생성.
-    > * 엔트포인트 그룹에 대한 엔드포인트로 두 개의 NLB를 추가.
+    > * 엔트포인트 그룹에 대한 엔드포인트로 두 개의 [NLB](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-3.%20Network%20Load%20Balancer#layer)를 추가.
     > **AWS Global Accelerator**는 AWS의 글로벌 네트워크를 통해 트래픽을 라우팅하여 성능을 최적화하고, 최적의 엔드포인트로 트래픽을 분산함.
     > **AWS Global Accelerator**는 자동으로 장애 조치를 수행하여 고가용성을 유지함.
     > **AWS Global Accelerator**의 표준 액셀러레이터의 엔드포인트는 하나의 AWS 리전 또는 여러 리전에 있는 NLB, ALB, Amazon EC2 인스턴스 또는 탄력적 IP 주소일 수 있음.
+    > * [CloudFront vs. Global Accelerator](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-6.%20CloudFront%20vs.%20Global%20Accelerator)
 
 ## Amazon CloudFront
 
 * ALB 뒤의 Amazon EC2 인스턴스에서 웹 애플리케이션을 호스팅 중. 또한, Amazon Route53에 등록된 자체 도메인 이름을 사용 중. 이 때, 정적 데이터와 동적 데이터가 존재하고, 정적 데이터는 Amazon S3에 저장. 정적 데이터 및 동적 데이터의 성능을 개선하고 대기시간을 줄이기 위한 방법.
     > * Route 53 -> Amazon CloudFront -> [Amazon S3(정적 데이터), ALB(동적 데이터)]
-    > * CloudFront는 전 세계의 엣지 로케이션을 사용하여 콘텐츠를 캐시하므로, 사용자에게 더 가까운 서버에서 콘텐츠를 제공하여 지연 시간을 줄이고 성능을 향상.
-    > * Route 53을 사용하여 트래픽을 CloudFront로 라우팅하면, 사용자 도메인 이름을 그대로 사용하면서 CloudFront의 성능 향상 기능을 활용할 수 있음.
+    > * [CloudFront](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront)는 전 세계의 엣지 로케이션을 사용하여 콘텐츠를 캐시하므로, 사용자에게 더 가까운 서버에서 콘텐츠를 제공하여 지연 시간을 줄이고 성능을 향상.
+    > * [Route 53](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-3.%20Amazon%20Route53)을 사용하여 트래픽을 CloudFront로 라우팅하면, 사용자 도메인 이름을 그대로 사용하면서 CloudFront의 성능 향상 기능을 활용할 수 있음.
 
 * Amazon S3에서 정적 웹사이트를 호스팅하고 DNS에 Amazon Route 53을 사용하고 있을 때, 웹사이트에 액세스하는 사용자의 대기시간을 줄이기 위해 가장 비용 효율적인 방법.
     > * Amazon CloudFront 배포를 추가하고, Route 53 항목을 CloudFront 배포로 변경하면 됨.
@@ -42,18 +44,20 @@
 
 * Amazon Redshift를 사용하여 데이터 웨어하우징 솔루션을 구축하고, 1년 이후의 데이터를 Amazon S3로 옮기더라도 해당 데이터와 일일 데이터를 비교할 수 있는 기능을 유지하는 방법.
     > * [Amazon Redshift](https://aws.amazon.com/ko/blogs/big-data/amazon-redshift-spectrum-extends-data-warehousing-out-to-exabytes-no-loading-required/)는 대규모 데이터 세트 저장 및 분석을 위해 설계된 완전 관리형 페타바이트 규모의 클라우드 기반 데이터 웨어하우스 제품.
-    > * Amazon Redshift Spectrum에서 Amazon Redshift Cluster 테이블을 이용하여 S3의 historical data를 pointing하여 query를 쉽게 할 수 있음.
+    > * [Amazon Redshift Spectrum](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-11.%20Amazon%20Redshift/7-11-2.%20Spectrum)에서 Amazon Redshift Cluster 테이블을 이용하여 S3의 historical data를 pointing하여 query를 쉽게 할 수 있음.
+    > * [Amazon Redshift 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-11.%20Amazon%20Redshift)
 
-## Network Load Balancer
+## Elastic Network Interface
 
 * 퍼블릭 서브넷에 여러 인스턴스를 프로비저닝하고 이러한 인스턴스 ID를 [NLB](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html) 대상으로 지정하여 올바르게 라우팅하는 방법.
-    > * 인스턴스 ID를 사용하여 대상을 지정하는 경우 트래픽은 인스턴스의 기본 네트워크 인터페이스에 지정된 Primary Private IP 주소를 사용하여 인스턴스로 라우팅 됨.
+    > * 인스턴스 ID를 사용하여 대상을 지정하는 경우 트래픽은 인스턴스의 기본 네트워크 인터페이스에 지정된 [Primary Private IP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-1.%20ENI) 주소를 사용하여 인스턴스로 라우팅 됨.
 
 ## EC2
 
 * EC2 User Data의 특징.
     > * User data는 EC2 인스턴스를 처음 실행했을 때만 실행 됨.
     > * User data는 root user 권한으로만 실행됨.
+    > * [EC2 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2)
 
 * 애플리케이션 간의 네트워크 성능이 높을 때 가장 잘 수행되는 분산 데이터 처리 프레임워크를 AWS에 배포할 때 해당 성능을 최대화 하기 위한 방법.
     > * [Placement Group](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)의 차이점을 알아야 함.
@@ -61,6 +65,7 @@
     > * 단일 가용 영역 내 인스턴스의 논리적인 그룹으로, 동일한 클러스터에 배치된 인스턴스는 네트워크 대기 시간이 짧고 네트워크 처리량이 높음. 대부분의 네트워크 트래픽이 그룹 내 인스턴스 간에 발생하는 경우에 권장 됨.
     > * Partition: 다른 파티션에 있는 인스턴스 그룹과 기본 하드웨어를 공유하지 않도록 논리적으로 분산.
     > * Spread: 연관된 오류를 줄이기 위해 서로 다른 기본 하드웨어에 소규모 인스턴스 그룹을 엄격하게 배치.
+    > * [Placement Group 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-1.%20Placement%20Groups)
 
 * 일주일 동안 예정된 이벤트를 위해 특정 AWS 리전의 3개의 특정 가용 영역에서 보장된 Amazon EC2 용량이 필요한데, 이를 확보하기 위한 방법.
     > * [온디맨드 용량](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2#ec2-cost-optimization) 예약을 필요한 지역과 3개의 가용영역을 지정하여 생성.
@@ -74,7 +79,7 @@
 * 애프리케이션 마이그레이션을 위해 AWS Direct Connect 연결을 만들고, 기존 애플리케이션은 매일 비디오파일을 NFS 파일 시스템에 write 함. 마이그레이션 후에는 Amazon EFS 파일시스템이 탑재된 Amazon EC2 인스턴스에서 애플리케이션을 호스팅할 예정. 마이그레이션 중단 전에 온프레미스에서 생성된 비디오파일을 EFS 파일 시스템에 복제하는 방법
     > * 온프레미스 서버에 [AWS DataSync](https://aws.amazon.com/ko/datasync/)를 구성.
     > * Private VIF를 사용하여 AWS Direct Connect 연결을 통해 AWS EFS용 Private Link 인터페이스 VPC endpoint로 데이터를 전송.
-    > * 24시간마다 비디오 파일을 Amazon EFS 파일 시스템으로 보내도록 AWS DataSync 예약 작업 설정.
+    > * 24시간마다 비디오 파일을 Amazon EFS 파일 시스템으로 보내도록 AWS [DataSync](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-7.%20DataSync) 예약 작업 설정.
 
 ## AWS FSx for Lustre
 
@@ -83,6 +88,7 @@
     > * 또한, Amazon S3에 '콜드 데이터'를 쉽게 저장할 수 있는 기능을 제공.
     > * AWS FSx for Lustre(고성능 파일 시스템): 기계학습, 고성능 컴퓨팅, 비디오 처리, 재무 모델리와 같은 워크로드에 사용.
     > * 스토리지가 컴퓨팅 속도를 따라가기 원하는 빠른 스토리지가 필요한 애플리케이션을 위해 설계됨.
+    > * [AWS FSx for Lustre 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-5.%20FSx/6-5-2.%20FSx%20for%20Lustre)
 
 ## AWS Kinesis
 
@@ -94,6 +100,7 @@
     > * 트랜잭션 데이터를 [Amazon Kinesis Data Streams](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-1.%20Kinesis%20Data%20Streams)로 스트리밍. AWS Lambda 통합을 사용하여 모든 트랜잭션에서 민감한 데이터를 제거한 다음, Amazon DynamoDB에 트랜잭션 데이터를 저장. 다른 애플리케이션은 Kinesis Data Streams의 트랜잭션 데이터를 사용 가능.
     > * Amazon Kinesis Data Streams를 사용하여 대규모 데이터를 실시간으로 처리하고, 여러 내부 애플리케이션에 제공 가능. 또한, 수평적으로 확장 가능.
     > * AWS Lambda를 사용하여 각 거래에서 민감한데이터를 제거하고 DynamoDB에 저장 가능. 이를 통해, 데이터를 실시간으로 처리하고 저장할 수 있음.
+    > * [AWS Kinesis Data Streams 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-4.%20AWS%20Kinesis/8-4-1.%20Kinesis%20Data%20Streams)
 
 ## Amazon Neptune
 
@@ -102,6 +109,7 @@
     > * 수 많은 관계를 저장하고, 밀리초의 지연시간으로 그래프를 쿼리하는 데 최적화된 특수 목적의 고성능 그래프 데이터베이스 엔진.
     > * 읽기 전용 복제본, 특정 시점으로 복구, Amazon S3에 대한 지속적인 백업, 가용 영역 간 복제 기능을 갖춘 고가용성을 제공.
     > * 처리량이 높은 대화형 그래프 쿼리를 지원하여 소셜 네트워킹 애플리케이션을 구축할 수 있음.
+    > * [Amazon Neptune 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-6.%20Amazon%20Neptune)
 
 ## Amazon Aurora
 
