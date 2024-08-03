@@ -115,6 +115,7 @@
 
 * Amazon RDS for MySQL을 사용하고, 읽기 복제본을 생성 했는데도 성능에 문제가 발생. 전 세계에서 글로벌 규모로 작동하게끔 하기 위한 비용 효율적인 솔루션.
     > * [Amazon Aurora 글로벌 데이터베이스](https://aws.amazon.com/ko/rds/aurora/global-database/)를 사용하여 각 지역에서 짧은 지연 시간으로 빠른 로컬 읽기를 지원.
+    > * [Amazon Aurora 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-2.%20Amazon%20Aurora)
 
 * MySQL 데이터베이스를 AWS로 마이그레이션 중임. 해당 데이터베이스는 정상 작동 시간 동안 많은 읽기 활동을 보여줌. 개발 팀은 4시간마다 프로덕션 데이터베이스의 전체 내보내기를 가져와 준비 환경의 데이터베이스를 채우는데, 지연 문제 및 애플리케이션 대기가 생김. 이런 지연 없이 스테이징 환경을 계속 사용할 수 있는 능력을 제공하기 위한 방법.
     > * 프로덕션용 다중 AZ **Aurora 복제본**과 함께 Amazon Aurora MySQL을 사용.
@@ -127,22 +128,22 @@
 ## Amazon EBS
 
 * Amazon EC2 인스턴스를 종료하면 연결된 Amazon EBS 볼륨도 손실되는 것에 대한 설명.
-    > * Amazon EBS 볼륨은 Amazon EC2 인스턴스의 [루트 볼륨](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html)으로 구성 됨.
+    > * [Amazon EBS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS) 볼륨은 Amazon EC2 인스턴스의 [루트 볼륨](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html)으로 구성 됨.
     > * 인스턴스 종료 시 연결된 루트 볼륨도 종료하는 것이 기본. 하지만 종료되지 않고 유지되도록 변경할 수 있음.
 
 ## Amazon EFS
 
 * 웹 사이트에서 항목 카탈로그에 Amazon EC2 인스턴스 스토어를 사용. 해당 카탈로그가 가용성이 높고 내구성이 있는 위치에 저장되길 원할 때의 방법.
     > * 카탈로그를 [Amazon EFS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS) 로 이동.
-    > * Amazon EC2 인스턴스 스토어는 EC2 인스턴스에 로컬로 연결된 일시적인 스토리지를 제공.
+    > * [Amazon EC2 인스턴스 스토어](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-4.%20EC2%20Instacne%20Store)는 EC2 인스턴스에 로컬로 연결된 일시적인 스토리지를 제공.
     > * 이는 인스턴스가 중단되거나 종료될 때, 데이터가 영구적으로 보존되지 않음.
-    > * Amazon EFS는 여러 가용 영역에 걸쳐 자동으로 데이터를 복제하고, 고가용성과 내구성(지정된 연도 동안 11 9s - 99.999999999%)을 제공하는 완전 관리형 파일 시스템. 
+    > * [Amazon EFS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-2.%20EFS)는 여러 가용 영역에 걸쳐 자동으로 데이터를 복제하고, 고가용성과 내구성(지정된 연도 동안 11 9s - 99.999999999%)을 제공하는 완전 관리형 파일 시스템. 
 
 ## Amazon Database Migration Service(DMS)
 
 * Amazon S3 버킷에 존재하는 데이터와 로그 파일을 Amazon Kinesis Data Streams로, 새로 S3에 저장되는 데이터를 지속적으로 업데이트 스트리밍 할 때, 가장 빠른 방법.
 
-    > * AWS DMS를 Amazon S3와 Amazon Kinesis Data Streams 간의 브릿지로 활용.
+    > * [AWS DMS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/16.%20Disaster%20Recovery%20%26%20Migrations/16-1.%20Database%20Migration%20Service)를 Amazon S3와 Amazon Kinesis Data Streams 간의 브릿지로 활용.
     > * AWS DMS를 사용하면 데이터를 관계형 데이터 베이스, 데이터 웨어하우스, 스트리밍 플랫폼 및 AWS 클라우드의 기타 데이터 스토어로 원활하게 마이그레이션 할 수 있음.
     > * [AWS DMS를 사용하면 새로 코드를 작성하지 않고도 실시간 분석을 위해 Amazon S3에서 Amazon Kinesis Data Streams로 데이터를 스트리밍하도록 기존 애플리케이션을 확장할 수 있음](https://aws.amazon.com/ko/blogs/big-data/streaming-data-from-amazon-s3-to-amazon-kinesis-data-streams-using-aws-dms/).
 
@@ -162,6 +163,7 @@
     > * NAT 인스턴스는 port forwarding을 지원함.
     > * 보안 그룹은 NAT 인스턴스와 연결될 수 있음.
     > * [NAT Gateway vs NAT Instances](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html)
+    > * [NAT Instance 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-4.%20NAT%20Instance)
 
 ## AWS Snowball
 
@@ -171,6 +173,7 @@
     > * Snowball Edge 장치를 사용하면 대규모 데이터를 물리적으로 전송할 수 있어, 네트워크 대역폭에 대한 의존성을 줄이고 전송 속도를 크게 높일 수 있음.
     > * Snowball Edge는 데이터를 암호화하여 안전하게 AWS로 전송 가능.
     > * Snowball Edge Storage Optimized 디바이스를 사용하여 약 80TB까지 전송할 수 있으며, 더 큰 용량은 병렬 또는 순차적으로 전송 가능.
+    > * [AWS Snowball 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-4.%20Snow%20Family#aws-snowball)
 
 ## Amazon SQS
 
@@ -182,11 +185,12 @@
     > * Lambda 함수와 SQS 모두 AWS 관리형 서비스로, 별도의 서버 관리가 필요 없으며 자동으로 확장됨.
     > * SQS를 사용하면 데이터 수신과 데이터베이스 로드를 분리하여 각 작업의 부하를 분산할 수 있음.
     > * 메시지 대기열을 통해 비동기 처리가 가능해져, 데이터베이스 로드 작업이 지연되더라도 데이터 수신 작업에 영향을 주지 않음.
+    > * [Amazon SQS 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-1.%20Amazon%20SQS)
 
 ## Amazon AppFlow
 
 * 애플리케이션은 데이터 수집을 위해 여러 SaaS 소스와 통합됨. Amazon EC2 인스턴스를 실행하여 데이터를 수신하고 분석을 위해 데이터를 Amazon S3 버킷에 업로드하는데, 업로드가 완료되면 사용자에게 알림을 보냄. 이 때, 성능 개선을 위해 최소한의 운영 오버헤드를 실현하는 방법.
-    > * Amazon AppFlow 흐름을 생성하여 각 SaaS 소스와 S3 버킷 간의 데이터를 전송. S3 버킷에 전송이 완료되면 [Amazon SNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-2.%20Amazon%20SNS) 주제에 이벤트를 보내도록 설정.
+    > * [Amazon AppFlow](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-7.%20Amazon%20AppFlow) 흐름을 생성하여 각 SaaS 소스와 S3 버킷 간의 데이터를 전송. S3 버킷에 전송이 완료되면 [Amazon SNS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-2.%20Amazon%20SNS) 주제에 이벤트를 보내도록 설정.
     > * Amazon AppFlow는 관리형 서비스로, SaaS 소스에서 직접 데이터를 추출하고 Amazon S3, Amazon RedShift로 전송하여 데이터 수집 및 업로드 과정을 최적화함.
     > * 추가적인 인프라나 서버 관리 없이도 손쉽게 SaaS 소스와의 데이터 통합 구현 가능.
     > * AppFlow를 사용하면 엔터프라이즈급 규모에 원하는 빈도로 비즈니스 이벤트에 대한 응답 또는 온디맨드 데이터 플로우를 실행 가능.
@@ -195,7 +199,7 @@
 ## Amazon API Gateway
 
 * 데이터가 스트리밍될 때 데이터를 변환하는 프로세스 API와 데이터를 위한 스토리지 솔루션이 필요할 때, 최소한의 운영 오버헤드로 해결하는 방법.
-    > * **Amazon Kinesis Data Stream**으로 데이터를 보내도록 **Amazon API Gateway API**를 구성.
+    > * **Amazon Kinesis Data Stream**으로 데이터를 보내도록 [Amazon API Gateway API](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-7.%20AWS%20API%20Gateway)를 구성.
     > * Kinesis 데이터 스트림을 데이터 원본으로 사용하는 **Amazon Kinesis Data Firehose** 전송 스트림 생성.
     > * AWS Lambda 함수를 사용하여 데이터를 변환.
     > * Kinesis Data Firehose 전송 스트림을 사용하여 Amazon S3로 데이터를 보냄.
@@ -204,7 +208,7 @@
     > * 트래픽 관리, 권한 부여 및 액세스 제어, 모니터링, API 버전 관리를 비롯해 최대 수십만 건의 동시 API 호출을 수락 및 처리하는 데 관련된 모든 작업을 처리함. 
     > * API를 호스팅하기 위해 **EC2 인스턴스**를 사용하면 인스턴스 서버 관리, 패치, 유지보수 등의 작업이 필요하여 운영 오버헤드를 증가시킴.
     > * **AWS Glue**는 ETL 작업을 위해 설계된 서비스로, 데이터 변환에 적합하지만 데이터 스트리밍 처리에는 적합하지 않음. 또한 **Amazon S3**를 소스로 함.
-    > * **AWS Glue**
+    > * [AWS Glue](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-9.%20Amazon%20Glue)
     > * 분석, 기계 학습 및 애플리케이션 개발을 위해 데이터를 쉽게 탐색, 준비, 그리고 조합할 수 있도록 지원하는 서버리스 데이터 통합 서비스.
     > * 데이터 카탈로그를 사용하여 데이터를 쉽게 찾고 액세스할 수 있음.
 
@@ -216,7 +220,8 @@
 
 ## Auto Scaling Group
 
-* 여러 가용 영역의 Amazon EC2 인스턴스에서 애플리케이션이 실행됨. 인스턴스는 ALB 뒤의 Amazon EC2 Auto Scaling Group에서 실행됨. EC2 인스턴스의 **CPU 사용률이 40% 또는 거의 40%**일 때 가장 잘 수행되면, 그룹의 모든 인스턴스에서 원하는 성능을 유지하기 위한 방법.
+* 여러 가용 영역의 Amazon EC2 인스턴스에서 애플리케이션이 실행됨. 인스턴스는 ALB 뒤의 Amazon EC2 Auto Scaling Group에서 실행됨. EC2 인스턴스의 **CPU 사용률이 40%** 또는 **거의 40%** 일 때 가장 잘 수행되면, 그룹의 모든 인스턴스에서 원하는 성능을 유지하기 위한 방법.
+    > * [Auto Scaling Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-2.%20Auto%20Scaling%20Group)
     > * **대상 추적 정책**(target tracking policy)을 사용하여 Auto Scaling 그룹을 동적으로 확장.
     > * **Target Tracking Policy**
     > * 목표 기반: 이 정책은 사용자가 설정한 특정 메트릭의 목표 값에 도달하기 위해 인스턴스의 수를 자동 조정함.
@@ -231,16 +236,16 @@
 
 * 초기 S3 버킷의 파일을 수동으로 검토하고 Amazon QuickSight와 함께 사용하기 위해 매일 같은 시간에 분석 S3 버킷으로 복사함. 파일이 초기 S3 버킷에 들어갈 때 **자동으로 분석 S3 버킷으로 이동**시키고 싶음. AWS Lambda 함수를 사용하여 복사된 데이터에서 패턴일치 코드를 실행시키고, Amazon SageMaker Pipelines의 파이프라인으로 보낼 예정임. 이를 최소한의 운영 오버헤드로 해결하는 방법.
     > * **S3 버킷 간에 S3 복제를 구성**.
-    > * Amazon EventBridge에 이벤트 알림을 보내도록 분석 S3 버킷을 구성. EventBridge에서 ObjectCreated 규칙을 구성.
+    > * [Amazon EventBridge에 이벤트 알림을 보내도록 분석 S3 버킷을 구성](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-3.%20S3/6-3-5.%20Event%20Notifications). EventBridge에서 ObjectCreated 규칙을 구성.
     > * 규칙의 대상으로 Lambda 및 SageMaker 파이프라인을 구성.
     > * **S3 복제**(S3 Replication)을 설정하면 S3 버킷 간의 파일 복제가 **자동으로 이루어짐**. 이 덕분에 운영 오버헤드가 감소함.
-    > * **Amazon EventBridge**를 통해 분석 S3 버킷에 파일이 추가되는 **이벤트를 기반하여 자동**으로 Lambda 함수를 실행하고, SageMaker 파이프라인을 트리거할 수 있음.
+    > * [Amazon EventBridge](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-2.%20Amazon%20EventBridge)를 통해 분석 S3 버킷에 파일이 추가되는 **이벤트를 기반하여 자동**으로 Lambda 함수를 실행하고, [SageMaker](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-8.%20Amazon%20SageMaker) 파이프라인을 트리거할 수 있음.
     > * S3 파일을 복제할 때 Lambda function을 사용하려면 **Lambda 함수를 작성하고, 유지관리**해야 하므로 오버헤드가 증가함.
 
 ## Amazon ECS
 
 * 기존 온프레미스 **모놀로식**(monolithic) 애플리케이션을 AWS로 마이그레이션 하려고 함. 프론트엔드 코드와 백엔드 코드를 최대한 많이 유지하려고 함. 그러나 응용 프로그램을 **더 작은** 응용 프로그램으로 나누기를 원함. 이 때 **운영 오버헤드를 최소화하고 확장성이 뛰어난 솔루션을 생성**하는 방법.
-    > * **Amazon ECS**에서 애플리케이션을 호스팅하고, Amazon ECS를 대상으로 하여 **ALB**를 설정. [링크](https://aws.amazon.com/ko/tutorials/break-monolith-app-microservices-ecs-docker-ec2/)
+    > * [Amazon ECS](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/9.%20Container/9-1.%20Amazon%20ECS)에서 애플리케이션을 호스팅하고, Amazon ECS를 대상으로 하여 **ALB**를 설정. [링크](https://aws.amazon.com/ko/tutorials/break-monolith-app-microservices-ecs-docker-ec2/)
     > * **모놀로식 애플리케이션 분해**: ECS는 컨테이너 오케스트레이션 서비스로, 애플리케이션을 개별 컨테이너로 분해하여 관리할 수 있음. 이는 모놀로식 애플리케이션을 **여러 작은 마이크로 서비스로 분할**하는 데 적합.
     > * **확장성**: ECS는 AWS의 **관리형 서비스**로서, 수요에 따라 자동으로 확장할 수 있음. 이는 애플리케이션의 성능을 유지하면서도 높은 트래픽을 처리할 수 있도록 도와줌.
-    > * **ALB**: ALB는 트래픽 분산을 통해 애플리케이션의 가용성을 높여줌. ECS와 통합하면, 각 컨테이너 서비스에 대한 트래픽을 자동으로 분산시켜 애플리케이션의 성능과 신뢰성을 보장할 수 있음.
+    > * **ALB**: ALB는 트래픽 분산을 통해 애플리케이션의 가용성을 높여줌. [ECS와 통합](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/9.%20Container/9-1.%20Amazon%20ECS/9-1-3.%20Load%20Balancer)하면, 각 컨테이너 서비스에 대한 트래픽을 자동으로 분산시켜 애플리케이션의 성능과 신뢰성을 보장할 수 있음.
