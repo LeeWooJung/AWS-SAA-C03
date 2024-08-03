@@ -125,45 +125,51 @@
 ## AWS ElastiCache
 
 * SQL 쿼리 결과에 대해 캐싱을 지원하는 고가용성 **HIPAA** 규격 인메모리 데이터 베이스에서 참조 데이터를 처리할 때 사용할 수 있는 것.
-    > * **Redis**는 밀리초 미만의 지연 시간을 제공하는 매우 빠른 인 메모리 데이터 스토어.
+    > * [Redis](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-2.%20Redis%20vs%20Memcached#redis)는 밀리초 미만의 지연 시간을 제공하는 매우 빠른 인 메모리 데이터 스토어.
     > * **Redis**는 캐싱, 채팅/메시지, 게임 순위표, 지리 공간, 기계학습, 미디어 스트리밍, 대기열, 실시간 분석, 세션 스토어 등 실시간 트랜잭션 및 분석 처리 사용 사례에 탁월한 선택.
     > * **Redis**는 즉시 복제, 고가용성 및 클러스터 샤딩을 지원.
 
-    > * **Memcached**는 캐시 또는 데이터 저장소로 사용할 수 있는 Memcached 호환 인 메모리 키-값 저장소 서비스.
-    > **Memcached**는 액세스 지연 시간을 줄이고, 처리량을 늘리며, 관계형 또는 NoSQL 데이터베이스의 로드를 완화하기 위해 인 메모리 캐시를 구현하는데 탁월.
+    > * [Memcached](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache/7-3-2.%20Redis%20vs%20Memcached#memcached)는 캐시 또는 데이터 저장소로 사용할 수 있는 Memcached 호환 인 메모리 키-값 저장소 서비스.
+    > **Memcached**는 액세스 지연 시간을 줄이고, 처리량을 늘리며, 관계형 또는 NoSQL 데이터베이스의 로드를 완화하기 위해 인 메모리 캐시를 구현하는데 탁월.  
+    > * [Elasticache 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-3.%20Amazon%20ElastiCache)
 
 ## Amazon GuardDuty
 
 * [Amazon GuardDuty](https://aws.amazon.com/ko/guardduty/)에서 지원하는 데이터 소스로 식별할 수 있는 것.
     > * Amazon GuardDuty: AWS 계정, 워크로드, Amazon S3에 저장된 데이터를 보호하는 위협 탐지 서비스.
     > * 지속적인 위협 탐지를 위한 지능적이고 비용 효율적인 옵션을 제공.
-    > AWS CloudTrail 이벤트, Amazon VPC 흐름 로그, DNS 로그와 같은 여러 AWS 데이터 소스에서 이벤트를 분석.
+    > AWS CloudTrail 이벤트, Amazon VPC 흐름 로그, DNS 로그와 같은 여러 AWS 데이터 소스에서 이벤트를 분석.  
+    > * [Amazon GuardDuty 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-9.%20Amazon%20GuardDuty)
 
 * Amazon S3 버킷에 저장된 민감한 데이터를 식별하고, 악의적인 활동으로부터 Amazon S3에 저장된 모든 데이터를 모니터링하고 보호하는 방법.
     > * [Amazon GuardDuty](https://aws.amazon.com/ko/guardduty/)를 사용하여 S3에 저장된 데이터에 대한 악의적인 활동을 모니터링 할 수 있음.
-    > * [Amazon Machie](https://aws.amazon.com/ko/macie/)를 사용하여 Amazon S3에 저장된 민감한 데이터를 식별할 수 있음.
-    > * Amazon Machie는 S3에서 중요한 데이터를 검색하고 보호하는 완전 관리형 데이터 보안 및 데이터 개인 정보 보호 서비스.
+    > * [Amazon Macie](https://aws.amazon.com/ko/macie/)를 사용하여 Amazon S3에 저장된 민감한 데이터를 식별할 수 있음.
+    > * Amazon Macie는 S3에서 중요한 데이터를 검색하고 보호하는 완전 관리형 데이터 보안 및 데이터 개인 정보 보호 서비스.  
+    > * [Amazon Macie 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-11.%20Amazon%20Macie)
 
 ## Elastic Load Balancer
 
 * Elastic Load Balancer가 target group의 Amazon EC2 인스턴스를 비정상적으로 표시했는데, 해당 인스턴스에 정상 접속 가능할 때 추측할 수 있는 이유.
     > * [Security Group이 Load Balancer에서 오는 트래픽을 허용](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-update-security-groups.html)하지 않는 경우.
-    > * [Health Check 경로](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html)가 잘못 구성된 경우.
+    > * [Health Check 경로](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html)가 잘못 구성된 경우.  
+    > [Elastic Load Balancer 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer)
 
-* AWS에 배호된 3게층 웹 애플리케이션이 있는데 웹 서버는 VPC의 퍼블릭 서브넷, 애플리케이션 서버/데이터베이스는 VPC의 프라이빗 서브넷에 배포됨. AWS Marketplace의 타사 가상 방화벽 어플라이언스를 검사 VPC에 배포했을 때 트래픽이 웹 서버에 도달하기 전에 애플리케이션에 대한 모든 트래픽을 검사하기 위해 웹 애플리케이션을 어플라이언스와 통합하기 위해 최소한의 운영 오버헤드를 충족하는 방법.
+* AWS에 배포된 3계층 웹 애플리케이션이 있는데 웹 서버는 VPC의 퍼블릭 서브넷, 애플리케이션 서버/데이터베이스는 VPC의 프라이빗 서브넷에 배포됨. AWS Marketplace의 타사 가상 방화벽 어플라이언스를 검사 VPC에 배포했을 때 트래픽이 웹 서버에 도달하기 전에 애플리케이션에 대한 모든 트래픽을 검사하기 위해 웹 애플리케이션을 어플라이언스와 통합하기 위해 최소한의 운영 오버헤드를 충족하는 방법.
     > * [Gateway Load Balancer](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-4.%20Gateway%20Load%20Balancer)
     > * 검사 VPC에 Gateway Load Balancer를 배포. 게이트웨이 로드 밸런서 엔드포인트를 생성하여 수신 패킷을 수신하고, 패킷을 어플라이언스로 전달.
     > * IP 패킷을 수락: Layer 3을 뜻함.
     > * 트래픽을 가상 방화벽 장치로 쉽게 라우팅할 수 있도록 도와줌. 복잡한 설정 없이도 트래픽 검사가 가능.
     > * Gateway Load Balancer를 사용하면 방화벽, 침입 탐지 및 방지 시스템, 심층 패킷 검사 시스템과 같은 가상 어플라이언스를 배포, 확장 및 관리할 수 있음.
-    > * Gateway Load Balancer는 OSI 세 번째 계층인 네트워크 계층에서 작동.
+    > * Gateway Load Balancer는 OSI 세 번째 계층인 네트워크 계층에서 작동.  
+    > * [Gateway Load Balancer 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-2.%20Load%20Balancer/5-2-4.%20Gateway%20Load%20Balancer)
 
 ## Amazon Cognito
 
 * Amazon API Gateway 내에서 API 호출을 승인하기 위해 인증/권한 메커니즘을 사용하기에 적합한 솔루션.
     > * Amazon Cognito User Pool: Amazon Cognito의 사용자 디렉터리.
     > * 사용자 관리 기능이 있으며 외부 자격 증명 공급자와 통합 가능.
-    > * 제공 서비스: 가입 및 로그인, 사용자 로그인을 위한 내장형 맞춤형 웹 UI, 외부 자격증명 공급자와의 통합, 사용자 디렉터리 관리 및 사용자 프로필, MFA 등.
+    > * 제공 서비스: 가입 및 로그인, 사용자 로그인을 위한 내장형 맞춤형 웹 UI, 외부 자격증명 공급자와의 통합, 사용자 디렉터리 관리 및 사용자 프로필, MFA 등.  
+    > * [Amazon Cognito 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-2.%20Amazon%20Cognito)
 
 ## Amazon EBS
 
@@ -172,12 +178,14 @@
     > * 볼륨에서 생성된 모든 스냅샷은 암호화 됨. 또한 해당 스냅샷에서 생성된 볼륨이 모두 암호화 됨.
     > * 볼륨과 인스턴스 사이를 이동하는 데이터는 암호화 됨.
     > * 암호화된 볼륨과 스냅샷을 생성할 때 AWS Key Management Service(AWS KMS) 고객 마스터 키(CMK)를 사용.
+    > * [EBS Encryption 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/6.%20Storage/6-1.%20EBS/6-1-4.%20Encryption)
 
 ## Amazon RDS
 
 * Amazon EC2 기반 웹 서버에 애플리케이션을 배포하고, Amazon RDS PostgreSQL 데이터베이스를 저장소로 활용함. 이 때, PostgreSQL DB는 EC2 인스턴스의 인바운드 트래픽을 허용하는 프라이빗 서브넷에 설정되며 데이터 암호화를 위해 AWS KMS를 사용. 이 때, 데이터베이스에 대한 보안 액세스를 촉진하기 위한 방법.
     > * [Amazon RDS에서 전송 중인 데이터에 SSL을 사용하도록 구성](https://aws.amazon.com/ko/rds/features/security/).
     > * SSL/TLS 연결을 사용하여 전송 중인 데이터를 암호화할 수 있음.
+    > * [RDS 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/7.%20Database/7-1.%20Amazon%20RDS)
 
 * 암호화되지 않은 RDS DB 인스턴스를 사용 중인데, 이제 데이터베이스와 스냅샷이 앞으로 항상 암호화되도록 하는 방법.
     > * 최신 DB **스냅샷 사본을 암호화**.
@@ -190,14 +198,14 @@
 ## AWS Secret Manager
 
 * Amazon EC2 인스턴스에서 실행되고 있는 Amazon Aurora DB가 있는데, EC2 인스턴스는 파일에 로컬로 저장된 사용자 이름과 암호를 사용하여 DB에 연결함. 이 때 자격 증명 관리의 운영 오버헤드를 최소화 하기 위한 방법.
-    > * AWS Secret Manager
+    > * [AWS Secret Manager](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-3.%20AWS%20Secrets%20Manager)
     > * 자격 증명을 안전하게 저장하고 관리할 수 있으며, 수동으로 비밀번호를 관리할 필요성을 제거.
     > * 애플리케이션, 서비스 및 IT 리소스에 대한 액세스를 보호하는 데 도움이 되는 보안 정보 관리 서비스. 수명 주기 동안 데이터베이스 자격 증명, API 키 및 기타 보안 정보를 손쉽게 교체, 관리 및 검색 가능.
 
 ## Amazon QuickSight
 
 * AWS에서 데이터 레이크를 호스팅하는데, 데이터 시각화를 제공하고 데이터 레이크 내의 모든 데이터 소스를 포함하는 보고 솔루션이 필요. 회사의 관리 팀만 모든 시각화에 대한 전체 액세스 권한을 가져야 하고, 나머지는 제한된 액세스 권한만 가져야할 때 이를 충족하는 방법.
-    > * Amazon QuickSight
+    > * [Amazon QuickSight](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/11.%20Analytics/11-1.%20Amazon%20QuickSight)
     > * 다양한 데이터 소스를 연결하여 단일 대시보드에서 시각화할 수 있는 기능을 제공.
     > * 사용자 및 그룹별로 대시보드 접근 권한을 설정할 수 있어 접근 수준을 효과적으로 제어 가능.
     > * **IAM**을 사용하는 것보다 QuickSight의 접근 권한제어 기능을 사용하는 것이 효율적.
@@ -209,19 +217,20 @@
     > * CloudWatch 콘솔에서 대시보드를 공유. 제품 관리자의 이메일 주소를 입력하고 공유 링크를 제품 관리자에게 제공.
     > * CloudWatch 콘솔에서 대시보드를 공유할 때, 특장 사용자의 이메일 주소만 입력하면 해당 사용자에게만 접근 권한을 부여할 수 있음(최소한의 권한 원칙을 준수).
     > * IAM 사용자나 그룹을 생성하지 않고도 콘솔에서 간편하게 대시보드를 공유하고 관리할 수 있어 운영 효율이 좋음.
+    > * [CloudWatch 설명](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/13.%20Monitoring%2C%20Audit%20%26%20Performance/13-1.%20Amazon%20CloudWatch)
 
 ## AWS Single Sign-On(SSO)
 
-* 회사의 모든 게정에 SSO 솔루션이 필요하고, 사내 자체 관리 Microsoft Active Directory에서 사용자 및 그룹을 계속 관리하는데, 애플리케이션을 AWS로 마이그레이션 중일 때 위 조건을 충족시키는 방법.
+* 회사의 모든 계정에 SSO 솔루션이 필요하고, 사내 자체 관리 Microsoft Active Directory에서 사용자 및 그룹을 계속 관리하는데, 애플리케이션을 AWS로 마이그레이션 중일 때 위 조건을 충족시키는 방법.
     > * AWS SSO 콘솔에서 **AWS SSO**를 활성화하고, **단방향 포레스트 트러스트** 또는 **단방향 도메인 트러스트**를 생성하여 Microsoft Active Directory용 AWS Directory Service를 사용하여 회사 자체 관리형 MAD를 AWS SSO와 연결.
     > * AWS SSO를 사용하여 모든 회사 계정에 대한 단일 로그인(SSO) 솔루션을 구현하여 보안 강화 가능. 
-    > * AWS Single Sign-On = AWS IAM Identity Center
+    > * AWS Single Sign-On = [AWS IAM Identity Center](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main?tab=readme-ov-file)
     > * 온프레미스에서 관리되는 Microsoft Active Directory와 AWS SSO 간의 통합을 통해 기존의 사용자 및 그룹 관리 체계를 유지할 수 있음.
 
 ## AWS Systems Manager
 
 * 1000개의 EC2 Linux 인스턴스에서 실행되는 워크로드가 있는데, 이는 타사 소프트웨어에 의해 구동됨. 회사는 중요한 보안 취약성을 수정하기 위해 가능한 한 빨리 모든 EC2 인스턴스에서 타사 소프트웨어 패치를 원할 때 방법.
-    > * **AWS Systems Manager Run Command**를 사용하여 모든 EC2 인스턴스에 패치를 적용하는 사용자 지정 명령을 실행.
+    > * **AWS Systems Manager** [Run Command](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/17.%20Other%20Services/17-4.%20Systems%20Manager#run-command)를 사용하여 모든 EC2 인스턴스에 패치를 적용하는 사용자 지정 명령을 실행.
     > * 대규모 인프라에서 매우 빠르고 효율적으로 특정 스크립트나 명령을 실행할 수 있는 기능 제공.
     > * 수천 대의 EC2 인스턴스에 대해 동시에 명령을 실행할 수 있어 패치를 빠르게 적용 가능.
     > * 제 3자 소프트웨어 패치는 일반적으로 **AWS Systems Manager Pacth Manager**의 기본 기능에 포함되지 않음. Patch Manager는 주로 운영체제 패치를 위해 설계 되었음.
@@ -229,8 +238,8 @@
 ## API Gateway
 
 * Amazon Route 53에 도메인 이름을 등록하고, 한 Region에 Amazon API Gateway를 백엔드 마이크로서비스 API의 공용 인터페이스로 사용중임. 타사 서비스에서 API를 안전하게 이용하고, HTTPS를 사용할 수 있도록 회사의 도메인 이름 및 해당 인증서로  API 게이트웨이 URL을 설계하기 위한 방법.
-    > * Region API 게이트웨이 엔드포인트를 생성.
-    > * API Gateway 엔드포인트를 회사의 도메인 이름과 연결. 도메인 이름과 연결된 공인 인증서를 **동일한 리전**의 AWS Certificate Manger(ACM)로 가져옴.
+    > * [Regional API 게이트웨이 엔드포인트](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-7.%20AWS%20API%20Gateway/8-7-1.%20Endpoint%20Types#regional-%EC%97%94%EB%93%9C%ED%8F%AC%EC%9D%B8%ED%8A%B8)를 생성.
+    > * API Gateway 엔드포인트를 회사의 도메인 이름과 연결. 도메인 이름과 연결된 공인 인증서를 **동일한 리전**의 [AWS Certificate Manger(ACM)로 가져옴](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/8.%20Integration%20%26%20Messaging/8-7.%20AWS%20API%20Gateway/8-7-2.%20Security#with-acm).
     > * API Gateway 엔드포인트에 인증서 연결.
     > * API Gateway 엔드포인트로 트래픽을 라우팅하도록 Route 53을 구성.
     > * **지역 일관성**: 인증서를 API Gateway가 위치한 동일한 지역에 가져와야 함. API Gateway와 ACM간의 통합이 원활하게 해줌.
@@ -243,17 +252,17 @@
     > * 비 VPC 트래픽을 해당 AZ의 NAT 게이트웨이로 전달하는 각 AZ에 대한 **프라이빗 라우팅 테이블**생성.
     > * **NAT Gateway**는 각 가용 영역에 하나씩 배치되어, 특정 AZ에 문제가 발생하더라도 다른 AZ의 NAT Gateway가 대체할 수 있어 고가용성 제공.
     > * **NAT Gateway**는 프라이빗 서브넷 인스턴스가 인터넷에 접근할 수 있도록 하면서도, 외부로부터의 직접적인 접근을 막음.
-    > * **Internet Gateway**
+    > * [Internet Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-2.%20Internet%20Gateway)
     > * IGW는 VPC가 인터넷과 통신할 수 있도록 하는 게이트웨이. VPC 내의 **퍼블릭 서브넷** 인스턴스가 인터넷에 접근할 수 있도록 함.
     > * **IGW는 VPC에 연결**되며, **퍼블릭 서브넷의 라우팅 테이블**에 설정되어야 함.
-    > * **NAT Gateway**
+    > * [NAT Gateway](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-5.%20NAT%20Gateway)
     > * NAT 게이트웨이는 프라이빗 서브넷 내의 인스턴스가 인터넷에 접근할 수 있도록 하면서, 외부에서 프라이빗 서브넷 인스턴스로의 직접적인 접속을 차단.
     > * NAT 게이트웨이는 **퍼블릭 서브넷**에 배치되며, **프라이빗 서브넷의 라우팅 테이블**에 설정되어야함.
 
 ## Amazon Rekognition
 
 * 소셜 미디어 웹사이트를 운영 중이며, 웹사이트는 사용자가 이미지를 업로드하여 다른 사용자와 공유할 수 있는 기능을 제공함. 이 때 부적절한 콘텐츠가 포함되었는지 확인하는데 개발 노력을 최소화 하는 방법.
-    > * **Amazon Rekognition**을 사용하여 부적절한 콘텐츠를 감지하고, 신뢰도가 낮은 예측에는 인적 검토를 사용.
+    > * [Amazon Rekognition](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-1.%20Amazon%20Rekognition)을 사용하여 부적절한 콘텐츠를 감지하고, 신뢰도가 낮은 예측에는 인적 검토를 사용.
     > * **Amazon Rekognition**
     > * 이미지를 자동으로 분석하고 부적절한 콘텐츠를 감지할 수 있음.
     > * 사용자 경험을 보호하고, 플랫폼의 안정성을 높일 수 있음.
@@ -263,8 +272,8 @@
 * AWS 에서 웹 애플리케이션을 배포하는데, 해당 애플리케이션은 외부 CA(인증기관)에서 발급한 SSL/TLS를 사용함. 애플리케이션은 ALB 뒤에서 실행하고, 매년 인증서를 갱신해야할 때 사용할 수 있는 방법.
     > * **AWS ACM**을 사용하여 SSL/TLS 인증서를 가져옴.
     > * 인증서를 ALB에 적용하고, Amazon Event Bridge(Amazon CloudWatch Events)를 사용하여 인증서가 만료될 때 알림을 보내 수동으로 교체.
-    > * **ACM**: Amazon Web Services 서비스 및 내부 연결된 리소스에 사용할 공개 SSL/TLS 인증서를 쉽게 프로비저닝, 관리 및 배포할 수 있는 서비스.
-    > * ACM은 외부 CA에서 발급받은 SSL/TLS 인증서를 **자동으로 갱신하는 기능이 없음**.
+    > * [ACM](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager): Amazon Web Services 서비스 및 내부 연결된 리소스에 사용할 공개 SSL/TLS 인증서를 쉽게 프로비저닝, 관리 및 배포할 수 있는 서비스.
+    > * ACM은 외부 CA에서 발급받은 SSL/TLS 인증서를 **자동으로 갱신하는 기능이 없음**. [설명 링크](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-4.%20AWS%20Certificate%20Manager/14-4-2.%20Import%20Public%20Certificate)
     > * ACM에서 자동 갱신이 가능한 인증서는 AWS 자체에서 발급한 인증서에 한함.
 
 ## Amazon Textract
@@ -272,11 +281,11 @@
 * 병원에서 Amazon API Gateway 및 AWS Lambda와 함께 RESTful API를 배포함. API는 PDF 형식 및 JPEG 형식의 보고서를 업로드하는데, 특정 정보를 식별하기 위해 Lambda 코드를 수정해야 함. 최소한의 운영 오버헤드로 해결하는 방법.
     > * **Amazon Textract**를 사용하여 보고서에서 텍스트를 추출.
     > * **Amazon Comprehend Medical**을 사용하여 추출된 텍스트에서 특정 정보를 식별.
-    > * **Amzaon Textract**
+    > * [Amzaon Textract](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-12.%20Amazon%20Textract)
     > * 스캔한 문서에서 텍스트와 데이터, 표 및 양식을 자동으로 추출하는 AWS 서비스.
     > * 머신 러닝을 사용하여 텍스트인식, 문서 구조 이해 등을 제공.
     > * HIPAA 규정 준수가 필요한 의료 및 생명 과학 워크로드에 적합.
-    > * **Amazon Comprehend Medical**
+    > * [Amazon Comprehend Medical](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/12.%20Machine%20Learning/12-7.%20Amazon%20Comprehend/12-7-1.%20Comprehend%20Medical)
     > * 의료 텍스트에서 유의미한 정보를 추출하는 데 특화된 자연어 처리 서비스.
     > * 의학적 문서에서 환자의 상태, 투약, 검사 결과 등 다양한 의료 정보를 인식하고 추출 가능.
 
@@ -286,7 +295,7 @@
 * [Public Internet] -> [Bastion Host/Public Subnet] -> [EC2 Instance/Private Subnet]
     > * 배스천 호스트의 현재 보안 그룹을 회사의 외부 IP 범위에서만 인바운드 액세스를 허용하는 보안그룹으로 교체.
     > * 애플리케이션 인스턴스의 현재 보안 그룹을 배스천 호스트의 개인 IP 주소에서만 인바운드 SSH 액세스를 허용하는 보안 그룹으로 교체.
-    > * **Bastion Host**
+    > * [Bastion Host](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/15.%20VPC/15-3.%20Bastion%20Hosts)
     > * 출입 차단 소프트웨어가 설치되어 내부와 외부 네트워크 사이에서 일종의 게이트 역할을 수행하는 호스트.
     > * 주로 보안이 중요한 네트워크 환경에서 외부의 관리자가 내부 시스템에 접근할 때 사용됨.
     > * 내부 내트워크로의 모든 접속 시도를 기록하고 모니터링할 수 있음.
@@ -309,11 +318,11 @@
 * Amazon EC2 인스턴스에서 실행되는 웹 서버를 위한 고가용성 인프라를 설계하고, 대규모 DDoS 공격을 완화할 수 있는 솔루션을 구축하는 방법.
     > * **AWS Shield Advanced**를 사용하여 DDoS 공격을 차단.
     > * 정적 및 동적 콘텐츠 모두에 **Amazon CloudFront**를 사용하도록 웹사이트를 구성.
-    > * **AWS Shield Advanced**
+    > * [AWS Shield Advanced](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/14.%20AWS%20Security%20%26%20Encryption/14-6.%20AWS%20Shield)
     > * DDoS 공격을 실시간으로 모니터링하고, 공격 트래픽을 자동으로 탐지하고 완화함.
     > * 대규모 DDoS 공격으로부터 애플리케이션을 보호할 수 있는 고급 방어 메커니즘을 제공.
     > * DDoS Response Team(DRT)의 지원을 받아, 공격 발생 시 빠르게 대응하고 복구할 수 있음.
-    > * **AWS CloudFront**
+    > * [AWS CloudFront](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/5.%20Network/5-4.%20CloudFront)
     > * 전 세계에 분산된 엣지 로케이션을 통해 콘텐츠를 캐싱하고 제공하여, 트래픽 부하을 분산시키고 웹 서버의 부담을 줄임(고가용성).
     > * 자체적으로 DDoS 공격에 대한 방어 메커니즘을 제공하며, 트래픽을 분산시켜 공격의 영향을 최소화 함.
 
@@ -329,12 +338,12 @@
 * 온프레미스 데이터 센터를 AWS로 마이그레이션 하려고 함. 규정 준수 요구 사항에 따라 회사는 ap-northeast-3 지역만 사용할 수 있음. 회사 관리자는 VPC를 인터넷에 연결할 수 없음. 이를 충족하는 방법.
     > * **AWS Control Tower**를 사용하여 **데이터 상주 가드레일**을 구현하여 인터넷 액세스를 거부하고, ap-northeast-3를 제외한 모든 AWS 리전에 대한 액세스를 거부.
     > * **AWS Organization**을 사용하여 VPC가 인터넷에 액세스하지 못하도록 **서비스 제어 정책**(SCPS)를 구성. ap-northeast-3을 제외한 모든 AWS 리전에 대한 액세스를 거부.
-    > * **AWS Control Tower**
+    > * [AWS Control Tower](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-8.%20AWS%20Control%20Tower)
     > * **데이터 레지던스 가드레일**: AWS Control Tower는 자동으로 여러 AWS 계정과 리소스에 보안 및 규정 준수 정책을 적용할 수 있는(AWS 환경의 지속적인 거버넌스를 위한) 데이터 레지던스 가드레일을 제공. 또한, 인터넷 액세스를 차단하는 정책을 쉽게 설정할 수 있음.
     > * **자동화된 설정**: 표준 보안 설정을 자동으로 적용하여 설정 시간을 단축하고 인적 오류를 줄임. 이로 인해 보안 및 규정 준수 요구 사항을 더 쉽게 충족할 수 있음.
     > * **종합적인 관리**: 계정 생성을 자동화하고, 여러 게정에 걸쳐 일관된 보안 정책을 적용할 수 있도록 도움. 이를 통해 중앙 집중식으로 보안 관리가 가능하며, 규정 준수 요구사항을 더 효과적으로 충족할 수 있음.
     > * 잘 설계된 새로운 다중 계정 환경을 쉽게 설정하고 보안, 운영 및 내부 규정 준수를 위한 규칙으로 AWS 워크로드를 관리할 수 있는 단일 위치 제공.
-    > * 기준선을 설정하기 위한 **AWS CloudFormation**, 구성 변경을 방지하기 위한 **AWS Organizations 서비스 정책**(SCP), 부적합을 지속적으로 감지하기 위한 **AWS Config** 규칙과 같은 여러 빌딩 블록을 사용하여 가드레일을 자동으로 구현.
-    > * **AWS Organizations SCP**
+    > * 기준선을 설정하기 위한 **AWS CloudFormation**, 구성 변경을 방지하기 위한 [AWS Organizations](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-4.%20AWS%20Organizations) **서비스 정책**(SCP), 부적합을 지속적으로 감지하기 위한 **AWS Config** 규칙과 같은 여러 빌딩 블록을 사용하여 가드레일을 자동으로 구현.
+    > * [AWS Organizations SCP](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/2.%20Identity/2-4.%20AWS%20Organizations/2-4-1.%20SCP)
     > * SCP를 사용하여 계층별로 정책을 설정하고 적용할 수 있음. SCP를 통해 VPC가 인터넷에 접근하지 못하도록 제한할 수 있음.
     > * **Organization**를 사용하면 여러 계정을 중앙에서 관리할 수 있으며, **SCP**를 통해 모든 계정에 걸쳐 일관된 보안 정책을 적용할 수 있음. 이는 보안 정책의 일관성을 보장하고 관리의 복잡성을 줄임.
