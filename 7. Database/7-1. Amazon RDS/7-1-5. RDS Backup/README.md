@@ -2,7 +2,7 @@
 
 ## RDS Backup
 
-* Amazon Relational Database Service (RDS)는 데이터베이스의 **백업 및 복구를 위한 다양한 기능을 제공****.  
+* Amazon Relational Database Service (RDS)는 데이터베이스의 **백업 및 복구를 위한 다양한 기능을 제공**.  
 * RDS의 백업 기능은 **자동 백업, 수동 스냅샷, 그리고 백업 데이터의 저장 및 복구를 위한 여러 가지 옵션**을 포함함.
 
 ## 주요 백업 기능
