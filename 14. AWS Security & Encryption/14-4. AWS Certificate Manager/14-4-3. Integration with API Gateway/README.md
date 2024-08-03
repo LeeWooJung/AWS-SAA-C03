@@ -56,7 +56,7 @@ Global Clients에게 서비스를 제공할 때 사용함.
 
 **API Gateway**는 오직 **하나의 Region**에 있음.
 
-**TLS Certificate**는 CloudFront와 같이 **US-EASTE-1** Region에 존재해야 함
+**TLS Certificate**는 CloudFront와 같이 **US-EAST-1** Region에 존재해야 함
 
 그 후, CNAME 혹은 A-Alias Record가 Route53에서 정의되어야 함.
 
