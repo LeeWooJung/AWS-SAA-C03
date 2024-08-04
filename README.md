@@ -37,6 +37,8 @@ AWS Solutions Architect Associate Study
     - 3-1-2. [Hibernate](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-2.%20Hibernate)  
     - 3-1-3. [Amazon Machine Images(AMI)](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-3.%20AMI)  
     - 3-1-4. [EC2 Instacne Store](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-4.%20EC2%20Instacne%20Store)  
+    - 3-1-5. [Purchasing Options](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-5.%20Purchasing%20Options)  
+    - 3-1-6. [Launch Template](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-1.%20EC2/3-1-6.%20Launch%20Template)  
 
     3-2. [Auto Scaling Group](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/3.%20Compute/3-2.%20Auto%20Scaling%20Group)
 
@@ -458,4 +460,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.08.01
+2024.08.05
