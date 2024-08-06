@@ -1,7 +1,11 @@
 # AWS-SAA-C03
 AWS Solutions Architect Associate Study
 
-## **공부 중이기 때문에 잘못된 부분이 있을 수 있습니다!**
+## <img src = "https://github.com/user-attachments/assets/c90a77cc-d3c2-4396-82e3-6dac04168757" width = "50" height = "50"> Got [SAA C03](https://www.credly.com/badges/f9ba85ec-f331-4b09-aacc-a39dc16c93f6/public_url)!
+
+
+
+## 잘못된 부분이 있을 수 있습니다!
 
 1. [Global Infra Structure](https://github.com/LeeWooJung/AWS-SAA-C03/tree/main/1.%20Global%20Infra%20Structure)
 
@@ -460,4 +464,4 @@ AWS Solutions Architect Associate Study
 * [AWS SAA 안내서](https://d1.awsstatic.com/ko_KR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
 ## Update day
-2024.08.05
+2024.08.06
